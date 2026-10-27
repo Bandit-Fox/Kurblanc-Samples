@@ -1,0 +1,14 @@
+{
+  "id": "kurblanc:dry_grass",
+  "label": "Dry grass tuft",
+  "maxStack": 512,
+  "block": "kurblanc:dry_grass",
+  "icon": {
+    "block": "kurblanc:dry_grass"
+  },
+  "categories": [
+    "blocks",
+    "decoration",
+    "natural"
+  ]
+}

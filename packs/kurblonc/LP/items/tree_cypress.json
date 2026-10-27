@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:tree_cypress",
+  "label": "Bald cypress tree",
+  "maxStack": 512,
+  "block": "kurblanc:tree_cypress",
+  "icon": {
+    "block": "kurblanc:tree_cypress"
+  },
+  "categories": [
+    "decoration",
+    "natural"
+  ]
+}

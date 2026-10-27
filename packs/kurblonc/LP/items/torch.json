@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:torch",
+  "label": "Torch",
+  "maxStack": 512,
+  "block": "kurblanc:torch",
+  "icon": {
+    "block": "kurblanc:torch"
+  },
+  "categories": [
+    "decoration"
+  ]
+}

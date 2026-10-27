@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:tree_palm",
+  "label": "Palm tree",
+  "maxStack": 512,
+  "block": "kurblanc:tree_palm",
+  "icon": {
+    "block": "kurblanc:tree_palm"
+  },
+  "categories": [
+    "decoration",
+    "natural"
+  ]
+}

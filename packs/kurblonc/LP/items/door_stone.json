@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:door_stone",
+  "label": "Stone door",
+  "maxStack": 512,
+  "block": "kurblanc:door_stone",
+  "icon": {
+    "block": "kurblanc:door_stone"
+  },
+  "categories": [
+    "decoration"
+  ]
+}

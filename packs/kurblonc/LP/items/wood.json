@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:wood",
+  "label": "Wood",
+  "maxStack": 512,
+  "block": "kurblanc:wall_wood",
+  "icon": {
+    "block": "kurblanc:wall_wood"
+  },
+  "categories": [
+    "items",
+    "natural"
+  ]
+}

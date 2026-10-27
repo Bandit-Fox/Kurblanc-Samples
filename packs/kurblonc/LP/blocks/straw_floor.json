@@ -1,0 +1,31 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:straw_floor"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#a9824f",
+      "kurblanc:label": "Straw Floor",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "straw_floor"
+        }
+      },
+      "kurblanc:surface": {
+        "autotile": true
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:straw_floor",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "grass"
+    }
+  }
+}

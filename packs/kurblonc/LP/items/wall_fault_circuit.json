@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:wall_fault_circuit",
+  "label": "Fault circuit wall",
+  "maxStack": 512,
+  "block": "kurblanc:wall_fault_circuit",
+  "icon": {
+    "block": "kurblanc:wall_fault_circuit"
+  },
+  "categories": [
+    "blocks"
+  ]
+}

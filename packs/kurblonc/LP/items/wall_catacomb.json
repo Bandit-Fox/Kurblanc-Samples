@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:wall_catacomb",
+  "label": "Catacomb wall",
+  "maxStack": 512,
+  "block": "kurblanc:wall_catacomb",
+  "icon": {
+    "block": "kurblanc:wall_catacomb"
+  },
+  "categories": [
+    "blocks"
+  ]
+}

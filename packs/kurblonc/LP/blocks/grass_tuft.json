@@ -1,0 +1,63 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:grass_tuft"
+    },
+    "components": {
+      "kurblanc:layer": "object",
+      "kurblanc:label": "Grass tuft",
+      "kurblanc:color": "#66a94a",
+      "kurblanc:placeable": true,
+      "kurblanc:collision_box": false,
+      "kurblanc:opacity": 0,
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 0.1
+      },
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "grass_tuft"
+        }
+      },
+      "kurblanc:object": {
+        "height": 32,
+        "sprite_offset": [
+          0,
+          0
+        ],
+        "rect": [
+          0,
+          0,
+          16,
+          16
+        ],
+        "variant_rects": [
+          [
+            16,
+            0,
+            16,
+            16
+          ],
+          [
+            32,
+            0,
+            16,
+            16
+          ]
+        ],
+        "biome_tint": true,
+        "biome_tint_scale": 0.85,
+        "tint": "#66a94a",
+        "variant_weights": [
+          8,
+          8,
+          1
+        ],
+        "random_flip": true,
+        "shadow": "sprite",
+        "sway": true
+      },
+      "kurblanc:sound": "grass"
+    }
+  }
+}

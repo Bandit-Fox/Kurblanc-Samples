@@ -1,0 +1,86 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:entity": {
+    "description": {
+      "identifier": "kurblanc:slime",
+      "is_spawnable": true
+    },
+    "components": {
+      "kurblanc:health": {
+        "value": 5
+      },
+      "kurblanc:movement": {
+        "value": 1.403
+      },
+      "kurblanc:collision_box": {
+        "width": 0.9,
+        "height": 0.55
+      },
+      "kurblanc:behavior": {
+        "kind": "hostile",
+        "hop": {
+          "duration": 0.5,
+          "pause": 0.55,
+          "height": 0.75,
+          "variance": 0.25
+        },
+        "panic_speed": 2.806,
+        "panic_seconds": 0,
+        "wander_min": 1.1,
+        "wander_max": 3.2,
+        "sight": 15,
+        "attack_damage": 1,
+        "attack_interval": 1.15,
+        "attack_reach": 0.15
+      },
+      "kurblanc:combat": {
+        "knockback": 3,
+        "knockback_cap": 8.125,
+        "knockback_decay": 12,
+        "invulnerability_seconds": 0.5,
+        "death_seconds": 0.72
+      },
+      "kurblanc:variants": {
+        "palette": [
+          {
+            "tint": "#ffffff",
+            "weight": 52,
+            "damage": 1
+          },
+          {
+            "tint": "#ffe878",
+            "weight": 26,
+            "damage": 2
+          },
+          {
+            "tint": "#73c4ff",
+            "weight": 15,
+            "damage": 3
+          },
+          {
+            "tint": "#ff6b6b",
+            "weight": 7,
+            "damage": 5
+          }
+        ]
+      },
+      "kurblanc:spawn": {
+        "role": "hostile",
+        "min_light": 0,
+        "max_light": 8,
+        "interval_seconds": 16,
+        "night_interval_seconds": 6,
+        "attempts": 4,
+        "tries": 24,
+        "group": [
+          1,
+          1
+        ],
+        "max_per_column": 2,
+        "min_distance": 22,
+        "max_distance": 64
+      },
+      "kurblanc:sound": "slime"
+    }
+  }
+}

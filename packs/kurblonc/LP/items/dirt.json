@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:dirt",
+  "label": "Dirt",
+  "maxStack": 512,
+  "block": "kurblanc:dirt",
+  "icon": {
+    "block": "kurblanc:dirt"
+  },
+  "categories": [
+    "blocks",
+    "natural"
+  ]
+}

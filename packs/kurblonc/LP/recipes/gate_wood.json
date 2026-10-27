@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:gate_wood",
+  "ingredients": [
+    {
+      "item": "kurblanc:wood",
+      "count": 4
+    }
+  ],
+  "output": {
+    "item": "kurblanc:gate_wood",
+    "count": 1
+  }
+}

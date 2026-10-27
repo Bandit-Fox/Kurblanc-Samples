@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:door_wood",
+  "label": "Wood door",
+  "maxStack": 512,
+  "block": "kurblanc:door_wood",
+  "icon": {
+    "block": "kurblanc:door_wood"
+  },
+  "categories": [
+    "decoration"
+  ]
+}

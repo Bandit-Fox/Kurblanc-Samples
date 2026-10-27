@@ -1,0 +1,10 @@
+{
+  "biomeScale": 200,
+  "warp": 40,
+  "spawnBiome": "forest",
+  "spawnClearRadius": 5,
+  "water": "kurblanc:shallow_water",
+  "treeDensityScale": 52,
+  "biomeBlend": 0.012,
+  "waterScale": 150
+}

@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:wall_raw_crystal",
+  "label": "Raw crystal wall",
+  "maxStack": 512,
+  "block": "kurblanc:wall_raw_crystal",
+  "icon": {
+    "block": "kurblanc:wall_raw_crystal"
+  },
+  "categories": [
+    "blocks"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:window_stone"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 1.2
+      },
+      "kurblanc:collision_box": true,
+      "kurblanc:opacity": 0,
+      "kurblanc:layer": "wall",
+      "kurblanc:color": "#77838d",
+      "kurblanc:label": "Stone window",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "stone_window_top"
+        },
+        "front": {
+          "texture": "stone_window_front"
+        }
+      },
+      "kurblanc:wall": {
+        "lift": 18,
+        "group": "wall"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:window_stone",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "glass"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:wall_hardwood",
+  "label": "Hardwood wall",
+  "maxStack": 512,
+  "block": "kurblanc:wall_hardwood",
+  "icon": {
+    "block": "kurblanc:wall_hardwood"
+  },
+  "categories": [
+    "blocks"
+  ]
+}

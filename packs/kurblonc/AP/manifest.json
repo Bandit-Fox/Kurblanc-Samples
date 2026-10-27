@@ -1,0 +1,28 @@
+{
+  "header": {
+    "name": "Kurblonc Asset Pack",
+    "description": "Textures and visual definitions for Kurblonc",
+    "uuid": "cfcb33bb-1814-4bc8-a790-24f3cacf77a8",
+    "version": [
+      1,
+      0,
+      0
+    ]
+  },
+  "kurblanc": {
+    "schema": 1,
+    "namespace": "kurblanc",
+    "min_engine": "0.1.1"
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "05b00e14-3d0a-42ee-91ce-90a5833d4e15",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

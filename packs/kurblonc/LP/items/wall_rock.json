@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:wall_rock",
+  "label": "Rock wall",
+  "maxStack": 512,
+  "block": "kurblanc:wall_rock",
+  "icon": {
+    "block": "kurblanc:wall_rock"
+  },
+  "categories": [
+    "blocks"
+  ]
+}

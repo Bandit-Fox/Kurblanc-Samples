@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:door_crystal",
+  "label": "Crystal door",
+  "maxStack": 512,
+  "block": "kurblanc:door_crystal",
+  "icon": {
+    "block": "kurblanc:door_crystal"
+  },
+  "categories": [
+    "decoration"
+  ]
+}

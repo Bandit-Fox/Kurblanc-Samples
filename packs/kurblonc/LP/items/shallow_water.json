@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:shallow_water",
+  "label": "Water",
+  "maxStack": 512,
+  "block": "kurblanc:shallow_water",
+  "icon": {
+    "block": "kurblanc:shallow_water"
+  },
+  "categories": [
+    "blocks",
+    "natural"
+  ]
+}

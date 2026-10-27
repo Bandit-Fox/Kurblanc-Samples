@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:hardwoodfloor",
+  "label": "Hardwood Floor",
+  "maxStack": 512,
+  "block": "kurblanc:hardwoodfloor",
+  "icon": {
+    "block": "kurblanc:hardwoodfloor"
+  },
+  "categories": [
+    "blocks"
+  ]
+}

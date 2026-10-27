@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:sand",
+  "label": "Sand",
+  "maxStack": 512,
+  "block": "kurblanc:sand",
+  "icon": {
+    "block": "kurblanc:sand"
+  },
+  "categories": [
+    "blocks",
+    "natural"
+  ]
+}

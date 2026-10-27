@@ -1,0 +1,14 @@
+{
+  "id": "kurblanc:grass_tuft",
+  "label": "Grass tuft",
+  "maxStack": 512,
+  "block": "kurblanc:grass_tuft",
+  "icon": {
+    "block": "kurblanc:grass_tuft"
+  },
+  "categories": [
+    "blocks",
+    "decoration",
+    "natural"
+  ]
+}

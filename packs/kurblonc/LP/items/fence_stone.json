@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:fence_stone",
+  "label": "Stone fence",
+  "maxStack": 512,
+  "block": "kurblanc:fence_stone",
+  "icon": {
+    "block": "kurblanc:fence_stone"
+  },
+  "categories": [
+    "blocks"
+  ]
+}

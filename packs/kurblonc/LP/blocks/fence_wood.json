@@ -1,0 +1,37 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:fence_wood"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 1.2
+      },
+      "kurblanc:collision_box": true,
+      "kurblanc:opacity": 1,
+      "kurblanc:layer": "wall",
+      "kurblanc:color": "#a9824f",
+      "kurblanc:label": "Wood fence",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "wood_fence_top"
+        },
+        "front": {
+          "texture": "wood_fence_front"
+        }
+      },
+      "kurblanc:wall": {
+        "lift": 9,
+        "group": "fence"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:fence_wood",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "wood"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:sand"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#c9b083",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "sand"
+        }
+      },
+      "kurblanc:ground": {
+        "autotile": true,
+        "random_rotate": true,
+        "group": "sand",
+        "substrate": "kurblanc:dirt"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:sand",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "sand"
+    }
+  }
+}

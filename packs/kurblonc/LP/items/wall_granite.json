@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:wall_granite",
+  "label": "Granite wall",
+  "maxStack": 512,
+  "block": "kurblanc:wall_granite",
+  "icon": {
+    "block": "kurblanc:wall_granite"
+  },
+  "categories": [
+    "blocks"
+  ]
+}

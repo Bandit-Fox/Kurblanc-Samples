@@ -1,0 +1,15 @@
+{
+  "id": "forest",
+  "temperature": 0.44,
+  "moisture": 0.7,
+  "floor": "kurblanc:grass",
+  "tint": "#66a94a",
+  "detail": "kurblanc:grass",
+  "detailThreshold": 0,
+  "tree": "kurblanc:tree_oak",
+  "treeChance": 0.62,
+  "treeSpacing": 3,
+  "waterThreshold": 0.975,
+  "decoration": "kurblanc:grass_tuft",
+  "decorationChance": 0.5
+}

@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:torch",
+  "ingredients": [
+    {
+      "item": "kurblanc:wood",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "kurblanc:torch",
+    "count": 4
+  }
+}

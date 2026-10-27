@@ -1,0 +1,90 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:entity": {
+    "description": {
+      "identifier": "kurblanc:sheep",
+      "is_spawnable": true
+    },
+    "components": {
+      "kurblanc:health": {
+        "value": 6
+      },
+      "kurblanc:movement": {
+        "value": 1.625
+      },
+      "kurblanc:collision_box": {
+        "width": 1.6,
+        "height": 0.7
+      },
+      "kurblanc:behavior": {
+        "kind": "passive",
+        "panic_speed": 3.25,
+        "panic_seconds": 2.8,
+        "wander_min": 1.2,
+        "wander_max": 3.5,
+        "sight": 0,
+        "attack_damage": 0,
+        "attack_interval": 0,
+        "attack_reach": 0
+      },
+      "kurblanc:combat": {
+        "knockback": 3.25,
+        "knockback_cap": 8.875,
+        "knockback_decay": 12,
+        "invulnerability_seconds": 0.5,
+        "death_seconds": 0.82
+      },
+      "kurblanc:variants": {
+        "palette": [
+          {
+            "tint": "#e9ecec",
+            "weight": 81.836
+          },
+          {
+            "tint": "#bcbfc2",
+            "weight": 5
+          },
+          {
+            "tint": "#3e4447",
+            "weight": 5
+          },
+          {
+            "tint": "#151519",
+            "weight": 5
+          },
+          {
+            "tint": "#835432",
+            "weight": 3
+          },
+          {
+            "tint": "#f38baa",
+            "weight": 0.164
+          }
+        ]
+      },
+      "kurblanc:spawn": {
+        "role": "passive",
+        "min_light": 6,
+        "max_light": 15,
+        "interval_seconds": 24,
+        "attempts": 6,
+        "tries": 12,
+        "group": [
+          1,
+          2
+        ],
+        "max_per_column": 2,
+        "min_distance": 22,
+        "max_distance": 64,
+        "floors": [
+          "kurblanc:grass",
+          "kurblanc:grass_meadow",
+          "kurblanc:grass_savanna",
+          "kurblanc:grass_deep",
+          "kurblanc:swamp_grass"
+        ]
+      },
+      "kurblanc:sound": "sheep"
+    }
+  }
+}

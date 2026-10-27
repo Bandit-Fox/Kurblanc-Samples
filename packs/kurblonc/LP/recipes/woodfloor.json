@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:woodfloor",
+  "ingredients": [
+    {
+      "item": "kurblanc:wood",
+      "count": 2
+    }
+  ],
+  "output": {
+    "item": "kurblanc:woodfloor",
+    "count": 4
+  }
+}

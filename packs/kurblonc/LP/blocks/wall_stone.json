@@ -1,0 +1,37 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:wall_stone"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 1.2
+      },
+      "kurblanc:collision_box": true,
+      "kurblanc:opacity": 15,
+      "kurblanc:layer": "wall",
+      "kurblanc:color": "#77838d",
+      "kurblanc:label": "Stone wall",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "stone_wall_top"
+        },
+        "front": {
+          "texture": "stone_wall_front"
+        }
+      },
+      "kurblanc:wall": {
+        "lift": 18,
+        "group": "wall"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:wall_stone",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "stone"
+    }
+  }
+}

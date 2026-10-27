@@ -1,0 +1,37 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:wall_raw_crystal"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 1.2
+      },
+      "kurblanc:collision_box": true,
+      "kurblanc:opacity": 15,
+      "kurblanc:layer": "wall",
+      "kurblanc:color": "#77838d",
+      "kurblanc:label": "Raw crystal wall",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "raw_crystal_wall_top"
+        },
+        "front": {
+          "texture": "raw_crystal_wall_front"
+        }
+      },
+      "kurblanc:wall": {
+        "lift": 18,
+        "group": "wall"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:wall_raw_crystal",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "stone"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "desert",
+  "temperature": 0.84,
+  "moisture": 0.18,
+  "floor": "kurblanc:sand",
+  "minedFloor": "kurblanc:sand",
+  "tint": "#7fae4e",
+  "detail": "kurblanc:cave_floor",
+  "detailThreshold": 0.06,
+  "tree": "kurblanc:tree_palm",
+  "treeChance": 0.18,
+  "treeSpacing": 6,
+  "waterThreshold": 1,
+  "decoration": "kurblanc:dry_grass",
+  "decorationChance": 0.5
+}

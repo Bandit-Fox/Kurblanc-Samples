@@ -1,0 +1,30 @@
+{
+  "entity": "kurblanc:duck",
+  "pixelScale": 2,
+  "feet": 0,
+  "alpha": 1,
+  "variantMode": "none",
+  "sourceFacing": "right",
+  "strips": {
+    "idle": {
+      "texture": "textures/entities/duck/idle.png",
+      "cell": [
+        13,
+        18
+      ],
+      "frames": 4,
+      "fps": 7,
+      "loop": true
+    },
+    "walk": {
+      "texture": "textures/entities/duck/walk.png",
+      "cell": [
+        13,
+        18
+      ],
+      "frames": 6,
+      "fps": 12,
+      "loop": true
+    }
+  }
+}

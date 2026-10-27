@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:cave_floor",
+  "label": "Cave Floor",
+  "maxStack": 512,
+  "block": "kurblanc:cave_floor",
+  "icon": {
+    "block": "kurblanc:cave_floor"
+  },
+  "categories": [
+    "blocks"
+  ]
+}

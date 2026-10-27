@@ -1,0 +1,65 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:gate_stone"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 1.2
+      },
+      "kurblanc:collision_box": true,
+      "kurblanc:opacity": 1,
+      "kurblanc:layer": "object",
+      "kurblanc:color": "#a9824f",
+      "kurblanc:label": "Stone gate",
+      "kurblanc:toggle": "kurblanc:gate_stone_open",
+      "kurblanc:placeable": true,
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "stone_gate"
+        }
+      },
+      "kurblanc:object": {
+        "height": 18,
+        "sprite_offset": [
+          -1,
+          -14
+        ],
+        "vertical_rect": [
+          0,
+          32,
+          18,
+          31
+        ],
+        "vertical_offset": [
+          -1,
+          -14
+        ],
+        "vertical_masks": [
+          5,
+          13,
+          7,
+          4,
+          1
+        ],
+        "depth": -1,
+        "vertical_depth": -1,
+        "rect": [
+          0,
+          0,
+          18,
+          31
+        ],
+        "group": "fence"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:gate_stone",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "door"
+    }
+  }
+}

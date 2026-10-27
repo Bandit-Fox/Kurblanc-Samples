@@ -1,0 +1,34 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:shallow_water"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:opacity": 2,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#4b859c",
+      "kurblanc:label": "Water",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "water"
+        }
+      },
+      "kurblanc:ground": {
+        "autotile": true
+      },
+      "kurblanc:water": {
+        "bed": "kurblanc:sand",
+        "opacity": 0.42
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:shallow_water",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "water"
+    }
+  }
+}

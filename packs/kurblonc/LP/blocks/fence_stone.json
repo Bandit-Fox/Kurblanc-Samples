@@ -1,0 +1,37 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:fence_stone"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 1.2
+      },
+      "kurblanc:collision_box": true,
+      "kurblanc:opacity": 1,
+      "kurblanc:layer": "wall",
+      "kurblanc:color": "#77838d",
+      "kurblanc:label": "Stone fence",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "stone_fence_top"
+        },
+        "front": {
+          "texture": "stone_fence_front"
+        }
+      },
+      "kurblanc:wall": {
+        "lift": 9,
+        "group": "fence"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:fence_stone",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "stone"
+    }
+  }
+}

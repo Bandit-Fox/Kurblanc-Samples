@@ -1,0 +1,1864 @@
+{
+  "files": [
+    {
+      "path": "AP/manifest.json",
+      "sha256": "b1e84e8d9791298727b4a5f9070b714611b5bd71ea9cfb38c042b49bfd23a9ac"
+    },
+    {
+      "path": "AP/music.json",
+      "sha256": "33d7ba2ec6d2415af06318231b4ed441d808dd8ff9c30ccfbbb8a593cc92a11f"
+    },
+    {
+      "path": "AP/presentation/entities/duck.json",
+      "sha256": "286c403a9959d265bbcce37f48b26f1caeb830480a06cbc8775c6bce7c8af19f"
+    },
+    {
+      "path": "AP/presentation/entities/pig.json",
+      "sha256": "e5aa3d0de1943e5e9ccea2aedd7086a653cae423c54aabbf78e0bb7b0fee7495"
+    },
+    {
+      "path": "AP/presentation/entities/sheep.json",
+      "sha256": "ef47be82a1bf42ed45eabd31645b70f57fed17c2e690b73a843852ec47172941"
+    },
+    {
+      "path": "AP/presentation/entities/slime.json",
+      "sha256": "36fda087b7ef2933eece047be0d7158a838583b14d5003154281d06fec61f5ac"
+    },
+    {
+      "path": "AP/presentation/player.json",
+      "sha256": "a60ae5f382d5a383c89d9866744df1457b3d3075fcfd2638c330b20ca5a6f48a"
+    },
+    {
+      "path": "AP/sounds.json",
+      "sha256": "8e46a0c0e78bf76633888b44635df8ec3cb3b3f60907e061c4b82f0acb180411"
+    },
+    {
+      "path": "AP/sounds/PROVENANCE.md",
+      "sha256": "d1dcbda43235fcd93bc4118b1ed1c28079bd8b686dbbb05e4be267c3f88b0f81"
+    },
+    {
+      "path": "AP/sounds/block/wooden_door/close.ogg",
+      "sha256": "0e8b66418f9f2fb7e43b899e71fedb56b954829ce0752bfbb94fbd3c6df8d672"
+    },
+    {
+      "path": "AP/sounds/block/wooden_door/close2.ogg",
+      "sha256": "5edaea410d87af48a92808969da6a2629d480f3a64bd12a81ce693d5874d6acd"
+    },
+    {
+      "path": "AP/sounds/block/wooden_door/close3.ogg",
+      "sha256": "59dce6ebcc7c21760fffe9203da73e5c3a918f8d6df783943f2adafe615e2448"
+    },
+    {
+      "path": "AP/sounds/block/wooden_door/close4.ogg",
+      "sha256": "4d2fca5c2cb683357dc4709268314fce67d0b60ced896cd28710588a65665187"
+    },
+    {
+      "path": "AP/sounds/block/wooden_door/close5.ogg",
+      "sha256": "8a04f81139e6227c1e15eb519a337f58b62772045432aafffc4da20d7de35dea"
+    },
+    {
+      "path": "AP/sounds/block/wooden_door/close6.ogg",
+      "sha256": "14ad8b74b33f9ad7b1d75f94a61fb1404c8d26578da466a87f51f06de25db3a4"
+    },
+    {
+      "path": "AP/sounds/block/wooden_door/open.ogg",
+      "sha256": "f85a8d3cf9d4b2a6e28f1a9b8a715491059f11e4e989f639e2e47106c39e2682"
+    },
+    {
+      "path": "AP/sounds/block/wooden_door/open2.ogg",
+      "sha256": "6dd084cedceb24e56a02f08871efc27b58228e6778d1f02293d69d468d0fef97"
+    },
+    {
+      "path": "AP/sounds/block/wooden_door/open3.ogg",
+      "sha256": "9f042cfaa8bfc6480e668f4c4aebd11653416843895231a0caecabcd777420c3"
+    },
+    {
+      "path": "AP/sounds/block/wooden_door/open4.ogg",
+      "sha256": "60b2406f2635e197a28d75e8c45506b09083d1ef2453fc3e1ef4c50650575447"
+    },
+    {
+      "path": "AP/sounds/damage/fallbig1.ogg",
+      "sha256": "1de1ba8c73e9fbcf89586cf31856a52b775e8786e1f8ec8f506f427a925856f0"
+    },
+    {
+      "path": "AP/sounds/damage/fallbig2.ogg",
+      "sha256": "9aabecad124c84001517bdc97e777dc224146c6bc817a007e48aed9a3c7887a7"
+    },
+    {
+      "path": "AP/sounds/damage/fallsmall.ogg",
+      "sha256": "a8ba65d28d5574a1e06dbcbef2955d7d72c598dfe6f9492e18906ef684ba5ed2"
+    },
+    {
+      "path": "AP/sounds/damage/hit1.ogg",
+      "sha256": "221f6ecf442ee11f5e276b7985b1c5acd05ea6333828a14bdb393320f0621038"
+    },
+    {
+      "path": "AP/sounds/damage/hit2.ogg",
+      "sha256": "097b63e33102e0ba7f386e42a85f91a3bcabc467def0e44e281766ade660c2e5"
+    },
+    {
+      "path": "AP/sounds/damage/hit3.ogg",
+      "sha256": "0c3a382386bdf91d1c4e5ee0aac7f639353c3b1f3b4890a3c486e044c8c300d4"
+    },
+    {
+      "path": "AP/sounds/damage/swing.mp3",
+      "sha256": "74694fa6a0d06d53ad642efdce8525d0098507d4009e35602644cdafa318c9bd"
+    },
+    {
+      "path": "AP/sounds/dirt/break.ogg",
+      "sha256": "0b579daaa7f72c87858a54bf9516c3156434f00a29bec2396159481b99ebe1dc"
+    },
+    {
+      "path": "AP/sounds/dirt/break2.ogg",
+      "sha256": "7b9d87a125ee947cce1673bef1dc6d4c09fccd11534e5c3850144370648934d8"
+    },
+    {
+      "path": "AP/sounds/dirt/break3.ogg",
+      "sha256": "bdd0e33a48aaf7e662504d2d4033fb19c5b162856cf326d063452d9d94aa4755"
+    },
+    {
+      "path": "AP/sounds/dirt/break4.ogg",
+      "sha256": "451833e3af3c20d275c7846836132158e6507cb8f39a75061db14dd7f3dbf44c"
+    },
+    {
+      "path": "AP/sounds/dirt/dig.ogg",
+      "sha256": "17166e786bef6fd926206a9a1ecb50721a1c4255ab938170dfb2dd906aabaacc"
+    },
+    {
+      "path": "AP/sounds/dirt/dig2.ogg",
+      "sha256": "3dc09ad5f087eba1764038b8ce12cc4b5f481ab82712129d637e486c33338cd3"
+    },
+    {
+      "path": "AP/sounds/dirt/dig3.ogg",
+      "sha256": "7e7d2885e7434888ecacb5a429cc8caa307333b53d6cf9c49e088067410aa120"
+    },
+    {
+      "path": "AP/sounds/dirt/dig4.ogg",
+      "sha256": "6fee4f2df33a849360c52d9e16d77ba1f6b40fc2b1593408e6f37fa3e6817b35"
+    },
+    {
+      "path": "AP/sounds/dirt/jump.ogg",
+      "sha256": "63378cbded45e8c0130e98c351c81097ff64587524557781b54509636da0483b"
+    },
+    {
+      "path": "AP/sounds/dirt/jump2.ogg",
+      "sha256": "c992441153c66c0f768ae060988d9c7b93da7900eec16180ce1cdb2eee2143fa"
+    },
+    {
+      "path": "AP/sounds/dirt/jump3.ogg",
+      "sha256": "b1a4a847ab9ea3710335ca356f9826277137797354095bce435c9b3fb3505ee5"
+    },
+    {
+      "path": "AP/sounds/dirt/jump4.ogg",
+      "sha256": "3c7f95494c4b3787097d61a2209b516e83888e128d2a0c0d846b1f2cd97dc072"
+    },
+    {
+      "path": "AP/sounds/dirt/place.ogg",
+      "sha256": "e694fac2f8fd4ac1eee8b0123f9cae8cec12a78390e9cb769d459084e3ecfe55"
+    },
+    {
+      "path": "AP/sounds/dirt/place2.ogg",
+      "sha256": "9d09df65a86db42e6049ed661865d43d6f10960ce1e45e99b336bbe4e6f1e279"
+    },
+    {
+      "path": "AP/sounds/dirt/place3.ogg",
+      "sha256": "b1a4a847ab9ea3710335ca356f9826277137797354095bce435c9b3fb3505ee5"
+    },
+    {
+      "path": "AP/sounds/dirt/place4.ogg",
+      "sha256": "3c7f95494c4b3787097d61a2209b516e83888e128d2a0c0d846b1f2cd97dc072"
+    },
+    {
+      "path": "AP/sounds/dirt/place5.ogg",
+      "sha256": "63378cbded45e8c0130e98c351c81097ff64587524557781b54509636da0483b"
+    },
+    {
+      "path": "AP/sounds/dirt/place6.ogg",
+      "sha256": "c992441153c66c0f768ae060988d9c7b93da7900eec16180ce1cdb2eee2143fa"
+    },
+    {
+      "path": "AP/sounds/dirt/step.ogg",
+      "sha256": "e694fac2f8fd4ac1eee8b0123f9cae8cec12a78390e9cb769d459084e3ecfe55"
+    },
+    {
+      "path": "AP/sounds/dirt/step2.ogg",
+      "sha256": "9d09df65a86db42e6049ed661865d43d6f10960ce1e45e99b336bbe4e6f1e279"
+    },
+    {
+      "path": "AP/sounds/dirt/step3.ogg",
+      "sha256": "b1a4a847ab9ea3710335ca356f9826277137797354095bce435c9b3fb3505ee5"
+    },
+    {
+      "path": "AP/sounds/dirt/step4.ogg",
+      "sha256": "3c7f95494c4b3787097d61a2209b516e83888e128d2a0c0d846b1f2cd97dc072"
+    },
+    {
+      "path": "AP/sounds/dirt/step5.ogg",
+      "sha256": "63378cbded45e8c0130e98c351c81097ff64587524557781b54509636da0483b"
+    },
+    {
+      "path": "AP/sounds/dirt/step6.ogg",
+      "sha256": "c992441153c66c0f768ae060988d9c7b93da7900eec16180ce1cdb2eee2143fa"
+    },
+    {
+      "path": "AP/sounds/entity/chicken/death.ogg",
+      "sha256": "4b627705a6f00a67691f636cf2116a524910812af1d0ae07de5fd5b79586ae54"
+    },
+    {
+      "path": "AP/sounds/entity/chicken/hurt2.ogg",
+      "sha256": "69d61160f3251db6cf59e7a5013ae196a943e22b630678688bb1080656d629fd"
+    },
+    {
+      "path": "AP/sounds/entity/chicken/say1.ogg",
+      "sha256": "240ac07402ef2ad93b870c411e70253cb6cfb136eed66d4228242f491a66af6b"
+    },
+    {
+      "path": "AP/sounds/entity/chicken/say2.ogg",
+      "sha256": "b3b4fd773bb0a8498fc50cdfc4bce45a0814b48db1798f63868dc2bd65a14903"
+    },
+    {
+      "path": "AP/sounds/entity/chicken/say3.ogg",
+      "sha256": "6ad86899283fac45fb5152c3c579966a402e0afe7930fd1131cf958323ec6213"
+    },
+    {
+      "path": "AP/sounds/entity/chicken/step1.ogg",
+      "sha256": "e33916b53b650d759a562ceefe04ddf3dcfd8c98461f2cf9e50d226b46ecf81e"
+    },
+    {
+      "path": "AP/sounds/entity/chicken/step2.ogg",
+      "sha256": "ed1046c93ae4e8fbc94aadcd5c4a9fb09555d1bcec2eaf965ebce25446e3b8a3"
+    },
+    {
+      "path": "AP/sounds/entity/pig/death.ogg",
+      "sha256": "271b04cb57ea24824ccc8b7543c29ca9bcf7ad2c5f331ddbbca12e7a30805464"
+    },
+    {
+      "path": "AP/sounds/entity/pig/say1.ogg",
+      "sha256": "25bb5ed5563e4cfe54c8ba5c60314f397e00ab59217c254f4e398ea6ffc2f229"
+    },
+    {
+      "path": "AP/sounds/entity/pig/say2.ogg",
+      "sha256": "3d30699e23ed9ca5f2153d2078d1caffeaefa1fbba19a96a45807cf3c05bbf38"
+    },
+    {
+      "path": "AP/sounds/entity/pig/say3.ogg",
+      "sha256": "0438aa6630de014918789e11dee39a8f149a7c1f4ea51497c3be4b520511fab6"
+    },
+    {
+      "path": "AP/sounds/entity/pig/step1.ogg",
+      "sha256": "26161906943b542eb89080d6441994ce079ec6707da406155457271aec8b032b"
+    },
+    {
+      "path": "AP/sounds/entity/pig/step2.ogg",
+      "sha256": "0670574b1a33fabfc401287f7babba0a546f7dd2377a4490af5b0d9e94b5230f"
+    },
+    {
+      "path": "AP/sounds/entity/pig/step3.ogg",
+      "sha256": "24b3c995fc035335cadd521ee2c4ea5643f0da74697d9946dc98763bdd56a828"
+    },
+    {
+      "path": "AP/sounds/entity/pig/step4.ogg",
+      "sha256": "2d5b060356d1da3bf72563719f80a5cc7fadae755043f325d9bb70a3927d2f09"
+    },
+    {
+      "path": "AP/sounds/entity/pig/step5.ogg",
+      "sha256": "688f2344ed0f2bf6db94480efb59838356bf6dd8d8eb24b835aca7aad7fc20ce"
+    },
+    {
+      "path": "AP/sounds/entity/sheep/say1.ogg",
+      "sha256": "463cc7a96e79deebbf5be19d46e4078482a44cdd62314abded6c9d5e41244b14"
+    },
+    {
+      "path": "AP/sounds/entity/sheep/say2.ogg",
+      "sha256": "c6bc6370f556fcf0a4b3ebdb34e97824463de0406ee6e338836c5b02f41cb145"
+    },
+    {
+      "path": "AP/sounds/entity/sheep/say3.ogg",
+      "sha256": "eaa536d43d07556be242b521a54f6f1ffa1ad9f7bfad1770c74a4f24990748bc"
+    },
+    {
+      "path": "AP/sounds/entity/sheep/step1.ogg",
+      "sha256": "6c5b973e77d915073eaea853dd66da78923a9d1dc7f970c561de9f639f0278c3"
+    },
+    {
+      "path": "AP/sounds/entity/sheep/step2.ogg",
+      "sha256": "437862234c650a9175de8469310cb4543f4ee567df7f0f20b02b6befab510cdc"
+    },
+    {
+      "path": "AP/sounds/entity/sheep/step3.ogg",
+      "sha256": "e1e2d1b4a279e287a7033189a5729b0134e7cc222acfb97b46f11447fcf0bcb1"
+    },
+    {
+      "path": "AP/sounds/entity/sheep/step4.ogg",
+      "sha256": "5453f759dada294ab3e8634b0f8808160dd0d22f4200789dc58808dfb4bd244a"
+    },
+    {
+      "path": "AP/sounds/entity/sheep/step5.ogg",
+      "sha256": "b00aa2a7b5800472bea7df547f52ac7f4d61a95159e8e8de1bfaf2a6244bb500"
+    },
+    {
+      "path": "AP/sounds/generic/break.ogg",
+      "sha256": "0b579daaa7f72c87858a54bf9516c3156434f00a29bec2396159481b99ebe1dc"
+    },
+    {
+      "path": "AP/sounds/generic/break2.ogg",
+      "sha256": "7b9d87a125ee947cce1673bef1dc6d4c09fccd11534e5c3850144370648934d8"
+    },
+    {
+      "path": "AP/sounds/generic/break3.ogg",
+      "sha256": "bdd0e33a48aaf7e662504d2d4033fb19c5b162856cf326d063452d9d94aa4755"
+    },
+    {
+      "path": "AP/sounds/generic/break4.ogg",
+      "sha256": "451833e3af3c20d275c7846836132158e6507cb8f39a75061db14dd7f3dbf44c"
+    },
+    {
+      "path": "AP/sounds/generic/dig.ogg",
+      "sha256": "17166e786bef6fd926206a9a1ecb50721a1c4255ab938170dfb2dd906aabaacc"
+    },
+    {
+      "path": "AP/sounds/generic/dig2.ogg",
+      "sha256": "3dc09ad5f087eba1764038b8ce12cc4b5f481ab82712129d637e486c33338cd3"
+    },
+    {
+      "path": "AP/sounds/generic/dig3.ogg",
+      "sha256": "7e7d2885e7434888ecacb5a429cc8caa307333b53d6cf9c49e088067410aa120"
+    },
+    {
+      "path": "AP/sounds/generic/dig4.ogg",
+      "sha256": "6fee4f2df33a849360c52d9e16d77ba1f6b40fc2b1593408e6f37fa3e6817b35"
+    },
+    {
+      "path": "AP/sounds/generic/jump.ogg",
+      "sha256": "63378cbded45e8c0130e98c351c81097ff64587524557781b54509636da0483b"
+    },
+    {
+      "path": "AP/sounds/generic/jump2.ogg",
+      "sha256": "c992441153c66c0f768ae060988d9c7b93da7900eec16180ce1cdb2eee2143fa"
+    },
+    {
+      "path": "AP/sounds/generic/jump3.ogg",
+      "sha256": "b1a4a847ab9ea3710335ca356f9826277137797354095bce435c9b3fb3505ee5"
+    },
+    {
+      "path": "AP/sounds/generic/jump4.ogg",
+      "sha256": "3c7f95494c4b3787097d61a2209b516e83888e128d2a0c0d846b1f2cd97dc072"
+    },
+    {
+      "path": "AP/sounds/generic/place.ogg",
+      "sha256": "e694fac2f8fd4ac1eee8b0123f9cae8cec12a78390e9cb769d459084e3ecfe55"
+    },
+    {
+      "path": "AP/sounds/generic/place2.ogg",
+      "sha256": "9d09df65a86db42e6049ed661865d43d6f10960ce1e45e99b336bbe4e6f1e279"
+    },
+    {
+      "path": "AP/sounds/generic/place3.ogg",
+      "sha256": "b1a4a847ab9ea3710335ca356f9826277137797354095bce435c9b3fb3505ee5"
+    },
+    {
+      "path": "AP/sounds/generic/place4.ogg",
+      "sha256": "3c7f95494c4b3787097d61a2209b516e83888e128d2a0c0d846b1f2cd97dc072"
+    },
+    {
+      "path": "AP/sounds/generic/place5.ogg",
+      "sha256": "63378cbded45e8c0130e98c351c81097ff64587524557781b54509636da0483b"
+    },
+    {
+      "path": "AP/sounds/generic/place6.ogg",
+      "sha256": "c992441153c66c0f768ae060988d9c7b93da7900eec16180ce1cdb2eee2143fa"
+    },
+    {
+      "path": "AP/sounds/generic/step.ogg",
+      "sha256": "e694fac2f8fd4ac1eee8b0123f9cae8cec12a78390e9cb769d459084e3ecfe55"
+    },
+    {
+      "path": "AP/sounds/generic/step2.ogg",
+      "sha256": "9d09df65a86db42e6049ed661865d43d6f10960ce1e45e99b336bbe4e6f1e279"
+    },
+    {
+      "path": "AP/sounds/generic/step3.ogg",
+      "sha256": "b1a4a847ab9ea3710335ca356f9826277137797354095bce435c9b3fb3505ee5"
+    },
+    {
+      "path": "AP/sounds/generic/step4.ogg",
+      "sha256": "3c7f95494c4b3787097d61a2209b516e83888e128d2a0c0d846b1f2cd97dc072"
+    },
+    {
+      "path": "AP/sounds/generic/step5.ogg",
+      "sha256": "63378cbded45e8c0130e98c351c81097ff64587524557781b54509636da0483b"
+    },
+    {
+      "path": "AP/sounds/generic/step6.ogg",
+      "sha256": "c992441153c66c0f768ae060988d9c7b93da7900eec16180ce1cdb2eee2143fa"
+    },
+    {
+      "path": "AP/sounds/glass/break.ogg",
+      "sha256": "361070274fc907ec99d77ad3eb65ddcdef1dd073b7987acc9e873340374b86eb"
+    },
+    {
+      "path": "AP/sounds/glass/break2.ogg",
+      "sha256": "7426101ba95254a3b1c25f724476956ff1512e1e0dcd8554e305506280e75ef0"
+    },
+    {
+      "path": "AP/sounds/glass/break3.ogg",
+      "sha256": "416b9768a2e0865523f1dc158be171585885df378ba8c36f4321325a8f64bfcc"
+    },
+    {
+      "path": "AP/sounds/glass/break4.ogg",
+      "sha256": "120ad6074b8e75c1f623e9f1baea47ae591178d62f9de612b2320deba321d55f"
+    },
+    {
+      "path": "AP/sounds/glass/dig.ogg",
+      "sha256": "0ab699af313816123677b98b5e1af83e0ff53ab91bcc052ecfd523448d7c0f4b"
+    },
+    {
+      "path": "AP/sounds/glass/dig2.ogg",
+      "sha256": "eb6d182184a512cc856f7629e70c752b427e076f629cdba707e58c2287ab99a2"
+    },
+    {
+      "path": "AP/sounds/glass/dig3.ogg",
+      "sha256": "0426ab8bada350f5034cbe0195eb7d655d843ea00d8e3d3d3aa6b79ffda1de5a"
+    },
+    {
+      "path": "AP/sounds/glass/dig4.ogg",
+      "sha256": "7a07ad4b22ec0e2c7a6c866b6d864759f7a33f35bb584a06f367ee84916bbc24"
+    },
+    {
+      "path": "AP/sounds/glass/jump.ogg",
+      "sha256": "63378cbded45e8c0130e98c351c81097ff64587524557781b54509636da0483b"
+    },
+    {
+      "path": "AP/sounds/glass/jump2.ogg",
+      "sha256": "c992441153c66c0f768ae060988d9c7b93da7900eec16180ce1cdb2eee2143fa"
+    },
+    {
+      "path": "AP/sounds/glass/jump3.ogg",
+      "sha256": "b1a4a847ab9ea3710335ca356f9826277137797354095bce435c9b3fb3505ee5"
+    },
+    {
+      "path": "AP/sounds/glass/jump4.ogg",
+      "sha256": "3c7f95494c4b3787097d61a2209b516e83888e128d2a0c0d846b1f2cd97dc072"
+    },
+    {
+      "path": "AP/sounds/glass/place.ogg",
+      "sha256": "e694fac2f8fd4ac1eee8b0123f9cae8cec12a78390e9cb769d459084e3ecfe55"
+    },
+    {
+      "path": "AP/sounds/glass/place2.ogg",
+      "sha256": "9d09df65a86db42e6049ed661865d43d6f10960ce1e45e99b336bbe4e6f1e279"
+    },
+    {
+      "path": "AP/sounds/glass/place3.ogg",
+      "sha256": "b1a4a847ab9ea3710335ca356f9826277137797354095bce435c9b3fb3505ee5"
+    },
+    {
+      "path": "AP/sounds/glass/place4.ogg",
+      "sha256": "3c7f95494c4b3787097d61a2209b516e83888e128d2a0c0d846b1f2cd97dc072"
+    },
+    {
+      "path": "AP/sounds/glass/place5.ogg",
+      "sha256": "63378cbded45e8c0130e98c351c81097ff64587524557781b54509636da0483b"
+    },
+    {
+      "path": "AP/sounds/glass/place6.ogg",
+      "sha256": "c992441153c66c0f768ae060988d9c7b93da7900eec16180ce1cdb2eee2143fa"
+    },
+    {
+      "path": "AP/sounds/glass/step.ogg",
+      "sha256": "b5236a88f63fd1a845289c84bfedd45fc8f84e0e70523b83ddf2f78c75cc4063"
+    },
+    {
+      "path": "AP/sounds/glass/step2.ogg",
+      "sha256": "d81fccf7839469a42364a41d5e004c1c17e6aa4251eb66e9f81b7a3ebbd1d8aa"
+    },
+    {
+      "path": "AP/sounds/glass/step3.ogg",
+      "sha256": "847dc638e1afc51ff9fb13a504ca3d90b349a85353b211bd437b7a4e972e0ca6"
+    },
+    {
+      "path": "AP/sounds/glass/step4.ogg",
+      "sha256": "2ee15847219baf96573d4ffd79795b52995d48cff65289d3141e17eb591de51d"
+    },
+    {
+      "path": "AP/sounds/grass/break.ogg",
+      "sha256": "0b579daaa7f72c87858a54bf9516c3156434f00a29bec2396159481b99ebe1dc"
+    },
+    {
+      "path": "AP/sounds/grass/break2.ogg",
+      "sha256": "7b9d87a125ee947cce1673bef1dc6d4c09fccd11534e5c3850144370648934d8"
+    },
+    {
+      "path": "AP/sounds/grass/break3.ogg",
+      "sha256": "bdd0e33a48aaf7e662504d2d4033fb19c5b162856cf326d063452d9d94aa4755"
+    },
+    {
+      "path": "AP/sounds/grass/break4.ogg",
+      "sha256": "451833e3af3c20d275c7846836132158e6507cb8f39a75061db14dd7f3dbf44c"
+    },
+    {
+      "path": "AP/sounds/grass/dig.ogg",
+      "sha256": "17166e786bef6fd926206a9a1ecb50721a1c4255ab938170dfb2dd906aabaacc"
+    },
+    {
+      "path": "AP/sounds/grass/dig2.ogg",
+      "sha256": "3dc09ad5f087eba1764038b8ce12cc4b5f481ab82712129d637e486c33338cd3"
+    },
+    {
+      "path": "AP/sounds/grass/dig3.ogg",
+      "sha256": "7e7d2885e7434888ecacb5a429cc8caa307333b53d6cf9c49e088067410aa120"
+    },
+    {
+      "path": "AP/sounds/grass/dig4.ogg",
+      "sha256": "6fee4f2df33a849360c52d9e16d77ba1f6b40fc2b1593408e6f37fa3e6817b35"
+    },
+    {
+      "path": "AP/sounds/grass/jump.ogg",
+      "sha256": "63378cbded45e8c0130e98c351c81097ff64587524557781b54509636da0483b"
+    },
+    {
+      "path": "AP/sounds/grass/jump2.ogg",
+      "sha256": "c992441153c66c0f768ae060988d9c7b93da7900eec16180ce1cdb2eee2143fa"
+    },
+    {
+      "path": "AP/sounds/grass/jump3.ogg",
+      "sha256": "b1a4a847ab9ea3710335ca356f9826277137797354095bce435c9b3fb3505ee5"
+    },
+    {
+      "path": "AP/sounds/grass/jump4.ogg",
+      "sha256": "3c7f95494c4b3787097d61a2209b516e83888e128d2a0c0d846b1f2cd97dc072"
+    },
+    {
+      "path": "AP/sounds/grass/place.ogg",
+      "sha256": "e694fac2f8fd4ac1eee8b0123f9cae8cec12a78390e9cb769d459084e3ecfe55"
+    },
+    {
+      "path": "AP/sounds/grass/place2.ogg",
+      "sha256": "9d09df65a86db42e6049ed661865d43d6f10960ce1e45e99b336bbe4e6f1e279"
+    },
+    {
+      "path": "AP/sounds/grass/place3.ogg",
+      "sha256": "b1a4a847ab9ea3710335ca356f9826277137797354095bce435c9b3fb3505ee5"
+    },
+    {
+      "path": "AP/sounds/grass/place4.ogg",
+      "sha256": "3c7f95494c4b3787097d61a2209b516e83888e128d2a0c0d846b1f2cd97dc072"
+    },
+    {
+      "path": "AP/sounds/grass/place5.ogg",
+      "sha256": "63378cbded45e8c0130e98c351c81097ff64587524557781b54509636da0483b"
+    },
+    {
+      "path": "AP/sounds/grass/place6.ogg",
+      "sha256": "c992441153c66c0f768ae060988d9c7b93da7900eec16180ce1cdb2eee2143fa"
+    },
+    {
+      "path": "AP/sounds/grass/step.ogg",
+      "sha256": "e694fac2f8fd4ac1eee8b0123f9cae8cec12a78390e9cb769d459084e3ecfe55"
+    },
+    {
+      "path": "AP/sounds/grass/step2.ogg",
+      "sha256": "9d09df65a86db42e6049ed661865d43d6f10960ce1e45e99b336bbe4e6f1e279"
+    },
+    {
+      "path": "AP/sounds/grass/step3.ogg",
+      "sha256": "b1a4a847ab9ea3710335ca356f9826277137797354095bce435c9b3fb3505ee5"
+    },
+    {
+      "path": "AP/sounds/grass/step4.ogg",
+      "sha256": "3c7f95494c4b3787097d61a2209b516e83888e128d2a0c0d846b1f2cd97dc072"
+    },
+    {
+      "path": "AP/sounds/grass/step5.ogg",
+      "sha256": "63378cbded45e8c0130e98c351c81097ff64587524557781b54509636da0483b"
+    },
+    {
+      "path": "AP/sounds/grass/step6.ogg",
+      "sha256": "c992441153c66c0f768ae060988d9c7b93da7900eec16180ce1cdb2eee2143fa"
+    },
+    {
+      "path": "AP/sounds/gravel/break.ogg",
+      "sha256": "e9abcebf5768582f6d4f518ae577067e9bb45b4392de4b856495a16759a50c8f"
+    },
+    {
+      "path": "AP/sounds/gravel/break2.ogg",
+      "sha256": "93a7a2ceb509e92a71d7fb008cf939d72bd7a43b1e0a98626759c55a735d73b8"
+    },
+    {
+      "path": "AP/sounds/gravel/break3.ogg",
+      "sha256": "564a7ff9d54ef234fba7d0ac05467a787dade0fe0fdcc255d3c0062e82516153"
+    },
+    {
+      "path": "AP/sounds/gravel/break4.ogg",
+      "sha256": "21b1ce5036e6314879a51d17a8497e43f6adda845a035928f4e88f8963865d18"
+    },
+    {
+      "path": "AP/sounds/gravel/dig.ogg",
+      "sha256": "1618a2424c5461aba71f16ca71f0b4ac7a0f2164de9b18de7169fdd375bb2971"
+    },
+    {
+      "path": "AP/sounds/gravel/dig2.ogg",
+      "sha256": "917461d0e199535ec865f166c82b1a39579427c8a41d5cba8f5b88e3e9f65f66"
+    },
+    {
+      "path": "AP/sounds/gravel/dig3.ogg",
+      "sha256": "618ab395fdb0efaf7105411f0b6686e5e78cc6f4ec1d51d15d40baba45418ba9"
+    },
+    {
+      "path": "AP/sounds/gravel/dig4.ogg",
+      "sha256": "31952dc86269bfad9503fd7af45106d067e9d2540e6e6901027b7d140b4fa538"
+    },
+    {
+      "path": "AP/sounds/gravel/jump.ogg",
+      "sha256": "f4f6999f96e49318f042cd31bfed0e56a472a725488785eb9780c7394d649bd6"
+    },
+    {
+      "path": "AP/sounds/gravel/jump2.ogg",
+      "sha256": "52ebc74df12cb790b5f712c8451f5bcf47ecb2b4182a90067bd9fc98d54ae5ae"
+    },
+    {
+      "path": "AP/sounds/gravel/jump3.ogg",
+      "sha256": "02cd71c1d050c4a8c4c04de4ddbaaafd5a03e5cb4038483115ae1237b3b04773"
+    },
+    {
+      "path": "AP/sounds/gravel/jump4.ogg",
+      "sha256": "559098f981d7b8044899632e77ffa3f6f62c20e0e51404a89bc9e4dd40d9682f"
+    },
+    {
+      "path": "AP/sounds/gravel/place.ogg",
+      "sha256": "e694fac2f8fd4ac1eee8b0123f9cae8cec12a78390e9cb769d459084e3ecfe55"
+    },
+    {
+      "path": "AP/sounds/gravel/place2.ogg",
+      "sha256": "9d09df65a86db42e6049ed661865d43d6f10960ce1e45e99b336bbe4e6f1e279"
+    },
+    {
+      "path": "AP/sounds/gravel/place3.ogg",
+      "sha256": "b1a4a847ab9ea3710335ca356f9826277137797354095bce435c9b3fb3505ee5"
+    },
+    {
+      "path": "AP/sounds/gravel/place4.ogg",
+      "sha256": "3c7f95494c4b3787097d61a2209b516e83888e128d2a0c0d846b1f2cd97dc072"
+    },
+    {
+      "path": "AP/sounds/gravel/place5.ogg",
+      "sha256": "63378cbded45e8c0130e98c351c81097ff64587524557781b54509636da0483b"
+    },
+    {
+      "path": "AP/sounds/gravel/place6.ogg",
+      "sha256": "c992441153c66c0f768ae060988d9c7b93da7900eec16180ce1cdb2eee2143fa"
+    },
+    {
+      "path": "AP/sounds/gravel/step.ogg",
+      "sha256": "559098f981d7b8044899632e77ffa3f6f62c20e0e51404a89bc9e4dd40d9682f"
+    },
+    {
+      "path": "AP/sounds/gravel/step2.ogg",
+      "sha256": "02cd71c1d050c4a8c4c04de4ddbaaafd5a03e5cb4038483115ae1237b3b04773"
+    },
+    {
+      "path": "AP/sounds/gravel/step3.ogg",
+      "sha256": "52ebc74df12cb790b5f712c8451f5bcf47ecb2b4182a90067bd9fc98d54ae5ae"
+    },
+    {
+      "path": "AP/sounds/gravel/step4.ogg",
+      "sha256": "f4f6999f96e49318f042cd31bfed0e56a472a725488785eb9780c7394d649bd6"
+    },
+    {
+      "path": "AP/sounds/ir/cave.wav",
+      "sha256": "a04dc65ab7521dce2c90782a5496f7daa599e4d3789a69efb34f4aefcec0107a"
+    },
+    {
+      "path": "AP/sounds/ir/surface.wav",
+      "sha256": "9bca1b46c903385a1e8f55ceb67586df3593f4fb5f176f351306503f3e30361a"
+    },
+    {
+      "path": "AP/sounds/ir/underground.wav",
+      "sha256": "0df5d1ddb012050fc77b5d9c2b776fafedef63ce37c0024f20d0c7014e3629c6"
+    },
+    {
+      "path": "AP/sounds/music/kurblonc - Mosslight.ogg",
+      "sha256": "cc6021b14b013d289d9163942984b76df7f6530a11dd32d3c2541589835a717e"
+    },
+    {
+      "path": "AP/sounds/random/pop.ogg",
+      "sha256": "0f32bf7effa253af5bff66627bd017db5688128130a3924098ba6a56a72d5f7a"
+    },
+    {
+      "path": "AP/sounds/sand/break.ogg",
+      "sha256": "ea4de7cdbc33b5ee535f29d17b604243fd2a36e2d0725a451e75515f696dc7db"
+    },
+    {
+      "path": "AP/sounds/sand/break2.ogg",
+      "sha256": "a9f4c74bfb54b38def67a31a138f9ae026c82f74101994ec2e4e924fd09a5a43"
+    },
+    {
+      "path": "AP/sounds/sand/break3.ogg",
+      "sha256": "9fbc66a69bab00b4f19f3a5fc0525264a9f6977891a0fd21c682b49044a60725"
+    },
+    {
+      "path": "AP/sounds/sand/break4.ogg",
+      "sha256": "0147bf652130d9752de70ae9ee3af5e9dca48b9c077770dcd04a5c720cd034f5"
+    },
+    {
+      "path": "AP/sounds/sand/dig.ogg",
+      "sha256": "249d1ef4e367d3b040fe93b90e866376b30620f9b8f26c6edd84d04e92596b86"
+    },
+    {
+      "path": "AP/sounds/sand/dig2.ogg",
+      "sha256": "478c314e66777fd8a0578103f36b4bebe2c6adf0b9965898da74b8548c933776"
+    },
+    {
+      "path": "AP/sounds/sand/dig3.ogg",
+      "sha256": "e551561b69367f58f51e738d869e3509f31e8a704ff24c8045fb6c1429325247"
+    },
+    {
+      "path": "AP/sounds/sand/dig4.ogg",
+      "sha256": "6ff2f992a32cbe3b9e47f522de1f1f0f3dcc4388e8bcce6a6b8414a733bd716c"
+    },
+    {
+      "path": "AP/sounds/sand/jump.ogg",
+      "sha256": "7c38625bcd8aa78de4d7a1683747663d736c03ed5c28cb395b40bc7c4eb1d233"
+    },
+    {
+      "path": "AP/sounds/sand/jump2.ogg",
+      "sha256": "ed821e922463e041042416b16d2dbf7f7397a0538161e67a4b979dc6ebc8d407"
+    },
+    {
+      "path": "AP/sounds/sand/jump3.ogg",
+      "sha256": "cf9145b782ef2cf09f91d36005830afe3aceef7b01a47e8bbed8006374c97b93"
+    },
+    {
+      "path": "AP/sounds/sand/jump4.ogg",
+      "sha256": "32e9798084a9db100df07895a84224639c05a307e2080bfa45cab24da6aa3734"
+    },
+    {
+      "path": "AP/sounds/sand/place.ogg",
+      "sha256": "e694fac2f8fd4ac1eee8b0123f9cae8cec12a78390e9cb769d459084e3ecfe55"
+    },
+    {
+      "path": "AP/sounds/sand/place2.ogg",
+      "sha256": "9d09df65a86db42e6049ed661865d43d6f10960ce1e45e99b336bbe4e6f1e279"
+    },
+    {
+      "path": "AP/sounds/sand/place3.ogg",
+      "sha256": "b1a4a847ab9ea3710335ca356f9826277137797354095bce435c9b3fb3505ee5"
+    },
+    {
+      "path": "AP/sounds/sand/place4.ogg",
+      "sha256": "3c7f95494c4b3787097d61a2209b516e83888e128d2a0c0d846b1f2cd97dc072"
+    },
+    {
+      "path": "AP/sounds/sand/place5.ogg",
+      "sha256": "63378cbded45e8c0130e98c351c81097ff64587524557781b54509636da0483b"
+    },
+    {
+      "path": "AP/sounds/sand/place6.ogg",
+      "sha256": "c992441153c66c0f768ae060988d9c7b93da7900eec16180ce1cdb2eee2143fa"
+    },
+    {
+      "path": "AP/sounds/sand/step.ogg",
+      "sha256": "cf63b3a9e15a67aa41bca1185bd57d81d5f174f7b4e6a8eadf6cbfa7d9d1bc37"
+    },
+    {
+      "path": "AP/sounds/sand/step2.ogg",
+      "sha256": "526a227a2da830c70f5ae5a06acd431548edac7e2d64bee2fea5567fe5fd3b35"
+    },
+    {
+      "path": "AP/sounds/sand/step3.ogg",
+      "sha256": "001bac1cba6d5cd509af47dbda905ac46bf50fbb5962fa791a7229c2ab9b4f4c"
+    },
+    {
+      "path": "AP/sounds/sand/step4.ogg",
+      "sha256": "d3f14d2ce7c5374a5b0a2f5dea3800f129867e7e7a3c04a777cbd4b3eccc17e7"
+    },
+    {
+      "path": "AP/sounds/sand/step5.ogg",
+      "sha256": "1f78e6267b6a71fc568b0f5eeb03cdfa4655f3843a71ddd451b8b17e53a060c0"
+    },
+    {
+      "path": "AP/sounds/stone/break.ogg",
+      "sha256": "c5368431f44aafbadd26334889e24d0ff8916d8cfd65e5e2ba06a0c5609375b0"
+    },
+    {
+      "path": "AP/sounds/stone/break2.ogg",
+      "sha256": "8892f0cd6fc08fdbbd71f5479205529e904c42225f6635be9d406df5ce403f24"
+    },
+    {
+      "path": "AP/sounds/stone/break3.ogg",
+      "sha256": "e3bb7b02a5b7fffdf81dbaf4bf743817d5b5221df5ccfd78827234fb476dd2b6"
+    },
+    {
+      "path": "AP/sounds/stone/break4.ogg",
+      "sha256": "5dc5c7777d7de6aa520ce496a2ee91b384f051728b47758d125a58983ddfc4f7"
+    },
+    {
+      "path": "AP/sounds/stone/break5.ogg",
+      "sha256": "890ed2d87bd835509fe9a5f6c78b9b308fd58b0a6d6dc468174843fb6432995b"
+    },
+    {
+      "path": "AP/sounds/stone/dig.ogg",
+      "sha256": "c5368431f44aafbadd26334889e24d0ff8916d8cfd65e5e2ba06a0c5609375b0"
+    },
+    {
+      "path": "AP/sounds/stone/dig2.ogg",
+      "sha256": "7b24ade324cd4c55b4789ff816128aae86d9151315ec828a430a265a2bbad532"
+    },
+    {
+      "path": "AP/sounds/stone/dig3.ogg",
+      "sha256": "5683bc949118f684f02257bd96d2828fed08cc496ed2f06c644ee0653af7cf82"
+    },
+    {
+      "path": "AP/sounds/stone/dig4.ogg",
+      "sha256": "756cd71c4c7b7cbc02d1786a48cb000fcbe9ad7fe7a98add926e1f0a10a28ff5"
+    },
+    {
+      "path": "AP/sounds/stone/jump.ogg",
+      "sha256": "812e7e8e82b2aa543bb436d767a3408bbc2ea508356f5ce7e25813a033c9db66"
+    },
+    {
+      "path": "AP/sounds/stone/jump2.ogg",
+      "sha256": "341d0a0313971765ae3a620565261f0b08323fe797e2005690909faaa669dc33"
+    },
+    {
+      "path": "AP/sounds/stone/jump3.ogg",
+      "sha256": "a60984cf6c06f4c31f4e8a819d6273ae9a4066a923d238a33f3b8174d3eb241d"
+    },
+    {
+      "path": "AP/sounds/stone/jump4.ogg",
+      "sha256": "b94a6088c1ce3f240dbf77a3f0d0a561f2a2ec691155e8e2e2ed770659fbe620"
+    },
+    {
+      "path": "AP/sounds/stone/place.ogg",
+      "sha256": "812e7e8e82b2aa543bb436d767a3408bbc2ea508356f5ce7e25813a033c9db66"
+    },
+    {
+      "path": "AP/sounds/stone/place2.ogg",
+      "sha256": "341d0a0313971765ae3a620565261f0b08323fe797e2005690909faaa669dc33"
+    },
+    {
+      "path": "AP/sounds/stone/place3.ogg",
+      "sha256": "a60984cf6c06f4c31f4e8a819d6273ae9a4066a923d238a33f3b8174d3eb241d"
+    },
+    {
+      "path": "AP/sounds/stone/place4.ogg",
+      "sha256": "b94a6088c1ce3f240dbf77a3f0d0a561f2a2ec691155e8e2e2ed770659fbe620"
+    },
+    {
+      "path": "AP/sounds/stone/place5.ogg",
+      "sha256": "669290a67689a8ccc5bbfd2c82df54c38e0f18ad5645d41bd69fc14e3a2e4cf2"
+    },
+    {
+      "path": "AP/sounds/stone/place6.ogg",
+      "sha256": "9e585a82443ab638ff8d619eabc1acd69a014b537a8ac3905444df8d28c5478e"
+    },
+    {
+      "path": "AP/sounds/stone/step.ogg",
+      "sha256": "812e7e8e82b2aa543bb436d767a3408bbc2ea508356f5ce7e25813a033c9db66"
+    },
+    {
+      "path": "AP/sounds/stone/step2.ogg",
+      "sha256": "341d0a0313971765ae3a620565261f0b08323fe797e2005690909faaa669dc33"
+    },
+    {
+      "path": "AP/sounds/stone/step3.ogg",
+      "sha256": "a60984cf6c06f4c31f4e8a819d6273ae9a4066a923d238a33f3b8174d3eb241d"
+    },
+    {
+      "path": "AP/sounds/stone/step4.ogg",
+      "sha256": "b94a6088c1ce3f240dbf77a3f0d0a561f2a2ec691155e8e2e2ed770659fbe620"
+    },
+    {
+      "path": "AP/sounds/stone/step5.ogg",
+      "sha256": "669290a67689a8ccc5bbfd2c82df54c38e0f18ad5645d41bd69fc14e3a2e4cf2"
+    },
+    {
+      "path": "AP/sounds/stone/step6.ogg",
+      "sha256": "9e585a82443ab638ff8d619eabc1acd69a014b537a8ac3905444df8d28c5478e"
+    },
+    {
+      "path": "AP/sounds/water/splash.ogg",
+      "sha256": "a69de7fcb658c1d4109068cd5b58587e5a0994f316c3613a752dcfb2e8dea339"
+    },
+    {
+      "path": "AP/sounds/water/splash2.ogg",
+      "sha256": "b9dcddd19971dae26ed7c37154892e68a62a3bcc90f0930d406f50a58c0b4a8d"
+    },
+    {
+      "path": "AP/sounds/water/splash3.ogg",
+      "sha256": "f6f53eb5b250988dda8954c565c229b25457705cd578644f9aa13203527cd727"
+    },
+    {
+      "path": "AP/sounds/water/swim1.ogg",
+      "sha256": "50ee82b76c4627ce5cdeb279f7991162fa82e4fa0691bb3ba3b3d3af83fac6d7"
+    },
+    {
+      "path": "AP/sounds/water/swim10.ogg",
+      "sha256": "805423611c51c6d8fbe8cc3416e7bbc66969b5a6e94c79d474e770d74330ccaa"
+    },
+    {
+      "path": "AP/sounds/water/swim11.ogg",
+      "sha256": "7e218578952e66fd7735fa7ad03239bb2d374958cda13491a710d4bddb89dc1d"
+    },
+    {
+      "path": "AP/sounds/water/swim12.ogg",
+      "sha256": "18e30d09c672a25bb6e2960567ccbed832af860b0ad4edc8d8bdb3ca0ba20ec1"
+    },
+    {
+      "path": "AP/sounds/water/swim13.ogg",
+      "sha256": "9593b8a75b5e9a506cec12aa0eb44db17138be40b4ca437253c07de812a1fd06"
+    },
+    {
+      "path": "AP/sounds/water/swim14.ogg",
+      "sha256": "ae53ee55a501433a3a42ff99bc7eefc62dce61e18f55d3a603537712b9a763bd"
+    },
+    {
+      "path": "AP/sounds/water/swim15.ogg",
+      "sha256": "86a6f8542250aba6d9f60801fd70bb69f6b816216a7a36a0efa4d5ab85e80242"
+    },
+    {
+      "path": "AP/sounds/water/swim16.ogg",
+      "sha256": "07d7008edcb7324cb5bbb75634c049f2ed6ba4c0e6acaca34cd94617e063a63c"
+    },
+    {
+      "path": "AP/sounds/water/swim17.ogg",
+      "sha256": "05068ce008ae9f835dff35b46d742a72a2f7e432121b97f9b6ec420a07951fd9"
+    },
+    {
+      "path": "AP/sounds/water/swim18.ogg",
+      "sha256": "037aceff2f35817bde765ff31ac982f6cd8b207d6993d2e026ba85582ddf3e57"
+    },
+    {
+      "path": "AP/sounds/water/swim2.ogg",
+      "sha256": "2b013369a16a629001a1b830351d0a1d2b75c9a397190980537498d7c760f378"
+    },
+    {
+      "path": "AP/sounds/water/swim3.ogg",
+      "sha256": "c7a3f9353a5f4347ff79ada8e9d260fdb0d55a1830ff4e57e4adac908277dd89"
+    },
+    {
+      "path": "AP/sounds/water/swim4.ogg",
+      "sha256": "8afe003461fc9d80811e5d1fbbfc1dcc3bf0eda4a0c25fd781d49bc843c2324c"
+    },
+    {
+      "path": "AP/sounds/water/swim5.ogg",
+      "sha256": "7c7f20a23cabd709bd11900672f2e862641b1ef9dcbd94cfdbe28675c55ace2f"
+    },
+    {
+      "path": "AP/sounds/water/swim6.ogg",
+      "sha256": "d8ca1152f8a2285b42f8040d16d65f135756ca44f20a61574b8429d671a6dc90"
+    },
+    {
+      "path": "AP/sounds/water/swim7.ogg",
+      "sha256": "e0d4be3b32ba46cfa5bd5766729223995ca5d1f5904c250d079540940983a504"
+    },
+    {
+      "path": "AP/sounds/water/swim8.ogg",
+      "sha256": "09d45c8e4e95fc0b34fdcd19e9ed0ce1191673e360d8cb2136cbb40990faf5b7"
+    },
+    {
+      "path": "AP/sounds/water/swim9.ogg",
+      "sha256": "5fd485da40ba6036fa380927ac70983cd7417cf3696df3cdac9ac6e80c5f8e19"
+    },
+    {
+      "path": "AP/sounds/wood/break.ogg",
+      "sha256": "b32c8647e38705899ac6423d1bad28352adc773648f096cf07282917f1507b99"
+    },
+    {
+      "path": "AP/sounds/wood/break2.ogg",
+      "sha256": "d694935ac7f55b3206e57acf2a401f2e91ea2e8b37701a4ae4feda8ebc3ccb13"
+    },
+    {
+      "path": "AP/sounds/wood/break3.ogg",
+      "sha256": "7679bde1bd687a7db49d95d7c4f736d6ab46b43c05c03b1d3ca139f76a0407a7"
+    },
+    {
+      "path": "AP/sounds/wood/break4.ogg",
+      "sha256": "49211f6f3141d32c27e8ad4b0e1de2c969c4e93fdb3f0f06626a627ad3880e11"
+    },
+    {
+      "path": "AP/sounds/wood/break5.ogg",
+      "sha256": "bc08091dc00978ba0b66b11a82bc7386ef958899b905020244b1061464748494"
+    },
+    {
+      "path": "AP/sounds/wood/break6.ogg",
+      "sha256": "7f9d8ccebb63064c120ede4c91c89410b33ccafd1d092c659ef0fc5f7602908c"
+    },
+    {
+      "path": "AP/sounds/wood/dig.ogg",
+      "sha256": "c5368431f44aafbadd26334889e24d0ff8916d8cfd65e5e2ba06a0c5609375b0"
+    },
+    {
+      "path": "AP/sounds/wood/dig2.ogg",
+      "sha256": "7b24ade324cd4c55b4789ff816128aae86d9151315ec828a430a265a2bbad532"
+    },
+    {
+      "path": "AP/sounds/wood/dig3.ogg",
+      "sha256": "5683bc949118f684f02257bd96d2828fed08cc496ed2f06c644ee0653af7cf82"
+    },
+    {
+      "path": "AP/sounds/wood/dig4.ogg",
+      "sha256": "756cd71c4c7b7cbc02d1786a48cb000fcbe9ad7fe7a98add926e1f0a10a28ff5"
+    },
+    {
+      "path": "AP/sounds/wood/jump.ogg",
+      "sha256": "fb1036444a3b744936745bfb18245dc493939f7dddf218c1ec37fc4978e8bd93"
+    },
+    {
+      "path": "AP/sounds/wood/jump2.ogg",
+      "sha256": "544e758cc124142f45e1ab6d7ddafbfc69a665ea9d4485f1a46a09822733b594"
+    },
+    {
+      "path": "AP/sounds/wood/jump3.ogg",
+      "sha256": "86146cd79e05c959bdf37745d877ed41dea33191a33c1c410756723955ec702c"
+    },
+    {
+      "path": "AP/sounds/wood/jump4.ogg",
+      "sha256": "11b9f35ed3952fbf2acf8e5ea01f5d45b75030af6487ac7915e7e1788e7bcba6"
+    },
+    {
+      "path": "AP/sounds/wood/jump5.ogg",
+      "sha256": "68dd87c2c9671fb1dafe5f29ee1c121b3bc3cff9280e6206e323ce155519b14b"
+    },
+    {
+      "path": "AP/sounds/wood/jump6.ogg",
+      "sha256": "6e587a06264e80c66fb29063265d91961b8e2b21ae46fec196d22328323c5414"
+    },
+    {
+      "path": "AP/sounds/wood/place.ogg",
+      "sha256": "6e587a06264e80c66fb29063265d91961b8e2b21ae46fec196d22328323c5414"
+    },
+    {
+      "path": "AP/sounds/wood/place2.ogg",
+      "sha256": "d7d59c82386e8c66aef3a2c85f1c318133fdfb3d00ee5b57482a7678b0c9fae0"
+    },
+    {
+      "path": "AP/sounds/wood/place3.ogg",
+      "sha256": "cdbc0a0986a9da6e8fe44bc79497a7e6cd074373c86177874fa775f7b4e7d668"
+    },
+    {
+      "path": "AP/sounds/wood/place4.ogg",
+      "sha256": "83f10e5c2391cff123e53dc27bfb1b5967f8ea3959983072ace4eae7beaa1da7"
+    },
+    {
+      "path": "AP/sounds/wood/place5.ogg",
+      "sha256": "11b9f35ed3952fbf2acf8e5ea01f5d45b75030af6487ac7915e7e1788e7bcba6"
+    },
+    {
+      "path": "AP/sounds/wood/place6.ogg",
+      "sha256": "68dd87c2c9671fb1dafe5f29ee1c121b3bc3cff9280e6206e323ce155519b14b"
+    },
+    {
+      "path": "AP/sounds/wood/step.ogg",
+      "sha256": "d7d59c82386e8c66aef3a2c85f1c318133fdfb3d00ee5b57482a7678b0c9fae0"
+    },
+    {
+      "path": "AP/sounds/wood/step2.ogg",
+      "sha256": "cdbc0a0986a9da6e8fe44bc79497a7e6cd074373c86177874fa775f7b4e7d668"
+    },
+    {
+      "path": "AP/sounds/wood/step3.ogg",
+      "sha256": "83f10e5c2391cff123e53dc27bfb1b5967f8ea3959983072ace4eae7beaa1da7"
+    },
+    {
+      "path": "AP/sounds/wood/step4.ogg",
+      "sha256": "11b9f35ed3952fbf2acf8e5ea01f5d45b75030af6487ac7915e7e1788e7bcba6"
+    },
+    {
+      "path": "AP/sounds/wood/step5.ogg",
+      "sha256": "68dd87c2c9671fb1dafe5f29ee1c121b3bc3cff9280e6206e323ce155519b14b"
+    },
+    {
+      "path": "AP/sounds/wood/step6.ogg",
+      "sha256": "6e587a06264e80c66fb29063265d91961b8e2b21ae46fec196d22328323c5414"
+    },
+    {
+      "path": "AP/textures/SOURCES.md",
+      "sha256": "1944f6dd40cc57aad6980ca282629f6eb05815722f6ca6e68bba09ee33f8df3b"
+    },
+    {
+      "path": "AP/textures/blocks/bald_cypress_tree.png",
+      "sha256": "084d63c5e1253dfe799d3acc3eb05cdd4c1bd9707ddd6dbf16f91f712d6ee019"
+    },
+    {
+      "path": "AP/textures/blocks/catacomb_wall_front.png",
+      "sha256": "c21bc6ac59188d255f960770d7faeb058673c0a35d879cc075c13819001c350e"
+    },
+    {
+      "path": "AP/textures/blocks/catacomb_wall_top.png",
+      "sha256": "80a7c7cf892a8c067d594b58363da618e6175eb73a4e26bef4b38841e02d58fd"
+    },
+    {
+      "path": "AP/textures/blocks/crystal_door.png",
+      "sha256": "c5e1b02a1ce81ea77fb6af2b432829283f964dd8a1df9e5400d118d3abe5b6c3"
+    },
+    {
+      "path": "AP/textures/blocks/crystal_wall_front.png",
+      "sha256": "f42f5bcb815d28910cdca16e0ddb830fbcb153048004ed7a2e679a1438f15be8"
+    },
+    {
+      "path": "AP/textures/blocks/crystal_wall_top.png",
+      "sha256": "62564f879a7c630bb887a42765c79b4c0487b072dbb30c6d3b108fe112d1cc9f"
+    },
+    {
+      "path": "AP/textures/blocks/dirt_base.png",
+      "sha256": "e4135fb76132967e683f0cb0a4c3614e0d2cd423cc54603aebef09f1618c9b24"
+    },
+    {
+      "path": "AP/textures/blocks/dirt_wall_front.png",
+      "sha256": "b3365ff3074c79853e44c224a73baa900e159825cb2a3d6b2d2b5c47d4c661f1"
+    },
+    {
+      "path": "AP/textures/blocks/dirt_wall_top.png",
+      "sha256": "9f251154627d40ed8e2ea6ffeaa204520e791e417b3c24d80552a415ecb5bd4b"
+    },
+    {
+      "path": "AP/textures/blocks/dry_grass.png",
+      "sha256": "de3c9d84942b880ad83198ddf602a6370120137ff55e471e29c715669a5ad5bc"
+    },
+    {
+      "path": "AP/textures/blocks/fault_circuit_wall_front.png",
+      "sha256": "17040182eff095e66c6f9fb4692c39bcb62a7f93a8a20853fe9130af7dd8e6be"
+    },
+    {
+      "path": "AP/textures/blocks/fault_circuit_wall_top.png",
+      "sha256": "c39e87789490699321beb6141bc24c2f415c8d5847335c79192e4537231ac37a"
+    },
+    {
+      "path": "AP/textures/blocks/granite_wall_front.png",
+      "sha256": "e06a8f0748d31b5a4b418b229e179655f6e5bf05034c5335d0ac85b9d8a6d9a7"
+    },
+    {
+      "path": "AP/textures/blocks/granite_wall_top.png",
+      "sha256": "318a172cdb694eb8024e7a4fa16e76d334f2b33110e67044fb97b2a234a5106d"
+    },
+    {
+      "path": "AP/textures/blocks/grass.png",
+      "sha256": "1ae4706483fd97135ee79ecca1ce312b555a97e3d00f4135c8447804b4dfdff5"
+    },
+    {
+      "path": "AP/textures/blocks/grass_tuft.png",
+      "sha256": "47c0a0bf4118fb154380440c08ffd82f79220b66c4cdc14c1262faca99772b27"
+    },
+    {
+      "path": "AP/textures/blocks/hardwood_door.png",
+      "sha256": "c5cd99f1013e73d676b47aa241bc71a43171eee35664c787251e56761fed6bb5"
+    },
+    {
+      "path": "AP/textures/blocks/hardwood_fence_front.png",
+      "sha256": "4ef7a2925e935fd6483c2de7078edc5b103224d66d55cc5513f20e6d1c5459e4"
+    },
+    {
+      "path": "AP/textures/blocks/hardwood_fence_top.png",
+      "sha256": "9edf08eb4c37dffa13e8ca0eb099a080a6e03998957b9bce306c8fba082cdbe1"
+    },
+    {
+      "path": "AP/textures/blocks/hardwood_floor.png",
+      "sha256": "1acb621a2832eb92c87da0ee8ecb7b21e548a40a7adb8b12398fec8d540266a3"
+    },
+    {
+      "path": "AP/textures/blocks/hardwood_gate.png",
+      "sha256": "c935ee52be9f68676ccb85de576ce24de2d14816b12f5d09943f916bbae77602"
+    },
+    {
+      "path": "AP/textures/blocks/hardwood_wall_front.png",
+      "sha256": "aee7905211fe8bfad1cef190483c5ea139fdcedd808fd8483a41fb15c21caffc"
+    },
+    {
+      "path": "AP/textures/blocks/hardwood_wall_top.png",
+      "sha256": "5e3008c73ec19f70fe38d55b0a68bc3a0b7b63a6fd27c13b29372dfcd61a0278"
+    },
+    {
+      "path": "AP/textures/blocks/hardwood_window_front.png",
+      "sha256": "22e262cb282b453a94789c2f2f771cf630779c1736820f456abb57be6700166b"
+    },
+    {
+      "path": "AP/textures/blocks/hardwood_window_top.png",
+      "sha256": "99cddca9b7ec08bb4c5b6a164a757a691916152a4eb7aad8b25ccc809aef53ce"
+    },
+    {
+      "path": "AP/textures/blocks/oak_tree.png",
+      "sha256": "04355c0c58efcca6aa25cb7559641d7c117ea4b01aede919a18827dd5f703dca"
+    },
+    {
+      "path": "AP/textures/blocks/palm_tree.png",
+      "sha256": "e42112b80b06e04d40b182479966b739e5a13e1fa162faafbf3c0a4783da73b4"
+    },
+    {
+      "path": "AP/textures/blocks/raw_crystal_wall_front.png",
+      "sha256": "1764036435736179fec0e44494576ac79938b7972f2bf020bfed296fe943d2d4"
+    },
+    {
+      "path": "AP/textures/blocks/raw_crystal_wall_top.png",
+      "sha256": "5bd39169f66446634dd50322d3c9f561afe0cc12ed893d0c2630c0d6ef448921"
+    },
+    {
+      "path": "AP/textures/blocks/rock_wall_front.png",
+      "sha256": "f497c4c4653b04ccb698694666008efe7c669bce0d36ac22c2ec97f9b532dd1c"
+    },
+    {
+      "path": "AP/textures/blocks/rock_wall_top.png",
+      "sha256": "e683699d0bd35ff16eccb29d825ef4f5e96f4bfdc20387e486f9a36507d3b610"
+    },
+    {
+      "path": "AP/textures/blocks/sand.png",
+      "sha256": "d46c1feea1a827996356bf00b05f0f72db12e101f8b04bba70a7919492d317a9"
+    },
+    {
+      "path": "AP/textures/blocks/stone.png",
+      "sha256": "39b450e24071e95b5dab681ab4b600e96cb6dbba3deb867c0e9318eaf23aa666"
+    },
+    {
+      "path": "AP/textures/blocks/stone_door.png",
+      "sha256": "d5088cf16011bc786176d4e82c6cf405e74a3c209fb0f136f6ea68c8198190c4"
+    },
+    {
+      "path": "AP/textures/blocks/stone_fence_front.png",
+      "sha256": "90119c857143d7114db1812289420efca77b98bf891f35595b48013058ebfe77"
+    },
+    {
+      "path": "AP/textures/blocks/stone_fence_top.png",
+      "sha256": "498dd79dc3c51a341ba2d275195bde50bf9db6b7bb110592de27041361279386"
+    },
+    {
+      "path": "AP/textures/blocks/stone_floor.png",
+      "sha256": "9d1c01aafc89823040690462d301e8bbd8deb81f5eb10780fe7dcd917b80710d"
+    },
+    {
+      "path": "AP/textures/blocks/stone_gate.png",
+      "sha256": "23c87cab34ab142eac1ff1af2c131760a510650869b542a6a687752a27253d93"
+    },
+    {
+      "path": "AP/textures/blocks/stone_wall_front.png",
+      "sha256": "d62a21a8b1dc494efe8fdb39f7087c84a306fc5605c057ba0057ff917fad05ef"
+    },
+    {
+      "path": "AP/textures/blocks/stone_wall_top.png",
+      "sha256": "aa1073313e75b17245cf491109f713ce3b250ade857cc0be873b0903819d537f"
+    },
+    {
+      "path": "AP/textures/blocks/stone_window_front.png",
+      "sha256": "254c622c13352b92a7d53a9b00620a89a5e59b9bf8adaba92990684e29362c6d"
+    },
+    {
+      "path": "AP/textures/blocks/stone_window_top.png",
+      "sha256": "e8e52ed0e7237891f870dcf9a56aa471f2d4b58234591070989c7d2463d37763"
+    },
+    {
+      "path": "AP/textures/blocks/stonepath.png",
+      "sha256": "6cfaebef1bffede6ae00a2a39b3b004ba439bbdc76e8a3a44a6da196872da926"
+    },
+    {
+      "path": "AP/textures/blocks/straw_floor.png",
+      "sha256": "3cb0be34490809a23629fa2e8909e96ac47334dcfefae0a8b1563286ec0afa7e"
+    },
+    {
+      "path": "AP/textures/blocks/swamp_grass.png",
+      "sha256": "9897f479c27718146ecf849ac47c7d31cb4bb609c74cf8f79f810c80f2361959"
+    },
+    {
+      "path": "AP/textures/blocks/torch.png",
+      "sha256": "d7f2c404a368ab0c8b72718ccff4e703b07bbb287f2e346764d43539b0d9d656"
+    },
+    {
+      "path": "AP/textures/blocks/water.png",
+      "sha256": "36202fd41839e7c91217f20a6a582c2b77cd8e08fdf9ff771027c1be9c281398"
+    },
+    {
+      "path": "AP/textures/blocks/wood_door.png",
+      "sha256": "f28292054b03334f91da915a6c7a1de5cbc7c39cadcff05a79d477ef5a0b7799"
+    },
+    {
+      "path": "AP/textures/blocks/wood_fence_front.png",
+      "sha256": "a4ffae21e36eb56e5d4086eea5bedffbd91e0efe69c727c170fb25959185bb47"
+    },
+    {
+      "path": "AP/textures/blocks/wood_fence_top.png",
+      "sha256": "55049a58b2e56b168a3a0511cc823bb86f9d98a1d92a3ceeb652d2ab0b72cd6a"
+    },
+    {
+      "path": "AP/textures/blocks/wood_floor.png",
+      "sha256": "bae869bedb8f19365cea8ad617b7d9141331a4a53ad1dcf75df2e14b2af43314"
+    },
+    {
+      "path": "AP/textures/blocks/wood_gate.png",
+      "sha256": "3e6552dbc9d16970ed524b0e126311f48aaad857b63548efb85c857db0e47b5a"
+    },
+    {
+      "path": "AP/textures/blocks/wood_wall_front.png",
+      "sha256": "64a6577af99f9e2febeeb5bcda1a9f0554a8c3d984176583a5cd60b3f87ebdc2"
+    },
+    {
+      "path": "AP/textures/blocks/wood_wall_top.png",
+      "sha256": "70f64c45db6a9b88ca576e9acdc3e0d5ef7d91b2fb20ebe2153d44be9e832e7e"
+    },
+    {
+      "path": "AP/textures/blocks/wood_window_front.png",
+      "sha256": "1a155ddbd41cd9190ad78664361487b53d6a8a5c3f4ae6e19762e9af8a817d56"
+    },
+    {
+      "path": "AP/textures/blocks/wood_window_top.png",
+      "sha256": "670042ae00d9e5a1ee037d875ba24bf7f180e163fe0b46999de23a3bda3db6b9"
+    },
+    {
+      "path": "AP/textures/entities/duck/idle.png",
+      "sha256": "3b287d59d89acfe621cfbe6202df006fcc7edf9710396d3f1e8a419b3660781c"
+    },
+    {
+      "path": "AP/textures/entities/duck/walk.png",
+      "sha256": "099c1f5a40813d304821b0b92156cdfc57a2e89a1b04fcf6e6dc0d108b935059"
+    },
+    {
+      "path": "AP/textures/entities/pig/idle.png",
+      "sha256": "647d9fba4520f7e2cec65b1b4cb4617f48c38aaed6595a27b77a2c31d50f9c54"
+    },
+    {
+      "path": "AP/textures/entities/pig/walk.png",
+      "sha256": "ecc387e1ae53b4946d050719d3295ab8dc719a7649d2369cb06e067aa223b238"
+    },
+    {
+      "path": "AP/textures/entities/sheep/idle.mask.png",
+      "sha256": "74dd2b4fc3e3b4b7e707cfca6b303aed6b73d2ecd0c0327549a197213701b4c0"
+    },
+    {
+      "path": "AP/textures/entities/sheep/idle.png",
+      "sha256": "43005b3178634aae6b4061e274f48344bdabf9a53afacca31bf7f80d2318472b"
+    },
+    {
+      "path": "AP/textures/entities/sheep/walk.mask.png",
+      "sha256": "747179e9647024971cc30a320b2e253a97c4242df47040ecf5b85c2d43f375ac"
+    },
+    {
+      "path": "AP/textures/entities/sheep/walk.png",
+      "sha256": "dfb5731022388f17599ab5e106090783fa3333651eb3b70fa1c4b504559ef3cf"
+    },
+    {
+      "path": "AP/textures/entities/slime/attack.png",
+      "sha256": "c2f786955a0cb31f9281ad18e2e4690aad975698fa4fbfb688819fd80e84842a"
+    },
+    {
+      "path": "AP/textures/entities/slime/idle.png",
+      "sha256": "d94b252386c25607ea290def76eca2f070816c127e7a5192395af287e8baa57a"
+    },
+    {
+      "path": "AP/textures/entities/slime/jump.png",
+      "sha256": "731acd04e6eaeb0da770ecd941c8ac4c36c22ae730838a937a82e08a80902ec3"
+    },
+    {
+      "path": "AP/textures/particle/README.md",
+      "sha256": "3df299ba76cf5fd70e85ec8f3868edb75a5cca30325142708fe07e84bf6804c6"
+    },
+    {
+      "path": "AP/textures/particle/leaf_0.png",
+      "sha256": "f39cdacc397026dd945b23b4b214c5361f1433833154680ee6c8d94dc192301e"
+    },
+    {
+      "path": "AP/textures/particle/leaf_1.png",
+      "sha256": "32196809dad8e56155d211470301bdf37381171278e990ee436e2e7d5f3a9ef6"
+    },
+    {
+      "path": "AP/textures/particle/leaf_10.png",
+      "sha256": "8886f315a6e9bb5dc75f590c4856d59a3c00ce27b34b9960f80f36381606710a"
+    },
+    {
+      "path": "AP/textures/particle/leaf_11.png",
+      "sha256": "86bfdadb14a8918c924189ba59752bcc4d5cd07d8626b8582ec48c5fb8c3d749"
+    },
+    {
+      "path": "AP/textures/particle/leaf_2.png",
+      "sha256": "a233a2f58755d28eb64f6e0a43d1a68ac4ef45932d6425c06019e422b4fbd8ff"
+    },
+    {
+      "path": "AP/textures/particle/leaf_3.png",
+      "sha256": "d6dc3397f3efb4f789204fae57f9632ecd81f164cc38ec6116cc2d295cc40f9e"
+    },
+    {
+      "path": "AP/textures/particle/leaf_4.png",
+      "sha256": "20fea4ec7d5e6d2f96b8be1256b0cfe0d3b965cbdbe76da6b0fbeccd0fa1eddd"
+    },
+    {
+      "path": "AP/textures/particle/leaf_5.png",
+      "sha256": "673031686a603b9f3a769006fecad747e06729e66f2eb8ee87212053d5c37860"
+    },
+    {
+      "path": "AP/textures/particle/leaf_6.png",
+      "sha256": "b69f4a6473226248c010b4dad63e7d036bb59a140ee18f614b843e655e725bbf"
+    },
+    {
+      "path": "AP/textures/particle/leaf_7.png",
+      "sha256": "3b4084542edd97aacd8d48d4ba31a20258bb8610faaf956f64b3d6137eb3c75c"
+    },
+    {
+      "path": "AP/textures/particle/leaf_8.png",
+      "sha256": "f53ff0892ec2f42a3e035ca43aa2289283895f23b0d6523f0c12dc1e7da65896"
+    },
+    {
+      "path": "AP/textures/particle/leaf_9.png",
+      "sha256": "5cdc07a1d882c144e37919cb51a0b67d83edcbed09d2010334ba4951d91b117b"
+    },
+    {
+      "path": "AP/textures/player/idle.png",
+      "sha256": "8fa04b2bcc8bd9e2ab1785df7df48203246ebbf501361fcf5e65a79c054c32f8"
+    },
+    {
+      "path": "AP/textures/player/jump.png",
+      "sha256": "2863366e2071b0892ebcb1bd543d5903bbadd64c342467625089175e33db96a4"
+    },
+    {
+      "path": "AP/textures/player/mine.png",
+      "sha256": "de3a5f83b24a0458d55c35ddc7030a8cdd2ad24ba07e657ce46de6a5da6d481a"
+    },
+    {
+      "path": "AP/textures/player/walk.png",
+      "sha256": "07bba26ffe7b025600295d12b680e81c37c16b7bd00aeb6a26b17b9846e4f6c7"
+    },
+    {
+      "path": "AP/textures/terrain_texture.json",
+      "sha256": "56c67df223be93338731848024f2468a9380a02ff58f966c412a7b8c4f317697"
+    },
+    {
+      "path": "LP/blocks.json",
+      "sha256": "a2be649087379830ae5a577d62b3decda0fbf6fd6cde61650b85fda9a50be8b8"
+    },
+    {
+      "path": "LP/blocks/air.json",
+      "sha256": "8722cf33a012794b29a127d8e461a561e2ca8c8db3f175f2d7eb982c92fc3207"
+    },
+    {
+      "path": "LP/blocks/cave_floor.json",
+      "sha256": "ee253642ea8f3eb15540e4d67e01e091d231dab2637c23bf2b9f9704fb30b107"
+    },
+    {
+      "path": "LP/blocks/dirt.json",
+      "sha256": "efe4b921d56de8a61d3ddf9688831f1d09b0306572e2be132f08faf7b6272897"
+    },
+    {
+      "path": "LP/blocks/door_crystal.json",
+      "sha256": "42e6a6cb5b9a5d08d7d93beceec897e8ff99196d0ce8fcd674b1e00b667d1bf0"
+    },
+    {
+      "path": "LP/blocks/door_crystal_open.json",
+      "sha256": "8212e6de45152f9c4a624c4a2bb088583d8f9299ebe9b115ba95cc422f3ee949"
+    },
+    {
+      "path": "LP/blocks/door_hardwood.json",
+      "sha256": "0bd256c3237565a5873c0d0115de9ae6ccf420fb9d4e360d4bce366be6350013"
+    },
+    {
+      "path": "LP/blocks/door_hardwood_open.json",
+      "sha256": "637648a15c499fd3c79891f49a612cb0fe559b38ac9ebd083ff04cc25b78477a"
+    },
+    {
+      "path": "LP/blocks/door_stone.json",
+      "sha256": "3f650f8ec5fa0587caa52c308ee95f91793f59c7063ac3c104a959c886245507"
+    },
+    {
+      "path": "LP/blocks/door_stone_open.json",
+      "sha256": "39445da40701ae5426a56cfaa0b701b36332a8af0e8605418296655ddff1bd0d"
+    },
+    {
+      "path": "LP/blocks/door_wood.json",
+      "sha256": "b7499d1a3fffc6c7d48908cd21ab4939d3de1aaad3c122b31ca9acae3987b6b4"
+    },
+    {
+      "path": "LP/blocks/door_wood_open.json",
+      "sha256": "906b48bc30ece8ce4a9100f5fd1e39e1898377129c1c53c70d9d5c677c27e010"
+    },
+    {
+      "path": "LP/blocks/dry_grass.json",
+      "sha256": "2100caf2b27182f7c15e7de5529949176c6a4a984f5498738527005ede68627e"
+    },
+    {
+      "path": "LP/blocks/fence_hardwood.json",
+      "sha256": "3b3d4a58e073bba629a9a1b1a3cc19222cba73e8513eb2485c13942cb0d7f985"
+    },
+    {
+      "path": "LP/blocks/fence_stone.json",
+      "sha256": "a07c63bd723b7a31de2d957f2072f40c2ec0a604ec49ff8b033ff37e43fbacf6"
+    },
+    {
+      "path": "LP/blocks/fence_wood.json",
+      "sha256": "4ce2c718af8aced5198e22ec61225ef71ab090c813e02aff2271013aae4c4264"
+    },
+    {
+      "path": "LP/blocks/gate_hardwood.json",
+      "sha256": "25cdd8be4a0893d5501c440ccc6d55a3240acff4deea4e239b67ca37d757fba5"
+    },
+    {
+      "path": "LP/blocks/gate_hardwood_open.json",
+      "sha256": "f92a56312aeb560b84b10cfb11bb12ea17c534a087b1ad801c54dd53fbc7f452"
+    },
+    {
+      "path": "LP/blocks/gate_stone.json",
+      "sha256": "22915725ab72d5acdffe72713b9371a140847c1b05d60f05a4bf45896da99923"
+    },
+    {
+      "path": "LP/blocks/gate_stone_open.json",
+      "sha256": "de8a928994aae7e5becd818c8009868d8ef479fa569dec4fb6995b8f9973747e"
+    },
+    {
+      "path": "LP/blocks/gate_wood.json",
+      "sha256": "230c4d702379dbffb34fa9b2626ed4170a6068aa102c85459fd7a4d8bc23ca7d"
+    },
+    {
+      "path": "LP/blocks/gate_wood_open.json",
+      "sha256": "48ab43d09d4fa60e420c8b3d7f1fecddc1e55ca3fdc0dc03469ea8bb7afe3a19"
+    },
+    {
+      "path": "LP/blocks/grass.json",
+      "sha256": "5cbaa04d17a98e154a10fea5a904299cff7faea328d35807032de6dac9a69b45"
+    },
+    {
+      "path": "LP/blocks/grass_deep.json",
+      "sha256": "30b79db33a826ebd38f117be37ae58d16190885cdc1c954a7eeb22b2d3b22a5d"
+    },
+    {
+      "path": "LP/blocks/grass_meadow.json",
+      "sha256": "4a6fd4d2c3380a3300e6279d955cb20a79f3645444b97f2c6b69f86a3c35a0db"
+    },
+    {
+      "path": "LP/blocks/grass_savanna.json",
+      "sha256": "675a0b416c3ca5f8bb9be7af7d66e34fe07ba4706508d8337ff3f18f6a84b683"
+    },
+    {
+      "path": "LP/blocks/grass_tuft.json",
+      "sha256": "07ecf166f9054b08e85c8c6583bb1ae8b9f1edfe82ee55263f524ec870f0a483"
+    },
+    {
+      "path": "LP/blocks/hardwoodfloor.json",
+      "sha256": "550569067b52c8dad0ad80770888089f9030e2f77831211f9647910fe4e0ce70"
+    },
+    {
+      "path": "LP/blocks/sand.json",
+      "sha256": "e5e8d67d2ba394734f2fe2c4bca09bb011364f70679f0a884eadfc57503c7e37"
+    },
+    {
+      "path": "LP/blocks/shallow_water.json",
+      "sha256": "b02ef46a81ab9c5b342ea839726814c64cb26b8507a58f2a2ff829ebed1fea3b"
+    },
+    {
+      "path": "LP/blocks/stone_floor.json",
+      "sha256": "3ba06040aab601f175a6450b90b92f04e1db170d2e69046f388e8ab8389996ee"
+    },
+    {
+      "path": "LP/blocks/stonepath.json",
+      "sha256": "6f1f5589f46477375a830d72cdd1752cb672c70f7518eae6005370148917ba72"
+    },
+    {
+      "path": "LP/blocks/straw_floor.json",
+      "sha256": "8119c17a66821a6233d1249c31dcb3c7456814c15b8fd59b58b0352465a06425"
+    },
+    {
+      "path": "LP/blocks/swamp_grass.json",
+      "sha256": "1ac0140b919559fbdd81b1b817f0157576f66e4840f39e2858814c066edf2f42"
+    },
+    {
+      "path": "LP/blocks/torch.json",
+      "sha256": "abfbc6d4d45263ebe747b48a184a14248bb637dc0ca9133d874936ff23b59726"
+    },
+    {
+      "path": "LP/blocks/tree_cypress.json",
+      "sha256": "29e2ce9fd279977add953ef107f85e5d5fc63726593ae4d896de4af0bf9d022e"
+    },
+    {
+      "path": "LP/blocks/tree_oak.json",
+      "sha256": "b7d539341ac9738a9a98d12a0108661944ab56bbe72a8a66a267284d1b4c998b"
+    },
+    {
+      "path": "LP/blocks/tree_palm.json",
+      "sha256": "a48e6fff0ffb30610ef72b1be0d14d0055abbd575c7053e250d2c12ca3fdbeab"
+    },
+    {
+      "path": "LP/blocks/wall_catacomb.json",
+      "sha256": "f8275b08c44586501e29d30d58c3015044641d528c781bf5cf3b2e96ffc39421"
+    },
+    {
+      "path": "LP/blocks/wall_crystal.json",
+      "sha256": "31776c144e663980868ce1a183102b55ca59222cee04e782fa855fedf02e6cec"
+    },
+    {
+      "path": "LP/blocks/wall_dirt.json",
+      "sha256": "1cf8dc4d0472bb5fe51786fd016c9ddcaf4e050277ded6b208ca27353b396663"
+    },
+    {
+      "path": "LP/blocks/wall_fault_circuit.json",
+      "sha256": "a8de9b0570f866fdb5ab0c086489c75c8d74ab7efb2b430896b7f89555d38568"
+    },
+    {
+      "path": "LP/blocks/wall_granite.json",
+      "sha256": "84fe468801c28bcb9f3890af372098c933b13990ea7e08dd3677aa77fb4f606f"
+    },
+    {
+      "path": "LP/blocks/wall_hardwood.json",
+      "sha256": "01936c20562f7c3e983919b774376198b12b5812fcfaed7c14c4e43eafb0cd4a"
+    },
+    {
+      "path": "LP/blocks/wall_raw_crystal.json",
+      "sha256": "c7cacbd8e8deaa9845e7ddc082deef82c6339aa62bea2588535ea984830e9fc6"
+    },
+    {
+      "path": "LP/blocks/wall_rock.json",
+      "sha256": "83ef9eee2ca9833b28dd2dca1a2e78532de29f837ff0081bc682db1a92890750"
+    },
+    {
+      "path": "LP/blocks/wall_stone.json",
+      "sha256": "d503f839fccef99ec5c65f8b3fda0f3434cfcd840112c27b6b564ce7884f19a7"
+    },
+    {
+      "path": "LP/blocks/wall_wood.json",
+      "sha256": "4302ae7aa0049fd9f629ecd319baeeb2a992ab6be46ca7d996e16c1ec49bad92"
+    },
+    {
+      "path": "LP/blocks/window_hardwood.json",
+      "sha256": "c6ec29e7a1696323742aa6afa744a98f27c7462d1cbf710896be4b1612d9a4bb"
+    },
+    {
+      "path": "LP/blocks/window_stone.json",
+      "sha256": "fabb3fd655eb5cfb52356a7770c9b82de6eb7a78365759376cf14296ed5e50d2"
+    },
+    {
+      "path": "LP/blocks/window_wood.json",
+      "sha256": "1667f2cad3c95d0243322c46c07e96ceed8ab2a2445ca08effa3756929216da5"
+    },
+    {
+      "path": "LP/blocks/woodfloor.json",
+      "sha256": "9f17683effcfbfa3afa2ac365b05ae17f6fb369bcffdeaae3233f34ce4e94470"
+    },
+    {
+      "path": "LP/entities/duck.json",
+      "sha256": "fd3e00567d81503de75d47d9d0f51e5c8126409b449682fa84daa05576924911"
+    },
+    {
+      "path": "LP/entities/pig.json",
+      "sha256": "d0e3932f119e5b028858e082637dae1a7cf44c816807b5be4e67ae854cdf652f"
+    },
+    {
+      "path": "LP/entities/sheep.json",
+      "sha256": "8639eaea33532d5ff0db054bd3f28a0623cb0b66149b49ef3caab30300096a0d"
+    },
+    {
+      "path": "LP/entities/slime.json",
+      "sha256": "04dd5b0d0f16a18ec4ce6d6ef5eefd5fb40faf2be6c8cc8cd8c72f4591656bb9"
+    },
+    {
+      "path": "LP/items/cave_floor.json",
+      "sha256": "aa9dc3c3080c3146ab41fc0e1ef4fd29bfbca6cc9fbcd2ec3386a46ddae5047f"
+    },
+    {
+      "path": "LP/items/dirt.json",
+      "sha256": "76675f60cc3313cdb72b7325989f5db0149d70965087b88fa60a5e611d09e167"
+    },
+    {
+      "path": "LP/items/door_crystal.json",
+      "sha256": "239bc2e95abe82ab9e100af2741f5fc210ea9eabbf9a8131742c57acc3665d5f"
+    },
+    {
+      "path": "LP/items/door_hardwood.json",
+      "sha256": "3160bcfabc2ea38513c4d9e612e79992a138fbdda885a5c8ff996dda93ce2f39"
+    },
+    {
+      "path": "LP/items/door_stone.json",
+      "sha256": "fdb2dab565110a6716c86a1b0687851d7c7c29ed350258ae98aaefbd48bdfe8f"
+    },
+    {
+      "path": "LP/items/door_wood.json",
+      "sha256": "ee5c28016c80d67d0fa1ac009cc7fe0e8f4f176fd460ba99d3b3db831e81f9a0"
+    },
+    {
+      "path": "LP/items/dry_grass.json",
+      "sha256": "0edd3d558d5c372f0b2c9e8e5edfd5d80634acafb2196683e6d43ae3181c713c"
+    },
+    {
+      "path": "LP/items/fence_hardwood.json",
+      "sha256": "acc90073ae4084e755004df7c7f29c4786787da697628a36707d15355a87800f"
+    },
+    {
+      "path": "LP/items/fence_stone.json",
+      "sha256": "9ca74e31f7997c409d0308a796092ccec397e33d2675e3354bf973871ba95bb3"
+    },
+    {
+      "path": "LP/items/fence_wood.json",
+      "sha256": "1343947cfb7a4b80274628e26f06644b5fa76be9647939736924564062d6f3b8"
+    },
+    {
+      "path": "LP/items/gate_hardwood.json",
+      "sha256": "86a11596330298549adfdf50785d36cf4544ba219b20079c44375ca68bef0187"
+    },
+    {
+      "path": "LP/items/gate_stone.json",
+      "sha256": "20f6bef85f6a467e3a7f5db81de1378e2058b9acff584beaf85366a4c155afe1"
+    },
+    {
+      "path": "LP/items/gate_wood.json",
+      "sha256": "9d5de87a7860c925c2e077986eadae24d47bb7c2266f002c6bb365e5d4671ff8"
+    },
+    {
+      "path": "LP/items/grass.json",
+      "sha256": "ad53fc68fb5e7ab06a720ef60ceb4581283cfa4e742ea6622f7474ea6bdf8783"
+    },
+    {
+      "path": "LP/items/grass_deep.json",
+      "sha256": "c18ecb020e3208d9bb9b1b0fbd85b493a20b60a1cdcb8c39f6ae90d605657051"
+    },
+    {
+      "path": "LP/items/grass_meadow.json",
+      "sha256": "21ad0e7263399ca7b17ba2af62ef6f81786552443e291f19ea83c19c9fb5941c"
+    },
+    {
+      "path": "LP/items/grass_savanna.json",
+      "sha256": "f669f29c98f1821d9c8120511b8e7c64e56d832821fb105aec26613e57d3aacb"
+    },
+    {
+      "path": "LP/items/grass_tuft.json",
+      "sha256": "c8be5fa569acf35b68e044db915d5080e910d4bd073c5d4920636b1d9bde740c"
+    },
+    {
+      "path": "LP/items/hardwoodfloor.json",
+      "sha256": "d0841c8f4a32a94d058c08d1d6da74aaef6bba0e7fcd5c688b7b8f5edc252513"
+    },
+    {
+      "path": "LP/items/sand.json",
+      "sha256": "aa333c267f2d1cbe3394d66822d6ddd34f67724a1a0fce7c719718e0ded298fb"
+    },
+    {
+      "path": "LP/items/shallow_water.json",
+      "sha256": "5e7afca232d358e6664ef181f4c14716ff5b94fc7f3be2b5139e6e9ada09f59d"
+    },
+    {
+      "path": "LP/items/stone_floor.json",
+      "sha256": "593fb5c0f79151c15f5b4b8a1ea5f0d5ce09ecdadf801ee44e64e3bbadd9c6e5"
+    },
+    {
+      "path": "LP/items/stonepath.json",
+      "sha256": "e39123af7cb57eedbb223afa134bb61dcf965264cfde78a1663e9d84772090f6"
+    },
+    {
+      "path": "LP/items/straw_floor.json",
+      "sha256": "cd682b878c31f2acd838bdc66cd84a56cb57e6e0ce3542706b56d70a274e7815"
+    },
+    {
+      "path": "LP/items/swamp_grass.json",
+      "sha256": "9bbcd28b13a8b48ab92c40025b8e37e95b294307564a4d52ea04ca6db9828199"
+    },
+    {
+      "path": "LP/items/torch.json",
+      "sha256": "8bea2737a4c085d1e18874a647452c716a5ea6c159c0cf0871392518ddce5fd4"
+    },
+    {
+      "path": "LP/items/tree_cypress.json",
+      "sha256": "059468659e005eeb1e9cf793c502d9c9994e0458b6a77ab762098cb16f81938b"
+    },
+    {
+      "path": "LP/items/tree_oak.json",
+      "sha256": "149ac6572e19f94603ca34952f253e23c05c02087ce8345f78ef435b36a2397e"
+    },
+    {
+      "path": "LP/items/tree_palm.json",
+      "sha256": "f1aaa817c0c79ae5a6e70f277945c0ab346483c7b31d0e652c243eba136d5900"
+    },
+    {
+      "path": "LP/items/wall_catacomb.json",
+      "sha256": "d1cc5bce2de78ea509a2e2a358cab98f7bed0d38db33d09b96efa6e83baef5e1"
+    },
+    {
+      "path": "LP/items/wall_crystal.json",
+      "sha256": "807ffb41af8362ea7cbd721427f7145ebdf8da8e2b6cc054d2e5a47ff7d99dbd"
+    },
+    {
+      "path": "LP/items/wall_dirt.json",
+      "sha256": "ddb4650fde9ec1747acdae5de37459b78cb12be45fc16ec970f646c04816906f"
+    },
+    {
+      "path": "LP/items/wall_fault_circuit.json",
+      "sha256": "d1570a35fe329c02a5c20d39b19a1c5651d403b253c2af843832302387317a5f"
+    },
+    {
+      "path": "LP/items/wall_granite.json",
+      "sha256": "323b9954d20559721d027a7eb85cfeda310383b51abe46ec3d94f5c9b20465a2"
+    },
+    {
+      "path": "LP/items/wall_hardwood.json",
+      "sha256": "86eb22a4363d06af2c81f4546bafbcbb76a22da32ba32a46da8c778389cb1301"
+    },
+    {
+      "path": "LP/items/wall_raw_crystal.json",
+      "sha256": "0591f7cfa95c984ab5d08f453e698eec8d831ba2330a1e36114912ee1b0428d0"
+    },
+    {
+      "path": "LP/items/wall_rock.json",
+      "sha256": "56dfedf4236b4ddba9df5f49cf6509561315e0960ee3e9668f20d75c33fe7005"
+    },
+    {
+      "path": "LP/items/wall_stone.json",
+      "sha256": "c2b0638dc9f353d113324b43fb7a89cde781fee45aebd4b0118476ff8651f9b0"
+    },
+    {
+      "path": "LP/items/window_hardwood.json",
+      "sha256": "e1c512774666f93671126965ab69b0e27e48fb99341ec8eae0ee5da9333e2169"
+    },
+    {
+      "path": "LP/items/window_stone.json",
+      "sha256": "6f1450161c02995efe633a0c6a8283d5faa3fcf944e9bc354b259eac49cb3d03"
+    },
+    {
+      "path": "LP/items/window_wood.json",
+      "sha256": "66d8353ae16c8f63ebdfb674976ccdb8fd97db25703f061c5cbbb49d50261545"
+    },
+    {
+      "path": "LP/items/wood.json",
+      "sha256": "998ca243215a599a1cc05524466899e5aff3f0e830b5afa3b80903d5cb75afcb"
+    },
+    {
+      "path": "LP/items/woodfloor.json",
+      "sha256": "0688bcd3d2643ad0974e0bbd819e54b7538339189d1a6cb641647b18f4800b71"
+    },
+    {
+      "path": "LP/manifest.json",
+      "sha256": "ba4dc723e7085355237a11db80ded7a2b7d5d80c825cfa557ba55201585ff4f8"
+    },
+    {
+      "path": "LP/recipes/door_wood.json",
+      "sha256": "483c9a404ddc4cb35aeb73401f5ab086164bb220180089d71e1cd35b933068e2"
+    },
+    {
+      "path": "LP/recipes/fence_wood.json",
+      "sha256": "43196821bebbfa76a212e71336b3dcf3485c6cdbdd02dd9b0723f8c95b4600dc"
+    },
+    {
+      "path": "LP/recipes/gate_wood.json",
+      "sha256": "7eec2e9d488b849b2744ea42e780d948a3d9c2192894a0b85800344afaa046b5"
+    },
+    {
+      "path": "LP/recipes/torch.json",
+      "sha256": "86f98b9888f55b0782f797d343035f66f545894ff6aaf571f45de6eabe572d73"
+    },
+    {
+      "path": "LP/recipes/woodfloor.json",
+      "sha256": "01dbf4c02d14fb1304c8f5ede0d8648c5364f073e2d215817df6c426f194bd2d"
+    },
+    {
+      "path": "LP/worldgen/biomes/deepwood.json",
+      "sha256": "384f6f158d9315dee063b5a9635862fc94dfb932e0188258ae803843b2ee0e5f"
+    },
+    {
+      "path": "LP/worldgen/biomes/desert.json",
+      "sha256": "fd905abb84faeeb9df7d4ef43585515be157887b00be53d743ed67409c8eb33f"
+    },
+    {
+      "path": "LP/worldgen/biomes/forest.json",
+      "sha256": "785e784d346a81857845f175ddc9feff6cdbb427169eb53beaa3e049824ef7bc"
+    },
+    {
+      "path": "LP/worldgen/biomes/meadow.json",
+      "sha256": "97697d466f0e07bbf49189de9dcc8de60ad2c1967b84391d9dcc045036d0d1b7"
+    },
+    {
+      "path": "LP/worldgen/biomes/wetland.json",
+      "sha256": "e43587560dd7aefe3e8cc305d14b3e10c3dc425b29ede7a092dde555b3878ee6"
+    },
+    {
+      "path": "LP/worldgen/settings.json",
+      "sha256": "c515aea05f3bc90a1b56c70975fc50c11bf749766f397a405f22d8cd5831430b"
+    }
+  ]
+}

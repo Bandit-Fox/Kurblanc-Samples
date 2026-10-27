@@ -1,0 +1,35 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:swamp_grass"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:opacity": 0,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#597e31",
+      "kurblanc:label": "Swamp grass",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "grass"
+        }
+      },
+      "kurblanc:ground": {
+        "autotile": true,
+        "random_rotate": true,
+        "group": "swamp_grass",
+        "substrate": "kurblanc:dirt",
+        "tint": "#597e31",
+        "biome_tint": true
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:swamp_grass",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "grass"
+    }
+  }
+}

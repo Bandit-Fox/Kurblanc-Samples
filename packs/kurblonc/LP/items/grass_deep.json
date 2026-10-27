@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:grass_deep",
+  "label": "Deep grass",
+  "maxStack": 512,
+  "block": "kurblanc:grass_deep",
+  "icon": {
+    "block": "kurblanc:grass_deep"
+  },
+  "categories": [
+    "blocks",
+    "natural"
+  ]
+}

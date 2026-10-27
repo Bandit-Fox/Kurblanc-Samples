@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:stonepath",
+  "label": "Stone path",
+  "maxStack": 512,
+  "block": "kurblanc:stonepath",
+  "icon": {
+    "block": "kurblanc:stonepath"
+  },
+  "categories": [
+    "blocks"
+  ]
+}

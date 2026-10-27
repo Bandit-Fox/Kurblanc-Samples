@@ -1,0 +1,25 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:dirt"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#6b4a33",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "dirt"
+        }
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:dirt",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "dirt"
+    }
+  }
+}

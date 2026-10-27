@@ -1,0 +1,30 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:cave_floor"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#3b3a35",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "stone"
+        }
+      },
+      "kurblanc:ground": {
+        "autotile": true,
+        "random_rotate": true,
+        "substrate": "kurblanc:dirt"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:cave_floor",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "stone"
+    }
+  }
+}

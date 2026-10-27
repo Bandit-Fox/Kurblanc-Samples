@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:fence_wood",
+  "ingredients": [
+    {
+      "item": "kurblanc:wood",
+      "count": 2
+    }
+  ],
+  "output": {
+    "item": "kurblanc:fence_wood",
+    "count": 4
+  }
+}

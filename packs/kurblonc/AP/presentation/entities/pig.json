@@ -1,0 +1,30 @@
+{
+  "entity": "kurblanc:pig",
+  "pixelScale": 2,
+  "feet": 0,
+  "alpha": 1,
+  "variantMode": "none",
+  "sourceFacing": "left",
+  "strips": {
+    "idle": {
+      "texture": "textures/entities/pig/idle.png",
+      "cell": [
+        18,
+        15
+      ],
+      "frames": 4,
+      "fps": 7,
+      "loop": true
+    },
+    "walk": {
+      "texture": "textures/entities/pig/walk.png",
+      "cell": [
+        18,
+        15
+      ],
+      "frames": 6,
+      "fps": 12,
+      "loop": true
+    }
+  }
+}

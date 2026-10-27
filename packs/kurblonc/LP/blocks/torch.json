@@ -1,0 +1,45 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:torch"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 0.2
+      },
+      "kurblanc:opacity": 0,
+      "kurblanc:light_emission": 8,
+      "kurblanc:light_color": "#ffb45a",
+      "kurblanc:layer": "object",
+      "kurblanc:collision_box": false,
+      "kurblanc:color": "#ffb45a",
+      "kurblanc:label": "Torch",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "torch"
+        }
+      },
+      "kurblanc:object": {
+        "height": 10,
+        "sprite_offset": [
+          6,
+          -7
+        ],
+        "rect": [
+          6,
+          0,
+          5,
+          16
+        ]
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:torch",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "wood"
+    }
+  }
+}

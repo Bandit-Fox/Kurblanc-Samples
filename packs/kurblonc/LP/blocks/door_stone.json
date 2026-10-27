@@ -1,0 +1,67 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:door_stone"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 1.2
+      },
+      "kurblanc:collision_box": true,
+      "kurblanc:opacity": 15,
+      "kurblanc:layer": "object",
+      "kurblanc:color": "#a9824f",
+      "kurblanc:label": "Stone door",
+      "kurblanc:pair": "kurblanc:door_stone",
+      "kurblanc:toggle": "kurblanc:door_stone_open",
+      "kurblanc:placeable": true,
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "stone_door"
+        }
+      },
+      "kurblanc:object": {
+        "height": 36,
+        "sprite_offset": [
+          -1,
+          -20
+        ],
+        "vertical_rect": [
+          0,
+          42,
+          18,
+          41
+        ],
+        "vertical_offset": [
+          -1,
+          -19
+        ],
+        "vertical_masks": [
+          5,
+          13,
+          7,
+          4,
+          1
+        ],
+        "depth": -3,
+        "vertical_depth": -4,
+        "rect": [
+          0,
+          0,
+          18,
+          41
+        ],
+        "group": "wall"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:door_stone",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "door",
+      "kurblanc:billboard": true
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:stone_floor",
+  "label": "Stone Floor",
+  "maxStack": 512,
+  "block": "kurblanc:stone_floor",
+  "icon": {
+    "block": "kurblanc:stone_floor"
+  },
+  "categories": [
+    "blocks"
+  ]
+}

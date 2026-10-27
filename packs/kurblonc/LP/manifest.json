@@ -1,0 +1,38 @@
+{
+  "header": {
+    "name": "Kurblonc Logic Pack",
+    "description": "Logic definitions and components for Kurblonc",
+    "uuid": "a2379c90-e3fb-4588-88d1-71af327575af",
+    "version": [
+      1,
+      0,
+      0
+    ]
+  },
+  "kurblanc": {
+    "schema": 1,
+    "namespace": "kurblanc",
+    "min_engine": "0.1.1"
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "f85183c0-26e4-4bb4-ad8b-c0bde03a6019",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "cfcb33bb-1814-4bc8-a790-24f3cacf77a8",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

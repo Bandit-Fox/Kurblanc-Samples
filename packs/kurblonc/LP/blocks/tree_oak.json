@@ -1,0 +1,86 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:tree_oak"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 3.5
+      },
+      "kurblanc:opacity": 10,
+      "kurblanc:layer": "object",
+      "kurblanc:color": "#52723c",
+      "kurblanc:label": "Oak tree",
+      "kurblanc:placeable": true,
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "oak_tree"
+        }
+      },
+      "kurblanc:object": {
+        "height": 88,
+        "shadow": "sprite",
+        "contact_shadow": [
+          16,
+          20,
+          14,
+          6
+        ],
+        "sprite_offset": [
+          -14,
+          -45
+        ],
+        "depth": -3,
+        "random_flip": true,
+        "rect": [
+          0,
+          0,
+          44,
+          57
+        ],
+        "variant_rects": [
+          [
+            44,
+            0,
+            44,
+            57
+          ],
+          [
+            88,
+            0,
+            44,
+            57
+          ]
+        ],
+        "biome_tint": true,
+        "biome_tint_scale": 1,
+        "tint": "#66a94a",
+        "foliage": {
+          "canopyEnd": 0.68,
+          "leafTextures": [
+            "leaf_0",
+            "leaf_1",
+            "leaf_2",
+            "leaf_3",
+            "leaf_4",
+            "leaf_5",
+            "leaf_6",
+            "leaf_7",
+            "leaf_8",
+            "leaf_9",
+            "leaf_10",
+            "leaf_11"
+          ]
+        }
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:wood",
+          "count": 8
+        }
+      ],
+      "kurblanc:sound": "wood"
+    }
+  }
+}

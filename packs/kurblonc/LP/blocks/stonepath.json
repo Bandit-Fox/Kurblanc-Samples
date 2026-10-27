@@ -1,0 +1,29 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:stonepath"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#7b8085",
+      "kurblanc:label": "Stone path",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "stonepath"
+        }
+      },
+      "kurblanc:surface": {
+        "autotile": true
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:stonepath",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "stone"
+    }
+  }
+}

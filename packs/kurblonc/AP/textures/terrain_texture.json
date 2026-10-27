@@ -1,0 +1,207 @@
+{
+  "resource_pack_name": "forager",
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "grass": {
+      "textures": "textures/blocks/grass.png"
+    },
+    "dirt": {
+      "textures": "textures/blocks/dirt_base.png"
+    },
+    "sand": {
+      "textures": "textures/blocks/sand.png"
+    },
+    "stone": {
+      "textures": "textures/blocks/stone.png"
+    },
+    "stonepath": {
+      "textures": "textures/blocks/stonepath.png"
+    },
+    "catacomb_wall_front": {
+      "textures": "textures/blocks/catacomb_wall_front.png"
+    },
+    "catacomb_wall_top": {
+      "textures": "textures/blocks/catacomb_wall_top.png"
+    },
+    "crystal_door": {
+      "textures": "textures/blocks/crystal_door.png"
+    },
+    "crystal_wall_front": {
+      "textures": "textures/blocks/crystal_wall_front.png"
+    },
+    "crystal_wall_top": {
+      "textures": "textures/blocks/crystal_wall_top.png"
+    },
+    "dirt_wall_front": {
+      "textures": "textures/blocks/dirt_wall_front.png"
+    },
+    "dirt_wall_top": {
+      "textures": "textures/blocks/dirt_wall_top.png"
+    },
+    "fault_circuit_wall_front": {
+      "textures": "textures/blocks/fault_circuit_wall_front.png"
+    },
+    "fault_circuit_wall_top": {
+      "textures": "textures/blocks/fault_circuit_wall_top.png"
+    },
+    "granite_wall_front": {
+      "textures": "textures/blocks/granite_wall_front.png"
+    },
+    "granite_wall_top": {
+      "textures": "textures/blocks/granite_wall_top.png"
+    },
+    "hardwood_door": {
+      "textures": "textures/blocks/hardwood_door.png"
+    },
+    "hardwood_fence_front": {
+      "textures": "textures/blocks/hardwood_fence_front.png"
+    },
+    "hardwood_fence_top": {
+      "textures": "textures/blocks/hardwood_fence_top.png"
+    },
+    "hardwood_floor": {
+      "textures": "textures/blocks/hardwood_floor.png"
+    },
+    "hardwood_gate": {
+      "textures": "textures/blocks/hardwood_gate.png"
+    },
+    "hardwood_wall_front": {
+      "textures": "textures/blocks/hardwood_wall_front.png"
+    },
+    "hardwood_wall_top": {
+      "textures": "textures/blocks/hardwood_wall_top.png"
+    },
+    "hardwood_window_front": {
+      "textures": "textures/blocks/hardwood_window_front.png"
+    },
+    "hardwood_window_top": {
+      "textures": "textures/blocks/hardwood_window_top.png"
+    },
+    "raw_crystal_wall_front": {
+      "textures": "textures/blocks/raw_crystal_wall_front.png"
+    },
+    "raw_crystal_wall_top": {
+      "textures": "textures/blocks/raw_crystal_wall_top.png"
+    },
+    "rock_wall_front": {
+      "textures": "textures/blocks/rock_wall_front.png"
+    },
+    "rock_wall_top": {
+      "textures": "textures/blocks/rock_wall_top.png"
+    },
+    "stone_door": {
+      "textures": "textures/blocks/stone_door.png"
+    },
+    "stone_fence_front": {
+      "textures": "textures/blocks/stone_fence_front.png"
+    },
+    "stone_fence_top": {
+      "textures": "textures/blocks/stone_fence_top.png"
+    },
+    "stone_floor": {
+      "textures": "textures/blocks/stone_floor.png"
+    },
+    "stone_gate": {
+      "textures": "textures/blocks/stone_gate.png"
+    },
+    "stone_wall_front": {
+      "textures": "textures/blocks/stone_wall_front.png"
+    },
+    "stone_wall_top": {
+      "textures": "textures/blocks/stone_wall_top.png"
+    },
+    "stone_window_front": {
+      "textures": "textures/blocks/stone_window_front.png"
+    },
+    "stone_window_top": {
+      "textures": "textures/blocks/stone_window_top.png"
+    },
+    "straw_floor": {
+      "textures": "textures/blocks/straw_floor.png"
+    },
+    "wood_door": {
+      "textures": "textures/blocks/wood_door.png"
+    },
+    "wood_fence_front": {
+      "textures": "textures/blocks/wood_fence_front.png"
+    },
+    "wood_fence_top": {
+      "textures": "textures/blocks/wood_fence_top.png"
+    },
+    "wood_floor": {
+      "textures": "textures/blocks/wood_floor.png"
+    },
+    "wood_gate": {
+      "textures": "textures/blocks/wood_gate.png"
+    },
+    "wood_wall_front": {
+      "textures": "textures/blocks/wood_wall_front.png"
+    },
+    "wood_wall_top": {
+      "textures": "textures/blocks/wood_wall_top.png"
+    },
+    "wood_window_front": {
+      "textures": "textures/blocks/wood_window_front.png"
+    },
+    "wood_window_top": {
+      "textures": "textures/blocks/wood_window_top.png"
+    },
+    "torch": {
+      "textures": "textures/blocks/torch.png"
+    },
+    "bald_cypress_tree": {
+      "textures": "textures/blocks/bald_cypress_tree.png"
+    },
+    "oak_tree": {
+      "textures": "textures/blocks/oak_tree.png"
+    },
+    "palm_tree": {
+      "textures": "textures/blocks/palm_tree.png"
+    },
+    "water": {
+      "textures": "textures/blocks/water.png"
+    },
+    "leaf_0": {
+      "textures": "textures/particle/leaf_0"
+    },
+    "leaf_1": {
+      "textures": "textures/particle/leaf_1"
+    },
+    "leaf_2": {
+      "textures": "textures/particle/leaf_2"
+    },
+    "leaf_3": {
+      "textures": "textures/particle/leaf_3"
+    },
+    "leaf_4": {
+      "textures": "textures/particle/leaf_4"
+    },
+    "leaf_5": {
+      "textures": "textures/particle/leaf_5"
+    },
+    "leaf_6": {
+      "textures": "textures/particle/leaf_6"
+    },
+    "leaf_7": {
+      "textures": "textures/particle/leaf_7"
+    },
+    "leaf_8": {
+      "textures": "textures/particle/leaf_8"
+    },
+    "leaf_9": {
+      "textures": "textures/particle/leaf_9"
+    },
+    "leaf_10": {
+      "textures": "textures/particle/leaf_10"
+    },
+    "leaf_11": {
+      "textures": "textures/particle/leaf_11"
+    },
+    "grass_tuft": {
+      "textures": "textures/blocks/grass_tuft.png"
+    },
+    "dry_grass": {
+      "textures": "textures/blocks/dry_grass.png"
+    }
+  }
+}

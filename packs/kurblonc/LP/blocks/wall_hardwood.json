@@ -1,0 +1,37 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:wall_hardwood"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 1.2
+      },
+      "kurblanc:collision_box": true,
+      "kurblanc:opacity": 15,
+      "kurblanc:layer": "wall",
+      "kurblanc:color": "#a9824f",
+      "kurblanc:label": "Hardwood wall",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "hardwood_wall_top"
+        },
+        "front": {
+          "texture": "hardwood_wall_front"
+        }
+      },
+      "kurblanc:wall": {
+        "lift": 18,
+        "group": "wall"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:wall_hardwood",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "wood"
+    }
+  }
+}

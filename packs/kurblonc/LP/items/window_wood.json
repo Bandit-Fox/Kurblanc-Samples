@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:window_wood",
+  "label": "Wood window",
+  "maxStack": 512,
+  "block": "kurblanc:window_wood",
+  "icon": {
+    "block": "kurblanc:window_wood"
+  },
+  "categories": [
+    "blocks"
+  ]
+}

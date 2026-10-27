@@ -1,0 +1,34 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:grass_savanna"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#a9c45c",
+      "kurblanc:label": "Dry grass",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "grass"
+        }
+      },
+      "kurblanc:ground": {
+        "autotile": true,
+        "random_rotate": true,
+        "group": "grass",
+        "substrate": "kurblanc:dirt",
+        "tint": "#a9c45c",
+        "biome_tint": true
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:grass_savanna",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "grass"
+    }
+  }
+}

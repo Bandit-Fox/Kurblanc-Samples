@@ -1,0 +1,15 @@
+{
+  "id": "meadow",
+  "temperature": 0.4,
+  "moisture": 0.3,
+  "floor": "kurblanc:grass",
+  "tint": "#8ccb5e",
+  "detail": "kurblanc:grass",
+  "detailThreshold": 0,
+  "tree": "kurblanc:tree_oak",
+  "treeChance": 0.14,
+  "treeSpacing": 6,
+  "waterThreshold": 0.99,
+  "decoration": "kurblanc:grass_tuft",
+  "decorationChance": 0.5
+}

@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:gate_hardwood",
+  "label": "Hardwood gate",
+  "maxStack": 512,
+  "block": "kurblanc:gate_hardwood",
+  "icon": {
+    "block": "kurblanc:gate_hardwood"
+  },
+  "categories": [
+    "decoration"
+  ]
+}

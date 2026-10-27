@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:straw_floor",
+  "label": "Straw Floor",
+  "maxStack": 512,
+  "block": "kurblanc:straw_floor",
+  "icon": {
+    "block": "kurblanc:straw_floor"
+  },
+  "categories": [
+    "blocks"
+  ]
+}

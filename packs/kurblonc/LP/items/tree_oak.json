@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:tree_oak",
+  "label": "Oak tree",
+  "maxStack": 512,
+  "block": "kurblanc:tree_oak",
+  "icon": {
+    "block": "kurblanc:tree_oak"
+  },
+  "categories": [
+    "decoration",
+    "natural"
+  ]
+}

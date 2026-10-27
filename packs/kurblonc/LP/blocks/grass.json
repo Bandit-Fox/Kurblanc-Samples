@@ -1,0 +1,33 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:grass"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#4b7a3c",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "grass"
+        }
+      },
+      "kurblanc:ground": {
+        "autotile": true,
+        "random_rotate": true,
+        "group": "grass",
+        "substrate": "kurblanc:dirt",
+        "tint": "#79c05a",
+        "biome_tint": true
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:grass",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "grass"
+    }
+  }
+}
