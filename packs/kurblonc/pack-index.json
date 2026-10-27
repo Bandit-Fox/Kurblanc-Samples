@@ -2,7 +2,7 @@
   "files": [
     {
       "path": "AP/manifest.json",
-      "sha256": "b1e84e8d9791298727b4a5f9070b714611b5bd71ea9cfb38c042b49bfd23a9ac"
+      "sha256": "0d2c24ced916712374f468ff4a196d84f4bf8480535b153da4cf7a0eef2d37b5"
     },
     {
       "path": "AP/music.json",
@@ -1814,7 +1814,7 @@
     },
     {
       "path": "LP/manifest.json",
-      "sha256": "ba4dc723e7085355237a11db80ded7a2b7d5d80c825cfa557ba55201585ff4f8"
+      "sha256": "30563392f87ab5084f065b053b5b84ff7f0942f857512717524a0e7be1545797"
     },
     {
       "path": "LP/recipes/door_wood.json",
@@ -1860,5 +1860,10 @@
       "path": "LP/worldgen/settings.json",
       "sha256": "c515aea05f3bc90a1b56c70975fc50c11bf749766f397a405f22d8cd5831430b"
     }
-  ]
+  ],
+  "archive": {
+    "path": "kurblanc-pack-0.2.0-be0dcd5a.kbpack",
+    "bytes": 5332613,
+    "sha256": "f4bebad9fbfccebd058faf27010c2fcaec0709a286662e3949d0b458e6fe4330"
+  }
 }
