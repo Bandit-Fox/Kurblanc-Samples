@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:wool_gray",
+  "label": "Gray wool",
+  "maxStack": 512,
+  "block": "kurblanc:wool_gray",
+  "icon": {
+    "texture": "textures/items/wool_gray.png"
+  },
+  "categories": [
+    "items",
+    "natural"
+  ]
+}

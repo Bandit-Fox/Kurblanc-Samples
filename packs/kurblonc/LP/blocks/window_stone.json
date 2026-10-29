@@ -15,10 +15,10 @@
       "kurblanc:label": "Stone window",
       "kurblanc:material_instances": {
         "*": {
-          "texture": "stone_window_top"
+          "texture": "textures/blocks/stone_window_top.png"
         },
         "front": {
-          "texture": "stone_window_front"
+          "texture": "textures/blocks/stone_window_front.png"
         }
       },
       "kurblanc:wall": {

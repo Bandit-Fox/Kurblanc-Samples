@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:raw_pork",
+  "label": "Raw pork",
+  "maxStack": 512,
+  "icon": {
+    "texture": "textures/items/raw_pork.png"
+  },
+  "categories": [
+    "items",
+    "natural"
+  ]
+}

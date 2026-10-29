@@ -1,0 +1,17 @@
+{
+  "id": "kurblanc:stone_sword",
+  "ingredients": [
+    {
+      "item": "kurblanc:stone",
+      "count": 2
+    },
+    {
+      "item": "kurblanc:sticks",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "kurblanc:stone_sword",
+    "count": 1
+  }
+}

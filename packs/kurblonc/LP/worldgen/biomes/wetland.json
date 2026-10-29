@@ -3,13 +3,26 @@
   "temperature": 0.56,
   "moisture": 0.92,
   "floor": "kurblanc:grass",
-  "tint": "#5d8a3a",
+  "tint": "#63734e",
   "detail": "kurblanc:grass",
   "detailThreshold": 0,
+  "hilliness": 0.25,
   "tree": "kurblanc:tree_cypress",
   "treeChance": 0.42,
   "treeSpacing": 4,
   "waterThreshold": 0.66,
-  "decoration": "kurblanc:grass_tuft",
-  "decorationChance": 0.5
+  "decorations": [
+    {
+      "block": "kurblanc:grass_tuft",
+      "chance": 0.5
+    },
+    {
+      "block": "kurblanc:bush",
+      "chance": 0.03
+    },
+    {
+      "block": "kurblanc:pebble",
+      "chance": 0.015
+    }
+  ]
 }

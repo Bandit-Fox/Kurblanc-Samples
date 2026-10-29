@@ -4,7 +4,7 @@
   "maxStack": 512,
   "block": "kurblanc:stonepath",
   "icon": {
-    "block": "kurblanc:stonepath"
+    "texture": "textures/items/stonepath.png"
   },
   "categories": [
     "blocks"

@@ -1,0 +1,26 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:natural_stone_face"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "wall",
+      "kurblanc:color": "#77838d",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/rock_wall_top.png"
+        },
+        "front": {
+          "texture": "textures/blocks/natural_stone_front.png"
+        }
+      },
+      "kurblanc:wall": {
+        "lift": 18,
+        "group": "wall"
+      },
+      "kurblanc:label": "Natural stone wall"
+    }
+  }
+}

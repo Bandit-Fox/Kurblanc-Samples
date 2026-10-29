@@ -4,7 +4,7 @@
   "maxStack": 512,
   "block": "kurblanc:woodfloor",
   "icon": {
-    "block": "kurblanc:woodfloor"
+    "texture": "textures/items/woodfloor.png"
   },
   "categories": [
     "blocks"

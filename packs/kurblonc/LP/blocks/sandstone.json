@@ -1,0 +1,30 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:sandstone"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#c6a66a",
+      "kurblanc:label": "Sandstone block",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/sandstone_top.png"
+        }
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:sandstone",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "sand",
+      "kurblanc:terrain": {
+        "mode": "fill",
+        "face": "kurblanc:sandstone_face"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "kurblanc:stone_shovel",
+  "label": "Stone shovel",
+  "maxStack": 1,
+  "icon": {
+    "texture": "textures/items/stone_shovel.png"
+  },
+  "categories": [
+    "items",
+    "tools"
+  ],
+  "tool": {
+    "kind": "shovel",
+    "tier": 2,
+    "speed": 4,
+    "maxDurability": 132,
+    "attackDamage": 1
+  }
+}

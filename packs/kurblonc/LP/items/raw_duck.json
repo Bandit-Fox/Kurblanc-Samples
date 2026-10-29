@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:raw_duck",
+  "label": "Raw duck",
+  "maxStack": 512,
+  "icon": {
+    "texture": "textures/items/raw_duck.png"
+  },
+  "categories": [
+    "items",
+    "natural"
+  ]
+}

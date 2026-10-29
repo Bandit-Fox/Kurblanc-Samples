@@ -10,7 +10,7 @@
       "kurblanc:color": "#4b7a3c",
       "kurblanc:material_instances": {
         "*": {
-          "texture": "grass"
+          "texture": "textures/blocks/grass.png"
         }
       },
       "kurblanc:ground": {
@@ -18,8 +18,7 @@
         "random_rotate": true,
         "group": "grass",
         "substrate": "kurblanc:dirt",
-        "tint": "#79c05a",
-        "biome_tint": true
+        "tint": "#657d50"
       },
       "kurblanc:drops": [
         {
@@ -27,7 +26,12 @@
           "count": 1
         }
       ],
-      "kurblanc:sound": "grass"
+      "kurblanc:sound": "grass",
+      "kurblanc:terrain": {
+        "mode": "cover"
+      },
+      "kurblanc:biome_tint": true,
+      "kurblanc:label": "Grass"
     }
   }
 }

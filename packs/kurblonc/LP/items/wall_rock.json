@@ -4,7 +4,7 @@
   "maxStack": 512,
   "block": "kurblanc:wall_rock",
   "icon": {
-    "block": "kurblanc:wall_rock"
+    "texture": "textures/items/wall_rock.png"
   },
   "categories": [
     "blocks"

@@ -4,13 +4,22 @@
   "moisture": 0.18,
   "floor": "kurblanc:sand",
   "minedFloor": "kurblanc:sand",
-  "tint": "#7fae4e",
+  "tint": "#92905f",
   "detail": "kurblanc:cave_floor",
   "detailThreshold": 0.06,
+  "hilliness": 0.8,
   "tree": "kurblanc:tree_palm",
   "treeChance": 0.18,
   "treeSpacing": 6,
   "waterThreshold": 1,
-  "decoration": "kurblanc:dry_grass",
-  "decorationChance": 0.5
+  "decorations": [
+    {
+      "block": "kurblanc:dry_grass",
+      "chance": 0.5
+    },
+    {
+      "block": "kurblanc:pebble",
+      "chance": 0.06
+    }
+  ]
 }

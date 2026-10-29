@@ -1,0 +1,48 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:cave_ladder"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 0.4,
+        "preferred_tool": "axe"
+      },
+      "kurblanc:opacity": 0,
+      "kurblanc:layer": "object",
+      "kurblanc:placeable": true,
+      "kurblanc:collision_box": false,
+      "kurblanc:color": "#8a6a3f",
+      "kurblanc:label": "Cave ladder",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/ladder.png"
+        }
+      },
+      "kurblanc:object": {
+        "height": 6,
+        "sprite_offset": [
+          0,
+          0
+        ],
+        "rect": [
+          0,
+          0,
+          16,
+          16
+        ]
+      },
+      "kurblanc:link": {
+        "down": 1
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:cave_ladder",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "wood"
+    }
+  }
+}

@@ -2,9 +2,38 @@
   "biomeScale": 200,
   "warp": 40,
   "spawnBiome": "forest",
-  "spawnClearRadius": 5,
+  "spawnClearRadius": 2,
   "water": "kurblanc:shallow_water",
   "treeDensityScale": 52,
   "biomeBlend": 0.012,
-  "waterScale": 150
+  "waterScale": 150,
+  "hills": {
+    "fill": "kurblanc:dirt",
+    "scale": 56,
+    "amplitude": 2,
+    "mountainScale": 150,
+    "mountainAmplitude": 5,
+    "mountainThreshold": 0.58
+  },
+  "surfaceResource": {
+    "block": "kurblanc:pebble",
+    "chance": 0.012,
+    "nearSpawnCount": 12
+  },
+  "caves": {
+    "level": 1,
+    "wall": "kurblanc:cave_rock",
+    "floor": "kurblanc:cave_floor",
+    "scale": 26,
+    "warp": 18,
+    "tunnelWidth": 0.09,
+    "cavernScale": 60,
+    "cavernThreshold": 0.84,
+    "ambient": 8,
+    "terrain": {
+      "fill": "kurblanc:natural_stone",
+      "scale": 32,
+      "amplitude": 2
+    }
+  }
 }

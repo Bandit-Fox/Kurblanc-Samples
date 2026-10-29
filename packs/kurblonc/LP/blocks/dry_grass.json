@@ -12,11 +12,16 @@
       "kurblanc:collision_box": false,
       "kurblanc:opacity": 0,
       "kurblanc:destructible_by_mining": {
-        "seconds_to_destroy": 0.1
+        "seconds_to_destroy": 0.1,
+        "preferred_tool": "shovel"
       },
       "kurblanc:material_instances": {
         "*": {
-          "texture": "dry_grass"
+          "texture": "textures/blocks/dry_grass.png",
+          "cell": [
+            16,
+            16
+          ]
         }
       },
       "kurblanc:object": {
@@ -24,32 +29,6 @@
         "sprite_offset": [
           0,
           0
-        ],
-        "rect": [
-          0,
-          0,
-          16,
-          16
-        ],
-        "variant_rects": [
-          [
-            16,
-            0,
-            16,
-            16
-          ],
-          [
-            32,
-            0,
-            16,
-            16
-          ],
-          [
-            48,
-            0,
-            16,
-            16
-          ]
         ],
         "random_flip": true,
         "shadow": "sprite",

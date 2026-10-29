@@ -4,7 +4,7 @@
   "maxStack": 512,
   "block": "kurblanc:shallow_water",
   "icon": {
-    "block": "kurblanc:shallow_water"
+    "texture": "textures/items/shallow_water.png"
   },
   "categories": [
     "blocks",

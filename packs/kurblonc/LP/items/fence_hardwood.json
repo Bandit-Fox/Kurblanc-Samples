@@ -4,7 +4,7 @@
   "maxStack": 512,
   "block": "kurblanc:fence_hardwood",
   "icon": {
-    "block": "kurblanc:fence_hardwood"
+    "texture": "textures/items/fence_hardwood.png"
   },
   "categories": [
     "blocks"

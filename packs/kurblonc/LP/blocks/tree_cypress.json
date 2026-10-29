@@ -6,7 +6,8 @@
     },
     "components": {
       "kurblanc:destructible_by_mining": {
-        "seconds_to_destroy": 3.5
+        "seconds_to_destroy": 4,
+        "preferred_tool": "axe"
       },
       "kurblanc:opacity": 10,
       "kurblanc:layer": "object",
@@ -15,7 +16,11 @@
       "kurblanc:placeable": true,
       "kurblanc:material_instances": {
         "*": {
-          "texture": "bald_cypress_tree"
+          "texture": "textures/blocks/bald_cypress_tree.png",
+          "cell": [
+            30,
+            42
+          ]
         }
       },
       "kurblanc:object": {
@@ -33,40 +38,30 @@
         ],
         "depth": -2,
         "random_flip": true,
-        "rect": [
-          0,
-          0,
-          30,
-          42
-        ],
-        "biome_tint": true,
-        "biome_tint_scale": 1,
-        "tint": "#66a94a",
+        "tint": "#63734e",
         "foliage": {
           "canopyEnd": 0.72,
           "leafTextures": [
-            "leaf_0",
-            "leaf_1",
-            "leaf_2",
-            "leaf_3",
-            "leaf_4",
-            "leaf_5",
-            "leaf_6",
-            "leaf_7",
-            "leaf_8",
-            "leaf_9",
-            "leaf_10",
-            "leaf_11"
+            "textures/particle/leaf_0.png",
+            "textures/particle/leaf_1.png",
+            "textures/particle/leaf_2.png",
+            "textures/particle/leaf_3.png",
+            "textures/particle/leaf_4.png",
+            "textures/particle/leaf_5.png",
+            "textures/particle/leaf_6.png",
+            "textures/particle/leaf_7.png",
+            "textures/particle/leaf_8.png",
+            "textures/particle/leaf_9.png",
+            "textures/particle/leaf_10.png",
+            "textures/particle/leaf_11.png"
           ]
         }
       },
-      "kurblanc:drops": [
-        {
-          "item": "kurblanc:wood",
-          "count": 8
-        }
-      ],
-      "kurblanc:sound": "wood"
+      "kurblanc:sound": "wood",
+      "kurblanc:loot": {
+        "table": "kurblanc:tree_cypress"
+      },
+      "kurblanc:biome_tint": true
     }
   }
 }

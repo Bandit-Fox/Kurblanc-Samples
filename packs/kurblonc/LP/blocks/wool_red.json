@@ -1,0 +1,29 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:wool_red"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#b02e26",
+      "kurblanc:label": "Red wool",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/wool_red.png"
+        }
+      },
+      "kurblanc:terrain": {
+        "mode": "fill",
+        "face": "kurblanc:wall_wool_red"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:wool_red",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "kurblanc:stone_shovel",
+  "ingredients": [
+    {
+      "item": "kurblanc:stone",
+      "count": 1
+    },
+    {
+      "item": "kurblanc:sticks",
+      "count": 2
+    }
+  ],
+  "output": {
+    "item": "kurblanc:stone_shovel",
+    "count": 1
+  }
+}

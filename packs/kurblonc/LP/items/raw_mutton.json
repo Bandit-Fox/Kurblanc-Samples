@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:raw_mutton",
+  "label": "Raw mutton",
+  "maxStack": 512,
+  "icon": {
+    "texture": "textures/items/raw_mutton.png"
+  },
+  "categories": [
+    "items",
+    "natural"
+  ]
+}

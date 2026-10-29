@@ -10,7 +10,7 @@
       "kurblanc:color": "#6b4a33",
       "kurblanc:material_instances": {
         "*": {
-          "texture": "dirt"
+          "texture": "textures/blocks/dirt_base.png"
         }
       },
       "kurblanc:drops": [
@@ -19,7 +19,12 @@
           "count": 1
         }
       ],
-      "kurblanc:sound": "dirt"
+      "kurblanc:sound": "dirt",
+      "kurblanc:terrain": {
+        "mode": "fill",
+        "face": "kurblanc:wall_dirt"
+      },
+      "kurblanc:label": "Dirt"
     }
   }
 }

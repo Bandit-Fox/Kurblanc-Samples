@@ -1,0 +1,29 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:wool_black"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#151519",
+      "kurblanc:label": "Black wool",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/wool_black.png"
+        }
+      },
+      "kurblanc:terrain": {
+        "mode": "fill",
+        "face": "kurblanc:wall_wool_black"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:wool_black",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

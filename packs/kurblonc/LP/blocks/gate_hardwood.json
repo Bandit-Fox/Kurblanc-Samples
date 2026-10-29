@@ -13,11 +13,10 @@
       "kurblanc:layer": "object",
       "kurblanc:color": "#a9824f",
       "kurblanc:label": "Hardwood gate",
-      "kurblanc:toggle": "kurblanc:gate_hardwood_open",
       "kurblanc:placeable": true,
       "kurblanc:material_instances": {
         "*": {
-          "texture": "hardwood_gate"
+          "texture": "textures/blocks/hardwood_gate.png"
         }
       },
       "kurblanc:object": {
@@ -59,7 +58,43 @@
           "count": 1
         }
       ],
-      "kurblanc:sound": "door"
+      "kurblanc:sound": "door",
+      "kurblanc:door": {
+        "closed": "textures/blocks/hardwood_gate.png",
+        "open": {
+          "texture": "textures/blocks/hardwood_gate.png",
+          "rect": [
+            0,
+            64,
+            20,
+            26
+          ],
+          "sprite_offset": [
+            -10,
+            -16
+          ],
+          "vertical_rect": [
+            0,
+            91,
+            20,
+            26
+          ],
+          "vertical_offset": [
+            -10,
+            -26
+          ],
+          "vertical_masks": [
+            5,
+            13,
+            7,
+            4,
+            1
+          ],
+          "height": 18,
+          "depth": 0,
+          "vertical_depth": 10
+        }
+      }
     }
   }
 }

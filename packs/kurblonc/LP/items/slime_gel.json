@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:slime_gel",
+  "label": "Slime gel",
+  "maxStack": 512,
+  "icon": {
+    "texture": "textures/items/slime_gel.png"
+  },
+  "categories": [
+    "items",
+    "natural"
+  ]
+}

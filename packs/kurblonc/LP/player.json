@@ -1,0 +1,47 @@
+{
+  "kurblanc:player": {
+    "pixelScale": 2,
+    "strips": {
+      "idle": {
+        "texture": "textures/player/idle.png",
+        "cell": [
+          20,
+          32
+        ],
+        "frames": 1,
+        "fps": 1,
+        "loop": true
+      },
+      "walk": {
+        "texture": "textures/player/walk.png",
+        "cell": [
+          20,
+          32
+        ],
+        "frames": 4,
+        "fps": 9.6,
+        "loop": true
+      },
+      "jump": {
+        "texture": "textures/player/jump.png",
+        "cell": [
+          20,
+          32
+        ],
+        "frames": 1,
+        "fps": 1,
+        "loop": false
+      },
+      "mine": {
+        "texture": "textures/player/mine.png",
+        "cell": [
+          20,
+          32
+        ],
+        "frames": 2,
+        "fps": 8.4,
+        "loop": true
+      }
+    }
+  }
+}

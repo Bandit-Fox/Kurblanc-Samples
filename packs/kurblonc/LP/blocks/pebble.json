@@ -1,0 +1,50 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:pebble"
+    },
+    "components": {
+      "kurblanc:layer": "object",
+      "kurblanc:label": "Pebble",
+      "kurblanc:color": "#8b8d99",
+      "kurblanc:placeable": true,
+      "kurblanc:collision_box": false,
+      "kurblanc:opacity": 0,
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 0.25,
+        "preferred_tool": "pickaxe"
+      },
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/pebble.png",
+          "cell": [
+            12,
+            10
+          ]
+        }
+      },
+      "kurblanc:object": {
+        "height": 8,
+        "sprite_offset": [
+          2,
+          4
+        ],
+        "variant_weights": [
+          5,
+          4,
+          4,
+          3,
+          4,
+          2
+        ],
+        "random_flip": true,
+        "shadow": "sprite"
+      },
+      "kurblanc:loot": {
+        "table": "kurblanc:pebble"
+      },
+      "kurblanc:sound": "stone"
+    }
+  }
+}

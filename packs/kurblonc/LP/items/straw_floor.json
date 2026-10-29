@@ -4,7 +4,7 @@
   "maxStack": 512,
   "block": "kurblanc:straw_floor",
   "icon": {
-    "block": "kurblanc:straw_floor"
+    "texture": "textures/items/straw_floor.png"
   },
   "categories": [
     "blocks"

@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:sticks",
+  "ingredients": [
+    {
+      "item": "kurblanc:log",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "kurblanc:sticks",
+    "count": 4
+  }
+}

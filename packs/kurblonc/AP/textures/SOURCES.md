@@ -44,3 +44,7 @@ produced the strip.
 | `textures/player/explorer_bob_compact.png frames [1, 2, 3, 4]` | `textures/player/walk.png` |
 | `textures/player/explorer_bob_compact.png frames [5]` | `textures/player/jump.png` |
 | `textures/player/explorer_bob_compact.png frames [0, 6]` | `textures/player/mine.png` |
+
+## Colored wool (2026-10-28)
+
+`blocks/wall_wool*_top.png`, `blocks/wall_wool*_front.png`, and `items/wool*.png`: project-authored native pixel wool patterns and cube icons. Wall sheets reuse the existing wood wall sheet alpha layout for compatibility with the connected-wall atlas; color and surface pattern are authored for wool.

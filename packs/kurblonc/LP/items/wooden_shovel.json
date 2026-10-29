@@ -1,0 +1,19 @@
+{
+  "id": "kurblanc:wooden_shovel",
+  "label": "Wooden shovel",
+  "maxStack": 1,
+  "icon": {
+    "texture": "textures/items/wooden_shovel.png"
+  },
+  "categories": [
+    "items",
+    "tools"
+  ],
+  "tool": {
+    "kind": "shovel",
+    "tier": 1,
+    "speed": 2,
+    "maxDurability": 60,
+    "attackDamage": 1
+  }
+}

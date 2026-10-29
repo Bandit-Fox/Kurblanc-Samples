@@ -1,0 +1,17 @@
+{
+  "id": "kurblanc:wooden_sword",
+  "ingredients": [
+    {
+      "item": "kurblanc:log",
+      "count": 2
+    },
+    {
+      "item": "kurblanc:sticks",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "kurblanc:wooden_sword",
+    "count": 1
+  }
+}

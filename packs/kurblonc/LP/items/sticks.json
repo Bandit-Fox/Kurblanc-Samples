@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:sticks",
+  "label": "Sticks",
+  "maxStack": 512,
+  "icon": {
+    "texture": "textures/items/stick.png"
+  },
+  "categories": [
+    "items",
+    "natural"
+  ]
+}

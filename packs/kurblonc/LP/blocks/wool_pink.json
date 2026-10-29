@@ -1,0 +1,29 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:wool_pink"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#f38baa",
+      "kurblanc:label": "Pink wool",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/wool_pink.png"
+        }
+      },
+      "kurblanc:terrain": {
+        "mode": "fill",
+        "face": "kurblanc:wall_wool_pink"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:wool_pink",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

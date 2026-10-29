@@ -1,0 +1,19 @@
+{
+  "id": "kurblanc:wooden_pickaxe",
+  "label": "Wooden pickaxe",
+  "maxStack": 1,
+  "icon": {
+    "texture": "textures/items/wooden_pickaxe.png"
+  },
+  "categories": [
+    "items",
+    "tools"
+  ],
+  "tool": {
+    "kind": "pickaxe",
+    "tier": 1,
+    "speed": 2,
+    "maxDurability": 60,
+    "attackDamage": 1
+  }
+}

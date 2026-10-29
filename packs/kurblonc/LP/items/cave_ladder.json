@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:cave_ladder",
+  "label": "Cave Ladder",
+  "maxStack": 512,
+  "block": "kurblanc:cave_ladder",
+  "icon": {
+    "block": "kurblanc:cave_ladder"
+  },
+  "categories": [
+    "blocks",
+    "decoration"
+  ]
+}

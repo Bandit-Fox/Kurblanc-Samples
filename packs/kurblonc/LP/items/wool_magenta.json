@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:wool_magenta",
+  "label": "Magenta wool",
+  "maxStack": 512,
+  "block": "kurblanc:wool_magenta",
+  "icon": {
+    "texture": "textures/items/wool_magenta.png"
+  },
+  "categories": [
+    "items",
+    "natural"
+  ]
+}

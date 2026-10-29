@@ -15,10 +15,10 @@
       "kurblanc:label": "Hardwood window",
       "kurblanc:material_instances": {
         "*": {
-          "texture": "hardwood_window_top"
+          "texture": "textures/blocks/hardwood_window_top.png"
         },
         "front": {
-          "texture": "hardwood_window_front"
+          "texture": "textures/blocks/hardwood_window_front.png"
         }
       },
       "kurblanc:wall": {

@@ -6,14 +6,15 @@
     },
     "components": {
       "kurblanc:destructible_by_mining": {
-        "seconds_to_destroy": 0.8
+        "seconds_to_destroy": 0.8,
+        "preferred_tool": "axe"
       },
       "kurblanc:layer": "floor",
       "kurblanc:color": "#a9824f",
-      "kurblanc:label": "Wood Floor",
+      "kurblanc:label": "Wood floor",
       "kurblanc:material_instances": {
         "*": {
-          "texture": "wood_floor"
+          "texture": "textures/blocks/wood_floor.png"
         }
       },
       "kurblanc:surface": {

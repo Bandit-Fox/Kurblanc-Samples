@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:wool_cyan",
+  "label": "Cyan wool",
+  "maxStack": 512,
+  "block": "kurblanc:wool_cyan",
+  "icon": {
+    "texture": "textures/items/wool_cyan.png"
+  },
+  "categories": [
+    "items",
+    "natural"
+  ]
+}

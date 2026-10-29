@@ -4,7 +4,7 @@
   "maxStack": 512,
   "block": "kurblanc:wall_fault_circuit",
   "icon": {
-    "block": "kurblanc:wall_fault_circuit"
+    "texture": "textures/items/wall_fault_circuit.png"
   },
   "categories": [
     "blocks"

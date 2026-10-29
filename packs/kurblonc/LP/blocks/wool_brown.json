@@ -1,0 +1,29 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:wool_brown"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#835432",
+      "kurblanc:label": "Brown wool",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/wool_brown.png"
+        }
+      },
+      "kurblanc:terrain": {
+        "mode": "fill",
+        "face": "kurblanc:wall_wool_brown"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:wool_brown",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

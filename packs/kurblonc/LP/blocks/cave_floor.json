@@ -10,13 +10,8 @@
       "kurblanc:color": "#3b3a35",
       "kurblanc:material_instances": {
         "*": {
-          "texture": "stone"
+          "texture": "textures/blocks/stone.png"
         }
-      },
-      "kurblanc:ground": {
-        "autotile": true,
-        "random_rotate": true,
-        "substrate": "kurblanc:dirt"
       },
       "kurblanc:drops": [
         {
@@ -24,7 +19,12 @@
           "count": 1
         }
       ],
-      "kurblanc:sound": "stone"
+      "kurblanc:sound": "stone",
+      "kurblanc:ground": {
+        "substrate": "kurblanc:natural_stone",
+        "random_rotate": true
+      },
+      "kurblanc:label": "Cave floor"
     }
   }
 }

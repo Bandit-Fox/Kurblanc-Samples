@@ -6,7 +6,8 @@
     },
     "components": {
       "kurblanc:destructible_by_mining": {
-        "seconds_to_destroy": 0.2
+        "seconds_to_destroy": 0.2,
+        "preferred_tool": "axe"
       },
       "kurblanc:opacity": 0,
       "kurblanc:light_emission": 8,
@@ -17,7 +18,7 @@
       "kurblanc:label": "Torch",
       "kurblanc:material_instances": {
         "*": {
-          "texture": "torch"
+          "texture": "textures/blocks/torch.png"
         }
       },
       "kurblanc:object": {

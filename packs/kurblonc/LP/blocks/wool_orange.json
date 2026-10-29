@@ -1,0 +1,29 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:wool_orange"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#f9801d",
+      "kurblanc:label": "Orange wool",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/wool_orange.png"
+        }
+      },
+      "kurblanc:terrain": {
+        "mode": "fill",
+        "face": "kurblanc:wall_wool_orange"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:wool_orange",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

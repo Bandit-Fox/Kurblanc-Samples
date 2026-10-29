@@ -1,0 +1,17 @@
+{
+  "id": "kurblanc:stone_pickaxe",
+  "ingredients": [
+    {
+      "item": "kurblanc:stone",
+      "count": 3
+    },
+    {
+      "item": "kurblanc:sticks",
+      "count": 2
+    }
+  ],
+  "output": {
+    "item": "kurblanc:stone_pickaxe",
+    "count": 1
+  }
+}

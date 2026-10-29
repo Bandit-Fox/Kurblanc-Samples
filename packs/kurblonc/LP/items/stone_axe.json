@@ -1,0 +1,19 @@
+{
+  "id": "kurblanc:stone_axe",
+  "label": "Stone axe",
+  "maxStack": 1,
+  "icon": {
+    "texture": "textures/items/stone_axe.png"
+  },
+  "categories": [
+    "items",
+    "tools"
+  ],
+  "tool": {
+    "kind": "axe",
+    "tier": 2,
+    "speed": 4,
+    "maxDurability": 132,
+    "attackDamage": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:wool_light_gray"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#bcbfc2",
+      "kurblanc:label": "Light Gray wool",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/wool_light_gray.png"
+        }
+      },
+      "kurblanc:terrain": {
+        "mode": "fill",
+        "face": "kurblanc:wall_wool_light_gray"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:wool_light_gray",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

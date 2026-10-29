@@ -1,0 +1,19 @@
+{
+  "id": "kurblanc:stone_sword",
+  "label": "Stone sword",
+  "maxStack": 1,
+  "icon": {
+    "texture": "textures/items/stone_sword.png"
+  },
+  "categories": [
+    "items",
+    "tools"
+  ],
+  "tool": {
+    "kind": "sword",
+    "tier": 2,
+    "speed": 4,
+    "maxDurability": 132,
+    "attackDamage": 4
+  }
+}

@@ -12,11 +12,16 @@
       "kurblanc:collision_box": false,
       "kurblanc:opacity": 0,
       "kurblanc:destructible_by_mining": {
-        "seconds_to_destroy": 0.1
+        "seconds_to_destroy": 0.1,
+        "preferred_tool": "shovel"
       },
       "kurblanc:material_instances": {
         "*": {
-          "texture": "grass_tuft"
+          "texture": "textures/blocks/grass_tuft.png",
+          "cell": [
+            16,
+            16
+          ]
         }
       },
       "kurblanc:object": {
@@ -25,29 +30,7 @@
           0,
           0
         ],
-        "rect": [
-          0,
-          0,
-          16,
-          16
-        ],
-        "variant_rects": [
-          [
-            16,
-            0,
-            16,
-            16
-          ],
-          [
-            32,
-            0,
-            16,
-            16
-          ]
-        ],
-        "biome_tint": true,
-        "biome_tint_scale": 0.85,
-        "tint": "#66a94a",
+        "tint": "#657d50",
         "variant_weights": [
           8,
           8,
@@ -57,7 +40,15 @@
         "shadow": "sprite",
         "sway": true
       },
-      "kurblanc:sound": "grass"
+      "kurblanc:sound": "grass",
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:wheat_seeds",
+          "count": 1,
+          "chance": 0.125
+        }
+      ],
+      "kurblanc:biome_tint": true
     }
   }
 }

@@ -1,0 +1,29 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:wool_magenta"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#c74ebd",
+      "kurblanc:label": "Magenta wool",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/wool_magenta.png"
+        }
+      },
+      "kurblanc:terrain": {
+        "mode": "fill",
+        "face": "kurblanc:wall_wool_magenta"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:wool_magenta",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

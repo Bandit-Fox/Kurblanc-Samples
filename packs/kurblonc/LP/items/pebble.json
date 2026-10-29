@@ -1,0 +1,14 @@
+{
+  "id": "kurblanc:pebble",
+  "label": "Pebble",
+  "maxStack": 512,
+  "block": "kurblanc:pebble",
+  "icon": {
+    "block": "kurblanc:pebble"
+  },
+  "categories": [
+    "blocks",
+    "decoration",
+    "natural"
+  ]
+}

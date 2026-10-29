@@ -1,0 +1,19 @@
+{
+  "id": "kurblanc:stone_pickaxe",
+  "label": "Stone pickaxe",
+  "maxStack": 1,
+  "icon": {
+    "texture": "textures/items/stone_pickaxe.png"
+  },
+  "categories": [
+    "items",
+    "tools"
+  ],
+  "tool": {
+    "kind": "pickaxe",
+    "tier": 2,
+    "speed": 4,
+    "maxDurability": 132,
+    "attackDamage": 1
+  }
+}

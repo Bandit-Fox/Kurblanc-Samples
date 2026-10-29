@@ -6,7 +6,8 @@
     },
     "components": {
       "kurblanc:destructible_by_mining": {
-        "seconds_to_destroy": 1.2
+        "seconds_to_destroy": 1.2,
+        "preferred_tool": "pickaxe"
       },
       "kurblanc:collision_box": true,
       "kurblanc:opacity": 1,
@@ -15,10 +16,10 @@
       "kurblanc:label": "Stone fence",
       "kurblanc:material_instances": {
         "*": {
-          "texture": "stone_fence_top"
+          "texture": "textures/blocks/stone_fence_top.png"
         },
         "front": {
-          "texture": "stone_fence_front"
+          "texture": "textures/blocks/stone_fence_front.png"
         }
       },
       "kurblanc:wall": {

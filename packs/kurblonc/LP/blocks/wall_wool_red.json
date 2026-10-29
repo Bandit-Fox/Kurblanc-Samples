@@ -1,0 +1,36 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:wall_wool_red"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 0.6
+      },
+      "kurblanc:collision_box": true,
+      "kurblanc:opacity": 15,
+      "kurblanc:layer": "wall",
+      "kurblanc:color": "#b02e26",
+      "kurblanc:label": "Red wool wall",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/wall_wool_red_top.png"
+        },
+        "front": {
+          "texture": "textures/blocks/wall_wool_red_front.png"
+        }
+      },
+      "kurblanc:wall": {
+        "lift": 18,
+        "group": "wall"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:wool_red",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

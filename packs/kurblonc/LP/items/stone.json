@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:stone",
+  "label": "Stone",
+  "maxStack": 512,
+  "icon": {
+    "texture": "textures/items/stone.png"
+  },
+  "categories": [
+    "items",
+    "natural"
+  ]
+}

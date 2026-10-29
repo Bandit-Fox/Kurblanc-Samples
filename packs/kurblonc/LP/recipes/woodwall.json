@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:woodwall",
+  "ingredients": [
+    {
+      "item": "kurblanc:log",
+      "count": 2
+    }
+  ],
+  "output": {
+    "item": "kurblanc:woodwall",
+    "count": 4
+  }
+}

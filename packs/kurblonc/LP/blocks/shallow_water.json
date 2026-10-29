@@ -12,7 +12,7 @@
       "kurblanc:label": "Water",
       "kurblanc:material_instances": {
         "*": {
-          "texture": "water"
+          "texture": "textures/blocks/water.png"
         }
       },
       "kurblanc:ground": {

@@ -1,0 +1,22 @@
+{
+  "kurblanc:format": 1,
+  "id": "kurblanc:pebble",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "kurblanc:stone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -6,14 +6,15 @@
     },
     "components": {
       "kurblanc:destructible_by_mining": {
-        "seconds_to_destroy": 0.8
+        "seconds_to_destroy": 0.8,
+        "preferred_tool": "shovel"
       },
       "kurblanc:layer": "floor",
       "kurblanc:color": "#a9824f",
-      "kurblanc:label": "Straw Floor",
+      "kurblanc:label": "Straw floor",
       "kurblanc:material_instances": {
         "*": {
-          "texture": "straw_floor"
+          "texture": "textures/blocks/straw_floor.png"
         }
       },
       "kurblanc:surface": {

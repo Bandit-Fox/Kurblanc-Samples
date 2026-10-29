@@ -1,0 +1,29 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:wool_green"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#5e7c16",
+      "kurblanc:label": "Green wool",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/wool_green.png"
+        }
+      },
+      "kurblanc:terrain": {
+        "mode": "fill",
+        "face": "kurblanc:wall_wool_green"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:wool_green",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:sandstone_face"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "wall",
+      "kurblanc:color": "#c6a66a",
+      "kurblanc:label": "Sandstone wall",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/sandstone_top.png"
+        },
+        "front": {
+          "texture": "textures/blocks/sandstone_front.png"
+        }
+      },
+      "kurblanc:wall": {
+        "lift": 18,
+        "group": "wall"
+      }
+    }
+  }
+}

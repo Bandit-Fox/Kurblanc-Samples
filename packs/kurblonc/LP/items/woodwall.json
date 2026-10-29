@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:woodwall",
+  "label": "Wood Wall",
+  "maxStack": 512,
+  "block": "kurblanc:wall_wood",
+  "icon": {
+    "texture": "textures/items/wood.png"
+  },
+  "categories": [
+    "blocks"
+  ]
+}

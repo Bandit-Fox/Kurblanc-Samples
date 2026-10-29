@@ -11,7 +11,7 @@
       "kurblanc:label": "Stone path",
       "kurblanc:material_instances": {
         "*": {
-          "texture": "stonepath"
+          "texture": "textures/blocks/stonepath.png"
         }
       },
       "kurblanc:surface": {

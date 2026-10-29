@@ -4,7 +4,7 @@
   "maxStack": 512,
   "block": "kurblanc:grass",
   "icon": {
-    "block": "kurblanc:grass"
+    "texture": "textures/items/grass.png"
   },
   "categories": [
     "blocks",

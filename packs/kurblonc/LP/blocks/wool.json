@@ -1,0 +1,29 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:wool"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#e9ecec",
+      "kurblanc:label": "White wool",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/wool.png"
+        }
+      },
+      "kurblanc:terrain": {
+        "mode": "fill",
+        "face": "kurblanc:wall_wool"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:wool",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

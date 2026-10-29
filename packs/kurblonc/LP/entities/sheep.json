@@ -38,27 +38,83 @@
         "palette": [
           {
             "tint": "#e9ecec",
-            "weight": 81.836
+            "weight": 71.836,
+            "loot_table": "kurblanc:sheep"
           },
           {
             "tint": "#bcbfc2",
-            "weight": 5
+            "weight": 5,
+            "loot_table": "kurblanc:sheep_light_gray"
           },
           {
             "tint": "#3e4447",
-            "weight": 5
+            "weight": 5,
+            "loot_table": "kurblanc:sheep_gray"
           },
           {
             "tint": "#151519",
-            "weight": 5
+            "weight": 5,
+            "loot_table": "kurblanc:sheep_black"
           },
           {
             "tint": "#835432",
-            "weight": 3
+            "weight": 3,
+            "loot_table": "kurblanc:sheep_brown"
           },
           {
             "tint": "#f38baa",
-            "weight": 0.164
+            "weight": 0.164,
+            "loot_table": "kurblanc:sheep_pink"
+          },
+          {
+            "tint": "#b02e26",
+            "weight": 1,
+            "loot_table": "kurblanc:sheep_red"
+          },
+          {
+            "tint": "#f9801d",
+            "weight": 1,
+            "loot_table": "kurblanc:sheep_orange"
+          },
+          {
+            "tint": "#fed83d",
+            "weight": 1,
+            "loot_table": "kurblanc:sheep_yellow"
+          },
+          {
+            "tint": "#80c71f",
+            "weight": 1,
+            "loot_table": "kurblanc:sheep_lime"
+          },
+          {
+            "tint": "#5e7c16",
+            "weight": 1,
+            "loot_table": "kurblanc:sheep_green"
+          },
+          {
+            "tint": "#169c9c",
+            "weight": 1,
+            "loot_table": "kurblanc:sheep_cyan"
+          },
+          {
+            "tint": "#3ab3da",
+            "weight": 1,
+            "loot_table": "kurblanc:sheep_light_blue"
+          },
+          {
+            "tint": "#3c44aa",
+            "weight": 1,
+            "loot_table": "kurblanc:sheep_blue"
+          },
+          {
+            "tint": "#8932b8",
+            "weight": 1,
+            "loot_table": "kurblanc:sheep_purple"
+          },
+          {
+            "tint": "#c74ebd",
+            "weight": 1,
+            "loot_table": "kurblanc:sheep_magenta"
           }
         ]
       },
@@ -77,14 +133,44 @@
         "min_distance": 22,
         "max_distance": 64,
         "floors": [
-          "kurblanc:grass",
-          "kurblanc:grass_meadow",
-          "kurblanc:grass_savanna",
-          "kurblanc:grass_deep",
-          "kurblanc:swamp_grass"
+          "kurblanc:grass"
         ]
       },
-      "kurblanc:sound": "sheep"
+      "kurblanc:sound": "sheep",
+      "kurblanc:loot": {
+        "table": "kurblanc:sheep"
+      },
+      "kurblanc:render": {
+        "pixelScale": 2,
+        "feet": 4,
+        "alpha": 1,
+        "variantMode": "mask",
+        "sourceFacing": "left",
+        "strips": {
+          "idle": {
+            "texture": "textures/entities/sheep/idle.png",
+            "cell": [
+              32,
+              32
+            ],
+            "frames": 4,
+            "fps": 7,
+            "loop": true,
+            "mask": "textures/entities/sheep/idle.mask.png"
+          },
+          "walk": {
+            "texture": "textures/entities/sheep/walk.png",
+            "cell": [
+              32,
+              32
+            ],
+            "frames": 6,
+            "fps": 12,
+            "loop": true,
+            "mask": "textures/entities/sheep/walk.mask.png"
+          }
+        }
+      }
     }
   }
 }

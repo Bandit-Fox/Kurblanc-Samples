@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:sandstone",
+  "label": "Sandstone block",
+  "maxStack": 512,
+  "block": "kurblanc:sandstone",
+  "icon": {
+    "texture": "textures/items/sandstone.png"
+  },
+  "categories": [
+    "blocks",
+    "natural"
+  ]
+}

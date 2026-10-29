@@ -6,7 +6,8 @@
     },
     "components": {
       "kurblanc:destructible_by_mining": {
-        "seconds_to_destroy": 3.5
+        "seconds_to_destroy": 4,
+        "preferred_tool": "axe"
       },
       "kurblanc:opacity": 10,
       "kurblanc:layer": "object",
@@ -15,7 +16,11 @@
       "kurblanc:placeable": true,
       "kurblanc:material_instances": {
         "*": {
-          "texture": "oak_tree"
+          "texture": "textures/blocks/oak_tree.png",
+          "cell": [
+            44,
+            57
+          ]
         }
       },
       "kurblanc:object": {
@@ -33,54 +38,30 @@
         ],
         "depth": -3,
         "random_flip": true,
-        "rect": [
-          0,
-          0,
-          44,
-          57
-        ],
-        "variant_rects": [
-          [
-            44,
-            0,
-            44,
-            57
-          ],
-          [
-            88,
-            0,
-            44,
-            57
-          ]
-        ],
-        "biome_tint": true,
-        "biome_tint_scale": 1,
-        "tint": "#66a94a",
+        "tint": "#657d50",
         "foliage": {
           "canopyEnd": 0.68,
           "leafTextures": [
-            "leaf_0",
-            "leaf_1",
-            "leaf_2",
-            "leaf_3",
-            "leaf_4",
-            "leaf_5",
-            "leaf_6",
-            "leaf_7",
-            "leaf_8",
-            "leaf_9",
-            "leaf_10",
-            "leaf_11"
+            "textures/particle/leaf_0.png",
+            "textures/particle/leaf_1.png",
+            "textures/particle/leaf_2.png",
+            "textures/particle/leaf_3.png",
+            "textures/particle/leaf_4.png",
+            "textures/particle/leaf_5.png",
+            "textures/particle/leaf_6.png",
+            "textures/particle/leaf_7.png",
+            "textures/particle/leaf_8.png",
+            "textures/particle/leaf_9.png",
+            "textures/particle/leaf_10.png",
+            "textures/particle/leaf_11.png"
           ]
         }
       },
-      "kurblanc:drops": [
-        {
-          "item": "kurblanc:wood",
-          "count": 8
-        }
-      ],
-      "kurblanc:sound": "wood"
+      "kurblanc:sound": "wood",
+      "kurblanc:loot": {
+        "table": "kurblanc:tree_oak"
+      },
+      "kurblanc:biome_tint": true
     }
   }
 }

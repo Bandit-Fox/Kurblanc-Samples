@@ -6,7 +6,8 @@
     },
     "components": {
       "kurblanc:destructible_by_mining": {
-        "seconds_to_destroy": 1.2
+        "seconds_to_destroy": 1.2,
+        "preferred_tool": "pickaxe"
       },
       "kurblanc:collision_box": true,
       "kurblanc:opacity": 15,
@@ -15,10 +16,10 @@
       "kurblanc:label": "Raw crystal wall",
       "kurblanc:material_instances": {
         "*": {
-          "texture": "raw_crystal_wall_top"
+          "texture": "textures/blocks/raw_crystal_wall_top.png"
         },
         "front": {
-          "texture": "raw_crystal_wall_front"
+          "texture": "textures/blocks/raw_crystal_wall_front.png"
         }
       },
       "kurblanc:wall": {

@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:wheat_seeds",
+  "label": "Wheat seeds",
+  "maxStack": 512,
+  "icon": {
+    "texture": "textures/items/wheat_seeds.png"
+  },
+  "categories": [
+    "items",
+    "natural"
+  ]
+}

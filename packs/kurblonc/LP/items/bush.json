@@ -1,0 +1,14 @@
+{
+  "id": "kurblanc:bush",
+  "label": "Bush",
+  "maxStack": 512,
+  "block": "kurblanc:bush",
+  "icon": {
+    "block": "kurblanc:bush"
+  },
+  "categories": [
+    "blocks",
+    "decoration",
+    "natural"
+  ]
+}

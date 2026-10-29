@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:log",
+  "label": "Log",
+  "maxStack": 512,
+  "icon": {
+    "texture": "textures/items/log.png"
+  },
+  "categories": [
+    "items",
+    "natural"
+  ]
+}

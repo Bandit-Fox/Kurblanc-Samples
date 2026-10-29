@@ -1,0 +1,19 @@
+{
+  "id": "kurblanc:wooden_axe",
+  "label": "Wooden axe",
+  "maxStack": 1,
+  "icon": {
+    "texture": "textures/items/wooden_axe.png"
+  },
+  "categories": [
+    "items",
+    "tools"
+  ],
+  "tool": {
+    "kind": "axe",
+    "tier": 1,
+    "speed": 2,
+    "maxDurability": 60,
+    "attackDamage": 1
+  }
+}

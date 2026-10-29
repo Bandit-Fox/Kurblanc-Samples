@@ -1,0 +1,17 @@
+{
+  "id": "kurblanc:cave_ladder",
+  "ingredients": [
+    {
+      "item": "kurblanc:log",
+      "count": 2
+    },
+    {
+      "item": "kurblanc:sticks",
+      "count": 3
+    }
+  ],
+  "output": {
+    "item": "kurblanc:cave_ladder",
+    "count": 2
+  }
+}

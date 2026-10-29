@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:feather",
+  "label": "Feather",
+  "maxStack": 512,
+  "icon": {
+    "texture": "textures/items/feather.png"
+  },
+  "categories": [
+    "items",
+    "natural"
+  ]
+}

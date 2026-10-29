@@ -4,7 +4,7 @@
   "maxStack": 512,
   "block": "kurblanc:wall_raw_crystal",
   "icon": {
-    "block": "kurblanc:wall_raw_crystal"
+    "texture": "textures/items/wall_raw_crystal.png"
   },
   "categories": [
     "blocks"

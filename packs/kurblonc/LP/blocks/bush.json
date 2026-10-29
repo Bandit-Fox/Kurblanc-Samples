@@ -1,0 +1,47 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:bush"
+    },
+    "components": {
+      "kurblanc:layer": "object",
+      "kurblanc:label": "Bush",
+      "kurblanc:color": "#4f7f3a",
+      "kurblanc:placeable": true,
+      "kurblanc:collision_box": false,
+      "kurblanc:opacity": 0,
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 0.35,
+        "preferred_tool": "axe"
+      },
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/bush.png",
+          "cell": [
+            54,
+            29
+          ]
+        }
+      },
+      "kurblanc:object": {
+        "height": 48,
+        "sprite_offset": [
+          -19,
+          -15
+        ],
+        "variant_weights": [
+          6,
+          3,
+          1
+        ],
+        "random_flip": true,
+        "tint": "#657d50",
+        "shadow": "sprite",
+        "sway": true
+      },
+      "kurblanc:sound": "grass",
+      "kurblanc:biome_tint": true
+    }
+  }
+}

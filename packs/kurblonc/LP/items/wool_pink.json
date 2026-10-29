@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:wool_pink",
+  "label": "Pink wool",
+  "maxStack": 512,
+  "block": "kurblanc:wool_pink",
+  "icon": {
+    "texture": "textures/items/wool_pink.png"
+  },
+  "categories": [
+    "items",
+    "natural"
+  ]
+}

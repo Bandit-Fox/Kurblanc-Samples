@@ -2,7 +2,7 @@
   "id": "kurblanc:fence_wood",
   "ingredients": [
     {
-      "item": "kurblanc:wood",
+      "item": "kurblanc:log",
       "count": 2
     }
   ],

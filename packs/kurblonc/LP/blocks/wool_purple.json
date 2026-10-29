@@ -1,0 +1,29 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:wool_purple"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#8932b8",
+      "kurblanc:label": "Purple wool",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/wool_purple.png"
+        }
+      },
+      "kurblanc:terrain": {
+        "mode": "fill",
+        "face": "kurblanc:wall_wool_purple"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:wool_purple",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

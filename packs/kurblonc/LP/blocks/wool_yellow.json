@@ -1,0 +1,29 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:wool_yellow"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#fed83d",
+      "kurblanc:label": "Yellow wool",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/wool_yellow.png"
+        }
+      },
+      "kurblanc:terrain": {
+        "mode": "fill",
+        "face": "kurblanc:wall_wool_yellow"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:wool_yellow",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

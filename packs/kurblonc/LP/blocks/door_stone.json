@@ -14,11 +14,10 @@
       "kurblanc:color": "#a9824f",
       "kurblanc:label": "Stone door",
       "kurblanc:pair": "kurblanc:door_stone",
-      "kurblanc:toggle": "kurblanc:door_stone_open",
       "kurblanc:placeable": true,
       "kurblanc:material_instances": {
         "*": {
-          "texture": "stone_door"
+          "texture": "textures/blocks/stone_door.png"
         }
       },
       "kurblanc:object": {
@@ -61,7 +60,65 @@
         }
       ],
       "kurblanc:sound": "door",
-      "kurblanc:billboard": true
+      "kurblanc:billboard": true,
+      "kurblanc:door": {
+        "closed": "textures/blocks/stone_door.png",
+        "open": {
+          "texture": "textures/blocks/stone_door.png",
+          "rect": [
+            0,
+            84,
+            22,
+            34
+          ],
+          "sprite_offset": [
+            -10,
+            -23
+          ],
+          "vertical_rect": [
+            0,
+            120,
+            22,
+            34
+          ],
+          "vertical_offset": [
+            -10,
+            -30
+          ],
+          "vertical_masks": [
+            5,
+            13,
+            7,
+            4,
+            1
+          ],
+          "height": 36,
+          "depth": 1,
+          "vertical_depth": 8,
+          "footprint": {
+            "box": [
+              0,
+              0,
+              8,
+              32
+            ],
+            "verticalBox": [
+              -16,
+              0,
+              36,
+              4
+            ],
+            "group": "wall",
+            "verticalMasks": [
+              5,
+              13,
+              7,
+              4,
+              1
+            ]
+          }
+        }
+      }
     }
   }
 }

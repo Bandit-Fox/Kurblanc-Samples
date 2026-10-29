@@ -1,0 +1,19 @@
+{
+  "id": "kurblanc:wooden_sword",
+  "label": "Wooden sword",
+  "maxStack": 1,
+  "icon": {
+    "texture": "textures/items/wooden_sword.png"
+  },
+  "categories": [
+    "items",
+    "tools"
+  ],
+  "tool": {
+    "kind": "sword",
+    "tier": 1,
+    "speed": 2,
+    "maxDurability": 60,
+    "attackDamage": 3
+  }
+}

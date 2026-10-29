@@ -6,14 +6,15 @@
     },
     "components": {
       "kurblanc:destructible_by_mining": {
-        "seconds_to_destroy": 0.8
+        "seconds_to_destroy": 0.8,
+        "preferred_tool": "pickaxe"
       },
       "kurblanc:layer": "floor",
       "kurblanc:color": "#a9824f",
-      "kurblanc:label": "Stone Floor",
+      "kurblanc:label": "Stone floor",
       "kurblanc:material_instances": {
         "*": {
-          "texture": "stone_floor"
+          "texture": "textures/blocks/stone_floor.png"
         }
       },
       "kurblanc:surface": {
