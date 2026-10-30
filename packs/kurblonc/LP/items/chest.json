@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:chest",
+  "label": "Chest",
+  "maxStack": 512,
+  "block": "kurblanc:chest",
+  "icon": {
+    "texture": "textures/items/chest.png"
+  },
+  "categories": [
+    "blocks",
+    "decoration"
+  ]
+}

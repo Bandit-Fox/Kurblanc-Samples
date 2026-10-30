@@ -10,10 +10,10 @@
       "kurblanc:color": "#77838d",
       "kurblanc:material_instances": {
         "*": {
-          "texture": "textures/blocks/rock_wall_top.png"
+          "texture": "textures/blocks/natural_stone_wall_top.png"
         },
         "front": {
-          "texture": "textures/blocks/natural_stone_front.png"
+          "texture": "textures/blocks/natural_stone_wall_front.png"
         }
       },
       "kurblanc:wall": {

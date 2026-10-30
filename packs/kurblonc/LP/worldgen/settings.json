@@ -23,7 +23,7 @@
   "caves": {
     "level": 1,
     "wall": "kurblanc:cave_rock",
-    "floor": "kurblanc:cave_floor",
+    "floor": "kurblanc:natural_stone",
     "scale": 26,
     "warp": 18,
     "tunnelWidth": 0.09,

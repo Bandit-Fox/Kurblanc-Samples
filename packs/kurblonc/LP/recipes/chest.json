@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:chest",
+  "ingredients": [
+    {
+      "item": "kurblanc:log",
+      "count": 8
+    }
+  ],
+  "output": {
+    "item": "kurblanc:chest",
+    "count": 1
+  }
+}

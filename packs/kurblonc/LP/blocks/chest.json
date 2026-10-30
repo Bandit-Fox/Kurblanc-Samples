@@ -1,0 +1,42 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:chest"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 0.5,
+        "preferred_tool": "axe"
+      },
+      "kurblanc:opacity": 0,
+      "kurblanc:layer": "object",
+      "kurblanc:placeable": true,
+      "kurblanc:color": "#8a5a2b",
+      "kurblanc:label": "Chest",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/chest.png"
+        }
+      },
+      "kurblanc:object": {
+        "height": 0,
+        "sprite_offset": [
+          0,
+          -6
+        ],
+        "shadow": "sprite"
+      },
+      "kurblanc:storage": {
+        "slots": 32
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:chest",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "wood"
+    }
+  }
+}

@@ -16,10 +16,10 @@
       "kurblanc:label": "Cave rock wall",
       "kurblanc:material_instances": {
         "*": {
-          "texture": "textures/blocks/cave_rock_top.png"
+          "texture": "textures/blocks/natural_stone_wall_top.png"
         },
         "front": {
-          "texture": "textures/blocks/cave_rock_front.png"
+          "texture": "textures/blocks/natural_stone_wall_front.png"
         }
       },
       "kurblanc:wall": {

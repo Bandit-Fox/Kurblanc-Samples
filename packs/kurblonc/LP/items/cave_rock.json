@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:cave_rock",
+  "label": "Cave rock wall",
+  "maxStack": 512,
+  "block": "kurblanc:cave_rock",
+  "icon": {
+    "texture": "textures/items/cave_rock.png"
+  },
+  "categories": [
+    "blocks",
+    "natural"
+  ]
+}

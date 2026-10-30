@@ -2,7 +2,7 @@
   "files": [
     {
       "path": "AP/manifest.json",
-      "sha256": "fc1399e41875effdce2a8315bf97950640aef0e7df5bd03938e006e1f04c58f0"
+      "sha256": "ff40aeee3ce5d918aae051c34b141a61185f4853bdf88df0355b94a2e3b6869e"
     },
     {
       "path": "AP/music.json",
@@ -1054,7 +1054,7 @@
     },
     {
       "path": "AP/textures/TERRAIN-SOURCES.md",
-      "sha256": "cfb0ab49ac1b9bad0517113a375067616da6059444d1840aa5c56761361be978"
+      "sha256": "3f77a46b40ec8e31d259c90679f461f3b09c401a1988aa629aa9e2d770830d34"
     },
     {
       "path": "AP/textures/blocks/bald_cypress_tree.png",
@@ -1073,12 +1073,8 @@
       "sha256": "80a7c7cf892a8c067d594b58363da618e6175eb73a4e26bef4b38841e02d58fd"
     },
     {
-      "path": "AP/textures/blocks/cave_rock_front.png",
-      "sha256": "b056927f62c607aa7e036394b606e0c6ffb3e6efb74b327cdc73b7e7e8954554"
-    },
-    {
-      "path": "AP/textures/blocks/cave_rock_top.png",
-      "sha256": "2a8b90eec215d45cf6fdd5d8b3b40bdc7741eec8f7216184bdbc366d3a1af390"
+      "path": "AP/textures/blocks/chest.png",
+      "sha256": "ff114526a16289cfd5b054ff61c4fc6ffeb4cc1d23aabb333b57f9a7330a2d17"
     },
     {
       "path": "AP/textures/blocks/crystal_door.png",
@@ -1173,8 +1169,12 @@
       "sha256": "d0cb7a89d055ba1181cca5e7a93340028e584d564adaec9fb35ba4e6dca09259"
     },
     {
-      "path": "AP/textures/blocks/natural_stone_front.png",
-      "sha256": "fe035ec47f663acaf9359f3d321777ac0b41641b9083462e0589e6deafe119f1"
+      "path": "AP/textures/blocks/natural_stone_wall_front.png",
+      "sha256": "1cd4a4fa859526ace93a57d994f49a562a567080dfa2e03dd453d7cb25665e3a"
+    },
+    {
+      "path": "AP/textures/blocks/natural_stone_wall_top.png",
+      "sha256": "319fea9cf038f8a5f7b9bbd4dad837f77c64b077c1aa3243f1c4f957492b0306"
     },
     {
       "path": "AP/textures/blocks/oak_tree.png",
@@ -1402,7 +1402,7 @@
     },
     {
       "path": "AP/textures/blocks/wood_door.png",
-      "sha256": "f28292054b03334f91da915a6c7a1de5cbc7c39cadcff05a79d477ef5a0b7799"
+      "sha256": "6bdcf667f149ed1d11531778460f07a30dbf6ab3adef634ca416e33c67a5cbe3"
     },
     {
       "path": "AP/textures/blocks/wood_fence_front.png",
@@ -1550,11 +1550,19 @@
     },
     {
       "path": "AP/textures/items/SOURCES.md",
-      "sha256": "93fed0960912f965e3a373bccbdaff58c8cdfe16b69f400050e3460ed7cf28eb"
+      "sha256": "3db39ced6f27da1c6e5dfeb8d4f2ca2530eddb55ac83db991c16f07d07ddc526"
     },
     {
       "path": "AP/textures/items/cave_floor.png",
       "sha256": "7ecef8c7751d80b04538180e225e7e7cc6cfc5db528ab2f9671bc5904a8f038d"
+    },
+    {
+      "path": "AP/textures/items/cave_rock.png",
+      "sha256": "a5418730b9025ea8509be7cffbc3b2c2010a72c156e17e8226c076aa5339ddda"
+    },
+    {
+      "path": "AP/textures/items/chest.png",
+      "sha256": "ff114526a16289cfd5b054ff61c4fc6ffeb4cc1d23aabb333b57f9a7330a2d17"
     },
     {
       "path": "AP/textures/items/dirt.png",
@@ -1890,7 +1898,11 @@
     },
     {
       "path": "LP/blocks/cave_rock.json",
-      "sha256": "0ed1a14e1d9ed179fec61ef27a10dfaade026c30ae6e886f74dbb5a05ab9209c"
+      "sha256": "b90f0c3f6f66634c0c38d5ff91c6dae4109d219301f99212b330c851189f4de1"
+    },
+    {
+      "path": "LP/blocks/chest.json",
+      "sha256": "83dc6efff13b5814e5a13b45fff98b65ff1db470c5708ece5290e915e7309221"
     },
     {
       "path": "LP/blocks/dirt.json",
@@ -1898,19 +1910,19 @@
     },
     {
       "path": "LP/blocks/door_crystal.json",
-      "sha256": "d262a6291e64f9a7fd93a1f53e2614e2241e0c1661ba165a95986ecf45f66e47"
+      "sha256": "c9903d67cdca354d6479f30200e9cd8404e81c43d77295c63caac4571b45a838"
     },
     {
       "path": "LP/blocks/door_hardwood.json",
-      "sha256": "94377bae284ab429dc5dc769110ae1ff6d07595d42d86a8facee916580a1b4a7"
+      "sha256": "c3bab4444616deb3a8796ed8694a317f5b8cf87488d9cdb20f5219844de242c3"
     },
     {
       "path": "LP/blocks/door_stone.json",
-      "sha256": "c10b025993f6ae4bada02b97cb5933568f2444c39b51f3bed637a7e027cf6d73"
+      "sha256": "24b1cf6996092619b8316a3ff2d31902c955ff2610c75c8d1d9df9f0964bbba3"
     },
     {
       "path": "LP/blocks/door_wood.json",
-      "sha256": "f7d25c1f42774ef54c4022b2747f381ba7f0725f37012fa8ceb20185100a0790"
+      "sha256": "32d6e95ca24e7f4978a8dd501adbc22ac4b372b6a7a516629a248cfa1a7832e7"
     },
     {
       "path": "LP/blocks/dry_grass.json",
@@ -1958,7 +1970,7 @@
     },
     {
       "path": "LP/blocks/natural_stone_face.json",
-      "sha256": "368372f9b9cf15e018e6d8d0c3de401e8291be7b4a6655d739ae2ab6748813c3"
+      "sha256": "85e7b07be1267beb7f8f93694dffc85510c2463b070e491f1fb6b216bb0801be"
     },
     {
       "path": "LP/blocks/pebble.json",
@@ -2050,67 +2062,67 @@
     },
     {
       "path": "LP/blocks/wall_wool.json",
-      "sha256": "81646b802ad5bda77bc7da6ee0780f54dafd0b8f1b9048fd0f7b85acaf909a52"
+      "sha256": "daf1291f003ecac4ff1c914bc7d974fe96372b88cff550f728ccddb0356164e5"
     },
     {
       "path": "LP/blocks/wall_wool_black.json",
-      "sha256": "c537265253ae105df143d4e4ae6b7078358c4f4ebf4dc30783293fca62c6ce66"
+      "sha256": "33566b65660732d5145abec1e6e2f6a036fc431dcafa1b30adb913de298995ca"
     },
     {
       "path": "LP/blocks/wall_wool_blue.json",
-      "sha256": "c52512e103232accc2f8e6096cb0d5b6895e0786e94d9bd1b9ef335bf0b284b3"
+      "sha256": "cfb63e3454ec793c2598508cfd51614bda90321c215c036f5c910dd72c1a2028"
     },
     {
       "path": "LP/blocks/wall_wool_brown.json",
-      "sha256": "25aa68b91342247f9583d6b33bd0518974428e6d8321f30dbe5cf1d8ad376013"
+      "sha256": "b479219e451403fd753e2154d1dd44a4b529e825aac90185fb659577149d4d99"
     },
     {
       "path": "LP/blocks/wall_wool_cyan.json",
-      "sha256": "52545a0496bff827da46dadfb3d88753431a4543511d131051109827839e3899"
+      "sha256": "bdcd485da9f6dfe9288555b07798e909f24acfa2488e547f6ceff5a47977d5d5"
     },
     {
       "path": "LP/blocks/wall_wool_gray.json",
-      "sha256": "954356a161f7e884a9af73b81cc07ccd32b546320a0e77ee0ea677e9885d1682"
+      "sha256": "6cf432a94c93d11e3b2fe7e6e5f1d5fd09c65adc98402ae1fae219275b8c299a"
     },
     {
       "path": "LP/blocks/wall_wool_green.json",
-      "sha256": "261d121cd56e9531a1354cde1bbf37b1be309bccee88b7d0932d70cd26402141"
+      "sha256": "7131a9119db8d2301373a955aeab2ded8f1ecb855b854d71e755906e5dea0ea8"
     },
     {
       "path": "LP/blocks/wall_wool_light_blue.json",
-      "sha256": "4e7a11175f2cb941fb156a5c4fde2752ad7f1c159890a8aaffa7393fd46db279"
+      "sha256": "09ba9fd53c2ef09e297de50cfa2c2df8f11d5275f0046d55e07a22cbbd119c21"
     },
     {
       "path": "LP/blocks/wall_wool_light_gray.json",
-      "sha256": "c38ec1d43fdbcb727550aefdc4e64186ba7217e60b336562f1e48dfe5704b76b"
+      "sha256": "ce8f029d0422710db72f0c5333f0f1ca0b852b593a9578c34e4fd4b0e1506324"
     },
     {
       "path": "LP/blocks/wall_wool_lime.json",
-      "sha256": "7622cb80370bae3d4194d6eaae7e212e0e84dd34d96322e634b911f6e32c86e2"
+      "sha256": "0bd5060ac94ed240fdafebd1d9ee6e2deec8d367b2389f2357831ef24e55f4f4"
     },
     {
       "path": "LP/blocks/wall_wool_magenta.json",
-      "sha256": "39dc85c3873fb87a2bed8609c150ae7aacb9ee90a23bf7c584578937c9ffd164"
+      "sha256": "42aea5bb1af03d27ca4ad1edf5c0c08b3845c9e307973fc304ebb326342b1cbf"
     },
     {
       "path": "LP/blocks/wall_wool_orange.json",
-      "sha256": "45bc919f3ef98d41501b67a4bd4dcdd3f0d8caa51c50d8b35177123c1e540ac7"
+      "sha256": "4fd470a0c4db683a35e9798c2a01f80a8903ba418fff70b88e26653888ef92c1"
     },
     {
       "path": "LP/blocks/wall_wool_pink.json",
-      "sha256": "9a45b62b7d6490e9ae2fe978a4b50e45f9603e8e57171a9f8f0a713b21b5452f"
+      "sha256": "4501f289e4f8b249fcfdb5e1c92fce1ab5d3924cd9c6d1e97b34f3baaf9ff8b8"
     },
     {
       "path": "LP/blocks/wall_wool_purple.json",
-      "sha256": "f9985fa8f894eb3147e83ac288403346d03f80e511ae98d7cec7478344ec62bc"
+      "sha256": "bdd5bdc11c27be41ee42f102cc7ffb022edf86dfe2baf33b5caecc0464b35ea9"
     },
     {
       "path": "LP/blocks/wall_wool_red.json",
-      "sha256": "630a1ccf8326b9fd734411ff1c1965900b70eaf9cfde2105437c6228b07a6c50"
+      "sha256": "bebde9996058b53e3220986723d4d4fbaf2f2b25ed8655238e443b65473977da"
     },
     {
       "path": "LP/blocks/wall_wool_yellow.json",
-      "sha256": "d317a6fa0f727e78dcae69070271cb003722142b4aa5398a18d9da9d4ca8e546"
+      "sha256": "05be946e7184a88f87eaf347dcaa5bb57c7cbd284552340dc89577e4d4f8d908"
     },
     {
       "path": "LP/blocks/window_hardwood.json",
@@ -2219,6 +2231,14 @@
     {
       "path": "LP/items/cave_ladder.json",
       "sha256": "5aa745bef8d4e2596f0afcefd912c6d57febbc4a74d2b82f754fc46c7866a579"
+    },
+    {
+      "path": "LP/items/cave_rock.json",
+      "sha256": "7fde0650b56f0f8c9a18f78dc8bb73612513679f1aad87ff5982c839964e8bc6"
+    },
+    {
+      "path": "LP/items/chest.json",
+      "sha256": "9e93402be2f1248a6ba747796d2b36eeab3bcf80d4ff4776e9b2d8ba950ad325"
     },
     {
       "path": "LP/items/dirt.json",
@@ -2606,7 +2626,7 @@
     },
     {
       "path": "LP/manifest.json",
-      "sha256": "fd0582a5a4d9638aa62508675512fdfdfc2a01a00aefd61f1252cde4e5607255"
+      "sha256": "af92d6a86a00c16d3492ade9901151678721e99262e9645f5cf8ffb78ed5ad4d"
     },
     {
       "path": "LP/player.json",
@@ -2615,6 +2635,10 @@
     {
       "path": "LP/recipes/cave_ladder.json",
       "sha256": "e40e33ec233c7a60d89025aebfb405f3d926adea65f9f226bd99cb0d8d896cd0"
+    },
+    {
+      "path": "LP/recipes/chest.json",
+      "sha256": "a92cbfa5edc6e36876ee107643c092b0cc2d59e7b70e6c1d33a265918817ac92"
     },
     {
       "path": "LP/recipes/door_wood.json",
@@ -2698,12 +2722,12 @@
     },
     {
       "path": "LP/worldgen/settings.json",
-      "sha256": "3573d96ca81a04923db52fbfc2bff3ebbe0598330ef6841b03e5beac237ab4a4"
+      "sha256": "d52644aa41422eba3e7798fdd8335a4258b91ac22061e0fbd4d41cfded86c2a9"
     }
   ],
   "archive": {
-    "path": "kurblanc-pack-0.3.0-dd2356c6.kbpack",
-    "bytes": 5418560,
-    "sha256": "8b19fd8b5cb70c118e1dede495dab5fbe5db76f1c09ab2b26fe282ff75404091"
+    "path": "kurblanc-pack-0.3.1-e0ba8399.kbpack",
+    "bytes": 5421180,
+    "sha256": "17a3f14d874ba082d78c599cf023863eb84762a705e7124665ffd367b42ebd72"
   }
 }

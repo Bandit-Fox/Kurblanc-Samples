@@ -93,8 +93,8 @@
             1
           ],
           "height": 36,
-          "depth": 1,
-          "vertical_depth": 8,
+          "depth": 0,
+          "vertical_depth": -14,
           "footprint": {
             "box": [
               0,
