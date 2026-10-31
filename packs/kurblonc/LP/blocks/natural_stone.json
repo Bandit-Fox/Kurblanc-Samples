@@ -11,15 +11,11 @@
       },
       "kurblanc:layer": "floor",
       "kurblanc:color": "#77838d",
-      "kurblanc:label": "Natural stone",
+      "kurblanc:label": "Stone block",
       "kurblanc:material_instances": {
         "*": {
-          "texture": "textures/blocks/natural_stone.png"
+          "texture": "textures/blocks/stone_terrain_top.png"
         }
-      },
-      "kurblanc:terrain": {
-        "mode": "fill",
-        "face": "kurblanc:natural_stone_face"
       },
       "kurblanc:drops": [
         {
@@ -27,7 +23,18 @@
           "count": 1
         }
       ],
-      "kurblanc:sound": "stone"
+      "kurblanc:sound": "stone",
+      "kurblanc:terrain": {
+        "mode": "fill",
+        "face": "kurblanc:stone_terrain_face"
+      },
+      "kurblanc:ground": {
+        "autotile": false,
+        "substrate": "kurblanc:stone"
+      },
+      "kurblanc:surface": {
+        "group": "natural_stone"
+      }
     }
   }
 }

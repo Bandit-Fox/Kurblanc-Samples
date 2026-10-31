@@ -5,26 +5,36 @@
       "identifier": "kurblanc:cave_floor"
     },
     "components": {
-      "kurblanc:destructible_by_mining": false,
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 1.2,
+        "preferred_tool": "pickaxe"
+      },
       "kurblanc:layer": "floor",
-      "kurblanc:color": "#3b3a35",
+      "kurblanc:color": "#77838d",
+      "kurblanc:label": "Stone block",
       "kurblanc:material_instances": {
         "*": {
-          "texture": "textures/blocks/stone.png"
+          "texture": "textures/blocks/stone_terrain_top.png"
         }
       },
       "kurblanc:drops": [
         {
-          "item": "kurblanc:cave_floor",
+          "item": "kurblanc:stone",
           "count": 1
         }
       ],
       "kurblanc:sound": "stone",
-      "kurblanc:ground": {
-        "substrate": "kurblanc:natural_stone",
-        "random_rotate": true
+      "kurblanc:terrain": {
+        "mode": "fill",
+        "face": "kurblanc:stone_terrain_face"
       },
-      "kurblanc:label": "Cave floor"
+      "kurblanc:ground": {
+        "autotile": false,
+        "substrate": "kurblanc:stone"
+      },
+      "kurblanc:surface": {
+        "group": "natural_stone"
+      }
     }
   }
 }

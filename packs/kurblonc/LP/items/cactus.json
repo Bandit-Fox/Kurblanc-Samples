@@ -1,0 +1,14 @@
+{
+  "id": "kurblanc:cactus",
+  "label": "Cactus",
+  "maxStack": 512,
+  "block": "kurblanc:cactus",
+  "icon": {
+    "block": "kurblanc:cactus"
+  },
+  "categories": [
+    "blocks",
+    "decoration",
+    "natural"
+  ]
+}

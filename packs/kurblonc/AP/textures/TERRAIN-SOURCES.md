@@ -23,3 +23,13 @@ The superseded `natural_stone_front.png`, `cave_rock_top.png` and
 one featureless surface, so the lit/shadowed receiver mask read as long spiked
 bands across the cave walls. No source pixels were stretched or recolored; the
 art above replaces that derivation.
+
+## Wooden chest — 2026-10-29
+
+`blocks/chest_closed.png` (16×16) and `blocks/chest_open.png` (16×19) are derived
+from the owner-supplied Forager normal chest texture at
+`forager/Forager/assets/minecraft/textures/entity/chest/normal.png`, using the
+lid-front and base-front crops stacked into one tile with a one-pixel transparent
+margin and nearest-neighbor pixels. Forager is by CanineGray, licensed
+CC BY-NC 4.0; see `LICENSE.txt`. The item icon `../items/chest.png` uses the same
+closed silhouette.

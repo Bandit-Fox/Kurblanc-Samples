@@ -1,5 +1,6 @@
 {
   "id": "desert",
+  "precipitation": 0,
   "temperature": 0.84,
   "moisture": 0.18,
   "floor": "kurblanc:sand",
@@ -14,8 +15,14 @@
   "waterThreshold": 1,
   "decorations": [
     {
+      "block": "kurblanc:cactus",
+      "chance": 0.6,
+      "spacing": 5
+    },
+    {
       "block": "kurblanc:dry_grass",
-      "chance": 0.5
+      "chance": 0.8,
+      "spacing": 3
     },
     {
       "block": "kurblanc:pebble",

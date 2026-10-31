@@ -1,0 +1,53 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:cactus"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 0.6,
+        "preferred_tool": "axe"
+      },
+      "kurblanc:opacity": 4,
+      "kurblanc:layer": "object",
+      "kurblanc:color": "#4f7f3a",
+      "kurblanc:label": "Cactus",
+      "kurblanc:placeable": true,
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/cactus.png",
+          "cell": [
+            38,
+            50
+          ]
+        }
+      },
+      "kurblanc:object": {
+        "height": 54,
+        "shadow": "sprite",
+        "contact_shadow": [
+          16,
+          20,
+          14,
+          6
+        ],
+        "sprite_offset": [
+          -11,
+          -39
+        ],
+        "depth": -2,
+        "random_flip": true,
+        "tint": "#92905f"
+      },
+      "kurblanc:sound": "grass",
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:cactus",
+          "count": 1
+        }
+      ],
+      "kurblanc:biome_tint": true
+    }
+  }
+}

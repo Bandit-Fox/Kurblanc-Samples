@@ -29,7 +29,7 @@
       "kurblanc:drops": [
         {
           "item": "kurblanc:stone",
-          "count": 1
+          "count": 2
         }
       ],
       "kurblanc:sound": "stone"

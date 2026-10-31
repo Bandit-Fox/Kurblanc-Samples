@@ -16,7 +16,7 @@
       "kurblanc:label": "Chest",
       "kurblanc:material_instances": {
         "*": {
-          "texture": "textures/blocks/chest.png"
+          "texture": "textures/blocks/chest_closed.png"
         }
       },
       "kurblanc:object": {
@@ -28,7 +28,14 @@
         "shadow": "sprite"
       },
       "kurblanc:storage": {
-        "slots": 32
+        "slots": 32,
+        "open": {
+          "texture": "textures/blocks/chest_open.png",
+          "sprite_offset": [
+            0,
+            -9
+          ]
+        }
       },
       "kurblanc:drops": [
         {

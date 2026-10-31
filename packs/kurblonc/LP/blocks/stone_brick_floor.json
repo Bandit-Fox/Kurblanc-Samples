@@ -1,0 +1,32 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:stone_brick_floor"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 0.8,
+        "preferred_tool": "pickaxe"
+      },
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#a9824f",
+      "kurblanc:label": "Stone brick floor",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/stone_brick_floor.png"
+        }
+      },
+      "kurblanc:surface": {
+        "autotile": true
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:stone_brick_floor",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "stone"
+    }
+  }
+}

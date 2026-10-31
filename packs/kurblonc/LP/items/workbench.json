@@ -1,0 +1,13 @@
+{
+  "id": "kurblanc:workbench",
+  "label": "Workbench",
+  "maxStack": 512,
+  "block": "kurblanc:workbench",
+  "icon": {
+    "texture": "textures/items/workbench.png"
+  },
+  "categories": [
+    "blocks",
+    "decoration"
+  ]
+}

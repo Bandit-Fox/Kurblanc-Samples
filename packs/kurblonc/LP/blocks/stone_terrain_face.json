@@ -1,0 +1,26 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:stone_terrain_face"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "wall",
+      "kurblanc:color": "#626971",
+      "kurblanc:label": "Stone terrain face",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/stone_terrain_top.png"
+        },
+        "front": {
+          "texture": "textures/blocks/stone_terrain_front.png"
+        }
+      },
+      "kurblanc:wall": {
+        "lift": 18,
+        "group": "wall"
+      }
+    }
+  }
+}

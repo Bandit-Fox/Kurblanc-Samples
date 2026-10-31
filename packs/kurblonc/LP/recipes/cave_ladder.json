@@ -13,5 +13,6 @@
   "output": {
     "item": "kurblanc:cave_ladder",
     "count": 2
-  }
+  },
+  "station": "kurblanc:workbench"
 }

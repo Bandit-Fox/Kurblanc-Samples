@@ -1,0 +1,44 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:workbench"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 0.7,
+        "preferred_tool": "axe"
+      },
+      "kurblanc:opacity": 0,
+      "kurblanc:layer": "object",
+      "kurblanc:placeable": true,
+      "kurblanc:color": "#8a5a2b",
+      "kurblanc:label": "Workbench",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/workbench.png"
+        }
+      },
+      "kurblanc:occupancy": [
+        2,
+        1
+      ],
+      "kurblanc:station": {},
+      "kurblanc:object": {
+        "height": 0,
+        "sprite_offset": [
+          4,
+          -8
+        ],
+        "shadow": "sprite"
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:workbench",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "wood"
+    }
+  }
+}

@@ -23,17 +23,22 @@
   "caves": {
     "level": 1,
     "wall": "kurblanc:cave_rock",
-    "floor": "kurblanc:natural_stone",
-    "scale": 26,
-    "warp": 18,
-    "tunnelWidth": 0.09,
+    "floor": "kurblanc:stone",
+    "scale": 40,
+    "warp": 30,
+    "tunnelWidth": 0.024,
     "cavernScale": 60,
-    "cavernThreshold": 0.84,
+    "cavernThreshold": 0.86,
     "ambient": 8,
-    "terrain": {
-      "fill": "kurblanc:natural_stone",
-      "scale": 32,
-      "amplitude": 2
+    "entrance": {
+      "spacing": 96,
+      "radius": 4,
+      "height": 4,
+      "clearance": 3,
+      "hill": "kurblanc:stone",
+      "surface": "kurblanc:grass",
+      "block": "kurblanc:cave_mouth",
+      "return": "kurblanc:cave_ladder"
     }
   }
 }

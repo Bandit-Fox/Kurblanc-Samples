@@ -13,5 +13,6 @@
   "output": {
     "item": "kurblanc:stone_pickaxe",
     "count": 1
-  }
+  },
+  "station": "kurblanc:workbench"
 }

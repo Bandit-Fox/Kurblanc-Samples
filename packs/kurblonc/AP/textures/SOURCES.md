@@ -40,10 +40,21 @@ produced the strip.
 
 | source | strip |
 | --- | --- |
-| `textures/player/explorer_bob_compact.png frames [0]` | `textures/player/idle.png` |
-| `textures/player/explorer_bob_compact.png frames [1, 2, 3, 4]` | `textures/player/walk.png` |
-| `textures/player/explorer_bob_compact.png frames [5]` | `textures/player/jump.png` |
-| `textures/player/explorer_bob_compact.png frames [0, 6]` | `textures/player/mine.png` |
+| `Moyasi's Character Retexture 1.3.2 (Necesse mod) LEFT row` | `textures/player/{body,feet,arms_left,arms_right,head,eyes}.png` |
+| `Moyasi's Character Retexture 1.3.2 hair1–38` | `textures/player/hair/hair<n>.png` (+ `_back`) |
+| `Necesse shirts (14) and shoes (13)` | `textures/player/shirt/*.png`, `textures/player/shoes/*.png` |
+
+The mod's layered 2x sheets are split by `scripts/build_player_retexture.py
+<mod.jar> <res.data>` into clean layer strips: base body/feet/arms/head/eyes,
+38 hair options (with back layers where the mod has them), 14 shirts and 13
+pairs of shoes. Neither source is kept in the repository.
+
+The engine picks hair, shirt, shoes and trouser colour from the world seed and
+assembles one strip at runtime, so no per-world sheets ship. Base-game clothes
+are reduced to the mod's 2x2 logical grid; the runtime applies the hue/lightness
+jitter, sparse 2x2-block noise and the shadow-lift gamma. Only the LEFT
+(three-quarter) direction row ships — the renderer mirrors it for rightward
+travel.
 
 ## Colored wool (2026-10-28)
 

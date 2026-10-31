@@ -1,0 +1,40 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:stone"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 1.2,
+        "preferred_tool": "pickaxe"
+      },
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#77838d",
+      "kurblanc:label": "Stone block",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/stone_terrain_top.png"
+        }
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:stone",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "stone",
+      "kurblanc:terrain": {
+        "mode": "fill",
+        "face": "kurblanc:stone_terrain_face"
+      },
+      "kurblanc:ground": {
+        "autotile": false,
+        "substrate": "kurblanc:stone"
+      },
+      "kurblanc:surface": {
+        "group": "natural_stone"
+      }
+    }
+  }
+}

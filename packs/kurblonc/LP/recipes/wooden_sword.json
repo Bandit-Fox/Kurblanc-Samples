@@ -13,5 +13,6 @@
   "output": {
     "item": "kurblanc:wooden_sword",
     "count": 1
-  }
+  },
+  "station": "kurblanc:workbench"
 }

@@ -1,0 +1,46 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:cave_mouth"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:opacity": 0,
+      "kurblanc:layer": "object",
+      "kurblanc:collision_box": false,
+      "kurblanc:color": "#2a261f",
+      "kurblanc:label": "Cave mouth",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/cave_mouth.png"
+        }
+      },
+      "kurblanc:object": {
+        "height": 6,
+        "sprite_offset": [
+          -8,
+          -16
+        ],
+        "rect": [
+          0,
+          0,
+          32,
+          32
+        ]
+      },
+      "kurblanc:link": {
+        "down": 1
+      },
+      "kurblanc:sound": "stone",
+      "kurblanc:mining_protection": {
+        "box": [
+          -5,
+          -7,
+          11,
+          10
+        ]
+      }
+    }
+  }
+}
