@@ -42,14 +42,16 @@ produced the strip.
 | --- | --- |
 | `Moyasi's Character Retexture 1.3.2 (Necesse mod) LEFT row` | `textures/player/{body,feet,arms_left,arms_right,head,eyes}.png` |
 | `Moyasi's Character Retexture 1.3.2 hair1–38` | `textures/player/hair/hair<n>.png` (+ `_back`) |
-| `Necesse shirts (14) and shoes (13)` | `textures/player/shirt/*.png`, `textures/player/shoes/*.png` |
+| `Necesse shirts (23), hats (18) and shoes (22)` | `textures/player/shirt/*.png`, `textures/player/hat/*.png` (+ `_back`), `textures/player/shoes/*.png` |
 
 The mod's layered 2x sheets are split by `scripts/build_player_retexture.py
 <mod.jar> <res.data>` into clean layer strips: base body/feet/arms/head/eyes,
-38 hair options (with back layers where the mod has them), 14 shirts and 13
-pairs of shoes. Neither source is kept in the repository.
+38 hair options (with back layers where the mod has them), 23 shirts, 18 hats
+and 22 pairs of shoes. The wardrobe layers come from Necesse alone, so passing
+just `res.data` rebuilds them without the mod jar. Neither source is kept in the
+repository.
 
-The engine picks hair, shirt, shoes and trouser colour from the world seed and
+The engine picks hair, shirt, hat, shoes and trouser colour from the world seed and
 assembles one strip at runtime, so no per-world sheets ship. Base-game clothes
 are reduced to the mod's 2x2 logical grid; the runtime applies the hue/lightness
 jitter, sparse 2x2-block noise and the shadow-lift gamma. Only the LEFT
@@ -59,3 +61,52 @@ travel.
 ## Colored wool (2026-10-28)
 
 `blocks/wall_wool*_top.png`, `blocks/wall_wool*_front.png`, and `items/wool*.png`: project-authored native pixel wool patterns and cube icons. Wall sheets reuse the existing wood wall sheet alpha layout for compatibility with the connected-wall atlas; color and surface pattern are authored for wool.
+
+## Darkness monsters (2026-10-31)
+
+`entities/zombie/{idle,walk,attack}.png` and
+`entities/skeleton/{idle,walk,attack}.png`: original generated monster art using
+the built-in image tool and the current player as reference, revised with the
+owner's art feedback. Sources and exact final prompts:
+`artifacts/monsters/README.md`. Offline import:
+`scripts/build-monster-strips.mjs`. Native 2px grid, opaque pixel clusters and
+one-pixel strip gaps; no generated source sheet is loaded at runtime. The
+skeleton sword uses the existing item texture rather than baked-in sprite art.
+
+`entities/wizard/{idle,walk,attack}.png`: composed from this pack's player layers
+(mage robe, pointed hat, robe shoes and the white `elder` hair) by
+`scripts/build_wizard_entity.py`, so the monster and the player share one
+wardrobe and pixel grid. 40×58 cells at the player's native scale.
+
+## Rustic wardrobe finish (2026-10-31)
+
+The existing 23 shirts, 18 hats (and seven back layers) and 22 shoes are recolored
+with five-value moss, dusty-blue, rust, ochre, plum, leather, linen and charcoal
+ramps by `scripts/style_player_wardrobe.py`. The new Patched Tunic, Waistcoat,
+Overalls, Winter Coat, Ranger and Fisher tops add project-authored seams, straps,
+patches, buttons and trim to existing animated garment silhouettes. Leather,
+Moss and Winter Boots reuse footwear silhouettes with matching material ramps.
+Knitted Cap, Beret, Ranger, Straw, Flat Cap and Trapper hats are project-authored
+pixel drawings, animated to the existing head bob. No image generation was used.
+Raw pre-edit strips and rebuild notes: `artifacts/wardrobe/`. The archive importer
+applies this finish after extracting its layers, so rebuilds retain the design.
+The wizard strips are rebuilt from the finished mage layers.
+
+
+Follow-up contrast correction: mage, witch, cryowitch, crimson, void, plague,
+ninja and ancestor garments/footwear/hats preserve their original palettes;
+coarse remapping had flattened their shade steps. Runtime cloth grain and fold
+shading preserve the authored value range instead of applying the skin/hair
+shadow lift to clothing. The eye overlay's skin pixels now use the same skin
+mapping as the head in both full characters and option thumbnails.
+
+
+Monster texture follow-up (2026-10-31): current wizard, skeleton and zombie strips
+are rebuilt by their `scripts/build_*_entity.py` player-layer builders. The mage
+clothing finish now preserves original contrast and uses the same low-amplitude
+cloth grain/folds as the player. Zombie clothing shares that finish, with deeper
+olive skin and gentle skin grain. Skeleton bone has warm ivory highlights,
+deeper cavities and subtle material grain without the old global shadow lift.
+All silhouettes, animation cells and alpha masks are retained. Offline shared
+finish: `scripts/monster_texture.py`; comparison and pre-edit strips:
+`artifacts/monsters/`. No image generation used for these edits.

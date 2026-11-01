@@ -1,0 +1,107 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:entity": {
+    "description": {
+      "identifier": "kurblanc:wizard",
+      "is_spawnable": true
+    },
+    "components": {
+      "kurblanc:footprints": {
+        "legs": 2
+      },
+      "kurblanc:health": {
+        "value": 6
+      },
+      "kurblanc:movement": {
+        "value": 0.9
+      },
+      "kurblanc:collision_box": {
+        "width": 0.55,
+        "height": 0.3
+      },
+      "kurblanc:behavior": {
+        "kind": "hostile",
+        "panic_speed": 1.8,
+        "panic_seconds": 0,
+        "wander_min": 1.2,
+        "wander_max": 3.5,
+        "sight": 15,
+        "attack_damage": 2,
+        "attack_interval": 2.2,
+        "attack_reach": 0.1,
+        "ranged": {
+          "range": 8,
+          "speed": 10,
+          "radius": 0.125,
+          "color": "#bb77ff",
+          "light": {
+            "radius": 10,
+            "intensity": 1.0
+          }
+        }
+      },
+      "kurblanc:combat": {
+        "knockback": 3,
+        "knockback_cap": 8.125,
+        "knockback_decay": 12,
+        "invulnerability_seconds": 0.5,
+        "death_seconds": 0.82
+      },
+      "kurblanc:spawn": {
+        "role": "hostile",
+        "min_light": 0,
+        "max_light": 8,
+        "interval_seconds": 16,
+        "night_interval_seconds": 6,
+        "attempts": 4,
+        "tries": 24,
+        "group": [
+          1,
+          1
+        ],
+        "max_per_column": 2,
+        "min_distance": 22,
+        "max_distance": 64
+      },
+      "kurblanc:render": {
+        "pixelScale": 1,
+        "feet": 0,
+        "alpha": 1,
+        "variantMode": "none",
+        "sourceFacing": "left",
+        "strips": {
+          "idle": {
+            "texture": "textures/entities/wizard/idle.png",
+            "cell": [
+              40,
+              58
+            ],
+            "frames": 1,
+            "fps": 1,
+            "loop": true
+          },
+          "walk": {
+            "texture": "textures/entities/wizard/walk.png",
+            "cell": [
+              40,
+              58
+            ],
+            "frames": 4,
+            "fps": 9.6,
+            "loop": true
+          },
+          "attack": {
+            "texture": "textures/entities/wizard/attack.png",
+            "cell": [
+              40,
+              58
+            ],
+            "frames": 3,
+            "fps": 5.357142857142857,
+            "loop": false
+          }
+        }
+      }
+    }
+  }
+}

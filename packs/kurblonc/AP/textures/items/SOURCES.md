@@ -9,3 +9,5 @@
 `wheat_seeds.png` is copied unchanged from the owner-provided Forager Minecraft resource pack at `forager/Forager/assets/minecraft/textures/item/wheat_seeds.png`. Forager is by CanineGray (as credited in its `pack.mcmeta`) and is licensed CC BY-NC 4.0. The original terms are included in `LICENSE.txt`, copied from `forager/Forager/License.txt`.
 
 `sandstone.png` is derived art: the pack's own `sand.png` inventory icon with the hue, saturation and brightness shift that turns the sand palette into the sandstone palette used by `../blocks/sandstone.png` and `../blocks/sandstone_wall_front.png`. The pixel structure and alpha are unchanged.
+
+`coal.png`, `raw_copper.png` and `raw_iron.png` are copied unchanged from the owner-provided Forager Minecraft resource pack at `forager/Forager/assets/minecraft/textures/item/`. Forager is by CanineGray, licensed CC BY-NC 4.0; see `LICENSE.txt`.

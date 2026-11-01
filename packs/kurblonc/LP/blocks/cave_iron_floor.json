@@ -1,0 +1,29 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:cave_iron_floor"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 1.2,
+        "preferred_tool": "pickaxe"
+      },
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#d4b594",
+      "kurblanc:label": "Iron ore",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/cave_iron_floor.png"
+        }
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:raw_iron",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "stone"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:cave_coal_floor"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": {
+        "seconds_to_destroy": 1.2,
+        "preferred_tool": "pickaxe"
+      },
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#2f2f31",
+      "kurblanc:label": "Coal ore",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/cave_coal_floor.png"
+        }
+      },
+      "kurblanc:drops": [
+        {
+          "item": "kurblanc:coal",
+          "count": 1
+        }
+      ],
+      "kurblanc:sound": "stone"
+    }
+  }
+}

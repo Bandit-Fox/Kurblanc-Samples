@@ -1,0 +1,20 @@
+{
+  "kurblanc:format": 1,
+  "kurblanc:block": {
+    "description": {
+      "identifier": "kurblanc:cave_substrate"
+    },
+    "components": {
+      "kurblanc:destructible_by_mining": false,
+      "kurblanc:layer": "floor",
+      "kurblanc:color": "#3a3540",
+      "kurblanc:label": "Cave substrate",
+      "kurblanc:material_instances": {
+        "*": {
+          "texture": "textures/blocks/cave_substrate.png"
+        }
+      },
+      "kurblanc:sound": "stone"
+    }
+  }
+}

@@ -2,7 +2,7 @@
   "files": [
     {
       "path": "AP/manifest.json",
-      "sha256": "58b3061326f05980d3cd9124a8214e7754d5825baa37c458e22d45d815eac64a"
+      "sha256": "ca64b0e88ed266e2115c58e21068397a3c9b1a9a134336c94d4c43bf82ee6a0b"
     },
     {
       "path": "AP/music.json",
@@ -1050,11 +1050,11 @@
     },
     {
       "path": "AP/textures/SOURCES.md",
-      "sha256": "0f684554a22effbfa56d464bae2fcacf3043cafc83b27a55e5161d09f111cb70"
+      "sha256": "31fdcea937d58bfc636ac80e93ca6fb3cd7b294e88827c31cc144b0278c43977"
     },
     {
       "path": "AP/textures/TERRAIN-SOURCES.md",
-      "sha256": "334cd686b87a621b2c2ef7563d566dcd05ee235af787cdd3527cfaf8e117aab7"
+      "sha256": "6befca84dcf41052f635717f852e27c451c4ae677f0fd94bd6640a47c366d43e"
     },
     {
       "path": "AP/textures/blocks/bald_cypress_tree.png",
@@ -1066,7 +1066,7 @@
     },
     {
       "path": "AP/textures/blocks/cactus.png",
-      "sha256": "4a6a724834629dd3d71cede84566ca9c38f3a68e99b2a9de7a9d82c67b599e1e"
+      "sha256": "f98c3a61adc54aca52ad7b91f268a9aa6cac347c0227013934af6520777b3cb5"
     },
     {
       "path": "AP/textures/blocks/catacomb_wall_front.png",
@@ -1077,12 +1077,40 @@
       "sha256": "80a7c7cf892a8c067d594b58363da618e6175eb73a4e26bef4b38841e02d58fd"
     },
     {
+      "path": "AP/textures/blocks/cave_coal_floor.png",
+      "sha256": "bf95e6c5d4bfa804ca162ab18e318e319239d801d0a914eadf985ed53dfecbf0"
+    },
+    {
+      "path": "AP/textures/blocks/cave_coal_wall_front.png",
+      "sha256": "c7f7d16db4404abfe40b1135c045b577f03f0573e4f874550bafdb2a4f8f2c8b"
+    },
+    {
+      "path": "AP/textures/blocks/cave_copper_floor.png",
+      "sha256": "bc5c7cbd3f1cb40fb2cf1b20870d3b9a77b57804975129902184d50040aefb3f"
+    },
+    {
+      "path": "AP/textures/blocks/cave_copper_wall_front.png",
+      "sha256": "65aab2daf727ba78369ef4d5c9ea38fc0893fd0de80c5a2f29f5621e95c0f971"
+    },
+    {
       "path": "AP/textures/blocks/cave_entrance_stone.png",
       "sha256": "b3efd88bbed6b11e965c5801ca5197581b96682c5860ad507d45fcd6efeb0d18"
     },
     {
+      "path": "AP/textures/blocks/cave_iron_floor.png",
+      "sha256": "f14576bbd2b79cf2ef81bb3ff0039ea0a41f1abfd370ab4a16b05d137dccdb9b"
+    },
+    {
+      "path": "AP/textures/blocks/cave_iron_wall_front.png",
+      "sha256": "fbb7802b4fb1dfc20ccabc52c108ad6b72ae7aaf0f17e878018424966220d5ea"
+    },
+    {
       "path": "AP/textures/blocks/cave_mouth.png",
       "sha256": "9327b37c31c6efec50fdf621c379a98e7026a13cf0ffa72fe8bb42c6532a304b"
+    },
+    {
+      "path": "AP/textures/blocks/cave_substrate.png",
+      "sha256": "d83f56a003ff504ef28a5c38ffd7a4fd7377b062b0453991ce333ee9df6b4b7f"
     },
     {
       "path": "AP/textures/blocks/chest_closed.png",
@@ -1561,6 +1589,18 @@
       "sha256": "dfb5731022388f17599ab5e106090783fa3333651eb3b70fa1c4b504559ef3cf"
     },
     {
+      "path": "AP/textures/entities/skeleton/attack.png",
+      "sha256": "a2c3f78bc4ee3a6f6f76e2b5dc5a7c3989da40480c98023d161b270aafdbf955"
+    },
+    {
+      "path": "AP/textures/entities/skeleton/idle.png",
+      "sha256": "c88ccc23a65d34f3155707602739b220536deb1eca495ccbef57fc68b1c55a8e"
+    },
+    {
+      "path": "AP/textures/entities/skeleton/walk.png",
+      "sha256": "8dbe2ec2f807d8e0dc65e04e3dca56ecb97c4baff1c0ab4ee4d8ba9a808edb22"
+    },
+    {
       "path": "AP/textures/entities/slime/attack.png",
       "sha256": "c2f786955a0cb31f9281ad18e2e4690aad975698fa4fbfb688819fd80e84842a"
     },
@@ -1573,12 +1613,36 @@
       "sha256": "731acd04e6eaeb0da770ecd941c8ac4c36c22ae730838a937a82e08a80902ec3"
     },
     {
+      "path": "AP/textures/entities/wizard/attack.png",
+      "sha256": "15329c6c941eb7daf83387ca3fea8523b7a152de0f45811112b8d984d4c5e094"
+    },
+    {
+      "path": "AP/textures/entities/wizard/idle.png",
+      "sha256": "acb161ef402cb76dd90b70b03374162b927ec47ab1d883ef04e455bf6ddaccae"
+    },
+    {
+      "path": "AP/textures/entities/wizard/walk.png",
+      "sha256": "60977b69b37bf5b3ec5c3b1b9b09d17a0b45dbb5d813b7b49e50c29630645071"
+    },
+    {
+      "path": "AP/textures/entities/zombie/attack.png",
+      "sha256": "da552ce94fe7229e2ff83b6ac80533012149f21c7660f6301a079782ce798d4d"
+    },
+    {
+      "path": "AP/textures/entities/zombie/idle.png",
+      "sha256": "ced421ccefccad175f8cedaf46c98be33b604491c2ce22b285e9d09c10a72272"
+    },
+    {
+      "path": "AP/textures/entities/zombie/walk.png",
+      "sha256": "a647238b149f0533b8d612dd9f40dc320252769a9a117d449766961b6c72b04f"
+    },
+    {
       "path": "AP/textures/items/LICENSE.txt",
       "sha256": "d18b172891f39ea1b940bd319b9daf0d5b8391960ea7928c0fc1b75e1fe2236d"
     },
     {
       "path": "AP/textures/items/SOURCES.md",
-      "sha256": "eed54cb64dadf15c088c8ce695553c0b0b1034f2239bcd1ec7ea73da2ee5c390"
+      "sha256": "c36ab3e952843d6aaabb1e6c701bc2676621dba21b45b94daef8ff6d7a1419db"
     },
     {
       "path": "AP/textures/items/cave_entrance_stone.png",
@@ -1595,6 +1659,10 @@
     {
       "path": "AP/textures/items/chest.png",
       "sha256": "ff114526a16289cfd5b054ff61c4fc6ffeb4cc1d23aabb333b57f9a7330a2d17"
+    },
+    {
+      "path": "AP/textures/items/coal.png",
+      "sha256": "b9d19cec4ed9a0f6c5af6ba92916191a71e44e4500e9381edf5acfaa4be53b1f"
     },
     {
       "path": "AP/textures/items/dirt.png",
@@ -1629,8 +1697,16 @@
       "sha256": "7b9a4cea74c7d42464238a9e53ba7a2d67d457d4bffc01c9563af0f9cb0326c1"
     },
     {
+      "path": "AP/textures/items/raw_copper.png",
+      "sha256": "23abe31ca100dd34e21db415f10252bbfae2fcdff07128eb9fc8313a708f5309"
+    },
+    {
       "path": "AP/textures/items/raw_duck.png",
       "sha256": "2de86688a12c9ada4d20fd8f7634acad8a6865e14fb1a9c8e7fdfe6408396686"
+    },
+    {
+      "path": "AP/textures/items/raw_iron.png",
+      "sha256": "bb560f7ace1898501a0db8e8c5d8e0668901f74ebf5d74ebdcb356f25a031105"
     },
     {
       "path": "AP/textures/items/raw_mutton.png",
@@ -1902,594 +1978,782 @@
     },
     {
       "path": "AP/textures/player/arms_left.png",
-      "sha256": "a4489aaf5add4295d671363c9b33d137c740c4e8334e39933b0fd4fc73181175"
+      "sha256": "2c7d3d913948b296423b965e6c34b9062aaefeb8c7e12678d898c2692135c126"
     },
     {
       "path": "AP/textures/player/arms_right.png",
-      "sha256": "a44800bf6ab7874d4bb8b8e447eee27bbbb525f26947224ba8e24ec368e058f0"
+      "sha256": "5386752bda173b1ed5fa37f525869756c2e0af2aae65d0edfcc42ba655735da9"
     },
     {
       "path": "AP/textures/player/body.png",
-      "sha256": "451da2bc7ea5970fe1c806942425b16128e2934ccaf3579465748473c94e7105"
+      "sha256": "372d45a2c0fdd41b359a235f175fe87f5a1efb9967a61b469e77db112c60dae5"
     },
     {
       "path": "AP/textures/player/eyes.png",
-      "sha256": "56f409fb4f031240c4b32eee2ca2cbb442d29bafe1452cd18c04fd4e2b9d26fd"
+      "sha256": "ebc0d23ccffc499890b3ca24fce52c9710adbcfa47c06278309df043d344d646"
     },
     {
       "path": "AP/textures/player/feet.png",
-      "sha256": "186b320bf830c00b91a953cdb49a750c41332706dcaebb1ff82f41eccbb0a0a8"
+      "sha256": "ac5b6944f7c683ae4fc1445a34f18d99a9d85d9554dfefb4f32b65471f226203"
+    },
+    {
+      "path": "AP/textures/player/hair/elder.png",
+      "sha256": "5ce07535ff58d52b0c7c6a0f0d4e273f0fdeaef40e662f33d4a380a328232521"
+    },
+    {
+      "path": "AP/textures/player/hair/elder_back.png",
+      "sha256": "4cba43df05c35fe5e47b1551cf05d5fb15ee24ad7f4788aca84927011918c217"
     },
     {
       "path": "AP/textures/player/hair/hair1.png",
-      "sha256": "9c0f027fe4d97c2ef4d9c4cff169e1321050f3300956c68154b2df8cadef189c"
+      "sha256": "b3a150f822153e0dff2b090238985c52e66251470604602e9bde63664917c0d3"
     },
     {
       "path": "AP/textures/player/hair/hair10.png",
-      "sha256": "7bf2efcaf6b92d836f4ca1125bde098de2eb4304abf9137a8ab573c03307cddf"
+      "sha256": "aeb76b76018a450855b46f3dc9b4b5120f49c2a97c1687f02c38e1d575b47836"
     },
     {
       "path": "AP/textures/player/hair/hair10_back.png",
-      "sha256": "c0d9c986e5c7ea10760cfa71073bc516babf39d65bab5f8e5af114306000cfce"
+      "sha256": "994a3b334bd6dcb5b164aa47eac8d9b0199653f83825e62413116aa4df2d6810"
     },
     {
       "path": "AP/textures/player/hair/hair11.png",
-      "sha256": "3bde7b25ea46f86d4b94add8df5e5f59feee6b6cc47be77cd5d3fdf9e0a4d0b8"
+      "sha256": "37e6dccc0be7f7e9afcc90ad923f8627321321d69c7a06069953f58d53ef2539"
     },
     {
       "path": "AP/textures/player/hair/hair12.png",
-      "sha256": "4ebb80420cc5f288f8cc902ffed2ab39dfe5047af7d202abd062ec67140823f1"
+      "sha256": "d42f6b92974ecef32cddcb4b59556b86915100809624864143d1ce74ab03101b"
     },
     {
       "path": "AP/textures/player/hair/hair13.png",
-      "sha256": "3137644a5e50dae1868d55587ac2c2504fc971ac1ce0637973e8492c0d452b12"
+      "sha256": "13cd8d2756278b2189e7dd55235133f0b2f4aed6b407c30216aa963e547e0907"
     },
     {
       "path": "AP/textures/player/hair/hair13_back.png",
-      "sha256": "b6d481e6d0f2c07b8c94741430ba646af660e47fc3a89d543a07694335a9b2f3"
+      "sha256": "911ef563e0210eb1f802c4bda97aebfe3ae5d5770b71db1f6630425a1ea32a80"
     },
     {
       "path": "AP/textures/player/hair/hair14.png",
-      "sha256": "19a89558e5e50d2eb13f7ce9525890bf90dfb0185c0ae3cc7cf0490206543eed"
+      "sha256": "65b81034cb938356dcdfd822d998484dbc8887597a3b408687886bfbf61a8820"
     },
     {
       "path": "AP/textures/player/hair/hair14_back.png",
-      "sha256": "0acc4275c82fd5fba33f5f11d4830f5aef5ff8ef59471e35f7582dd6438f6ec6"
+      "sha256": "35160a6ee16ebbad49c1ff33e919162e29845f9e7bcb5e831ff5c51cb9305457"
     },
     {
       "path": "AP/textures/player/hair/hair15.png",
-      "sha256": "2308112bba11c42183f8267c42d2e5d86827bff2ffa7557d84ef7e5b4f68d2e9"
+      "sha256": "0963e2e579dba942a1bf5f99fbdc2d33d876d0bfce927c8d11d14a4fa13f4f22"
     },
     {
       "path": "AP/textures/player/hair/hair15_back.png",
-      "sha256": "fcf277cd436a455fde75fddec593dc7aaf14667e8778443a7fac83a89f9c88ac"
+      "sha256": "dddc523a9e84c59b75e08f124653748df839ec57c899d41582cd8196b3cb4a7a"
     },
     {
       "path": "AP/textures/player/hair/hair16.png",
-      "sha256": "7d4737bb81e11393cbf4b4427c432d1a3a9d04852277a0f88f40e0ffb8be285d"
+      "sha256": "65b6e3b16dbc2e47147cddd7690ddd471035025ebf7512be037bd7eac10c58a7"
     },
     {
       "path": "AP/textures/player/hair/hair17.png",
-      "sha256": "a87bcf40af352838adc7547ebe5c3be3bfe608cf3f305183dbd1bd86b66050dd"
+      "sha256": "13f3a4acdb53926784b2822746b604b1eca7303e61eab36ba2356e59f27ef11f"
     },
     {
       "path": "AP/textures/player/hair/hair17_back.png",
-      "sha256": "ec24d70fdae945601554e641874952068f6a78fd3f4509628ca9628b69e1a177"
+      "sha256": "bed348a02769cbae63416cd09e6e6f9f373e90a07de2541d37d219e84667347d"
     },
     {
       "path": "AP/textures/player/hair/hair18.png",
-      "sha256": "ed21f49fa216a0cdfc10a1136344f5bfd5df7ce3af725f1256c049ca17e4d728"
+      "sha256": "50e43fbdd28af74be0ad86953216d28c5441db0b2cd239313773749fbe21dfa9"
     },
     {
       "path": "AP/textures/player/hair/hair19.png",
-      "sha256": "e2ebd02bbe6fc2031ed70ea425392996bd548faf833d9e63339da17cb5762877"
+      "sha256": "b75e7c515d31bf0179e0fa511c114cc84c03d32d8d8c4513f017120384494a6a"
     },
     {
       "path": "AP/textures/player/hair/hair19_back.png",
-      "sha256": "89f497d8a6249d72216858a165c7cf6b9b5bd0d9010a03e6231236b758aee129"
+      "sha256": "8c3bc99db5712400d5499fc672795f3391be2b9b4878e27034cafd4f70d91444"
     },
     {
       "path": "AP/textures/player/hair/hair2.png",
-      "sha256": "0cc406e4ac3473b8a92005e606e98eb46b8439a14fa4aedc43c1b8ff12add6d7"
+      "sha256": "6e8049e4cfd40f850165d3ba0ec83420e0f9dd9c2ccd2cada5d11e3d53070038"
     },
     {
       "path": "AP/textures/player/hair/hair20.png",
-      "sha256": "951cd23e44f26cbaa02eb9af75a66fcab4a78836d028e6f1ec6e0dd9197d5fe8"
+      "sha256": "362a128ea4794818ae0061b17460f6afc614038ac88e77bf99dea5f45cdabc1b"
     },
     {
       "path": "AP/textures/player/hair/hair21.png",
-      "sha256": "d7b07b7b71eb76e804da9d906ef03a592d7ff4c18342843501b3cb6619a0a562"
+      "sha256": "5f65fb44f116afcbd6ebde21b2249d85317c343019be01fe4de11494a4a5987d"
     },
     {
       "path": "AP/textures/player/hair/hair21_back.png",
-      "sha256": "3720d7c1de1b408ed7341231d7346728829318368484aeb48cba9de71277aea5"
+      "sha256": "e141323e183e4c4dba3bd035a1b7c46b49a2408722963b2d0889558eb4f9f588"
     },
     {
       "path": "AP/textures/player/hair/hair22.png",
-      "sha256": "a897f6ea436374cd1f88b9b0f0a279ce5a04ef76589041e3bdb0cbcde0cfaa3b"
+      "sha256": "1619a7c63e653d8395eb295c590e741548e8db1f81280eb0b2333404d2988f1b"
     },
     {
       "path": "AP/textures/player/hair/hair23.png",
-      "sha256": "36866b92c50b4c7cc6b1436e84d3462ae9e585c2590d6af350e60b6c182d41cb"
+      "sha256": "b0173a08ee094bc6fe149b03d10284a9447857ff20907405ef515801a8fd7f09"
     },
     {
       "path": "AP/textures/player/hair/hair23_back.png",
-      "sha256": "33b3d81aa5b3a5e8e1a5cc8ff0d047f207eecbd9a1a6177fc266cfb21081ef54"
+      "sha256": "da5b2862f9410c0124a814bb3790e6ed9fc14625f21ee8ba81409c1a1d907f22"
     },
     {
       "path": "AP/textures/player/hair/hair24.png",
-      "sha256": "c31adbf01833e42856f1562d87cfc7b16f107bf1243620a51d94ae84e831191f"
+      "sha256": "6ea102ac00d545720ea3880b77be6b8a2ebbea0b89c3697adc537e8a816b0f92"
     },
     {
       "path": "AP/textures/player/hair/hair25.png",
-      "sha256": "5a8cd144aabec67128d4caabff731139905279868a25a00b26f1751f137705d4"
+      "sha256": "ad8057263cabd304906a2b3342f15f59848d13814a93a657145580daa5538c21"
     },
     {
       "path": "AP/textures/player/hair/hair26.png",
-      "sha256": "1e3d65ec91570c8cb188af30f26cc4eeb663314aafc5b54769b38d24b4a6e126"
+      "sha256": "954ff9580ead11816f3d1fc310050e564bcc4262b211d66011bd2d509d99f1b7"
     },
     {
       "path": "AP/textures/player/hair/hair27.png",
-      "sha256": "8d892064ede54961c77e185453f47e402452cdfda453a2cc10e95f3188170b8a"
+      "sha256": "8548634f029fa83795f41a50eb5dd36f67f8cd30b80cb26ec24fd8d125b7e5ec"
     },
     {
       "path": "AP/textures/player/hair/hair28.png",
-      "sha256": "109f6682a4ab473328e6364a3b74c95001aebc9e72b2b18a4d5cab9f55f7264a"
+      "sha256": "230f42c159d8cdbfeb0a73b9f23f486c555a8c4611e0eca062df90a18b9f897a"
     },
     {
       "path": "AP/textures/player/hair/hair29.png",
-      "sha256": "22526f7bb5c6c68c4e97e786864008df3bbbf40ceb60f76b1d83043c58916674"
+      "sha256": "43456a688d2e76d88ced8f227db1f6e9ad9a54dfbdd0ec15ee3b9f446e43b24d"
     },
     {
       "path": "AP/textures/player/hair/hair29_back.png",
-      "sha256": "cb1f82dc6b9b27587f204cb751ff693a2462b79a35fcc487c31fe23f9273d69d"
+      "sha256": "c674f5fbf73c2ab7e7707ca27f65d221a849d4671a0f7a68f664d9c43be01f7c"
     },
     {
       "path": "AP/textures/player/hair/hair3.png",
-      "sha256": "6f22dc496e4233cecf75307582e8556fc84ef4bbd8f35a1ffca5af0c1a40354e"
+      "sha256": "3d521034894d104d7e6e3c2d2ed7ef7320d3477952c3ea2325f9847a7eb3d3ea"
     },
     {
       "path": "AP/textures/player/hair/hair30.png",
-      "sha256": "af30e7a1cdcc75752be9d2832a79919b03ceaeca1a69e3bd9052bd6be62f21cb"
+      "sha256": "1b9511d9a8045124764864c7087e2c8c1c799ab33cdb4501b651c510e79d38dd"
     },
     {
       "path": "AP/textures/player/hair/hair31.png",
-      "sha256": "2bb14ee26eb70dfb03b8012ef12265b34601cedee4c12dd1d6e7c84773726526"
+      "sha256": "1796fec7f07e440dd6e677f42342da1ecfd24a16b776585c6f3f0bcdb89f3bc3"
     },
     {
       "path": "AP/textures/player/hair/hair31_back.png",
-      "sha256": "56d6a2b516945d4d0ab2ed7a39994b99f2cb12761d856d72f749728e3267e839"
+      "sha256": "39cbc64a7326b74e6118c781055fbb8a0c0d4c5e95b0afc839748f38b2779db8"
     },
     {
       "path": "AP/textures/player/hair/hair32.png",
-      "sha256": "3150f606f1d14e035f2bd3acdbbcc31b8ec140a7621a4ada002fc60b06c1a4a6"
+      "sha256": "b18901f3656d08d3cc2331a73097869a61806d9c8d4708bc2e6dae7f1b273975"
     },
     {
       "path": "AP/textures/player/hair/hair32_back.png",
-      "sha256": "e2e5265e51f2a6e2e0ab0b93d364f2ecd8f464e97c0564ab08cea467bf7ee10a"
+      "sha256": "82000a0e2206524f61068610c6ed0e186eeb0cfd17041141c0735da7fdd2e8dc"
     },
     {
       "path": "AP/textures/player/hair/hair33.png",
-      "sha256": "7a5061ed053339a889dea10230c2ad5d9fc093bac7bd79ca7463d6d86929b653"
+      "sha256": "161ab93396f30ff0deed2620ff5ce0407cedbe3fb2058b79bce728f525bd053e"
     },
     {
       "path": "AP/textures/player/hair/hair33_back.png",
-      "sha256": "89f497d8a6249d72216858a165c7cf6b9b5bd0d9010a03e6231236b758aee129"
+      "sha256": "8c3bc99db5712400d5499fc672795f3391be2b9b4878e27034cafd4f70d91444"
     },
     {
       "path": "AP/textures/player/hair/hair34.png",
-      "sha256": "02be2b9a8ac00be59cdcd2f0aec904fe63c19dc38b575eb45c622919bdd45f3e"
+      "sha256": "18a608bdc76898167913ad7613b10fe8e7803161c7d74aaaa235c085a7c4af9c"
     },
     {
       "path": "AP/textures/player/hair/hair34_back.png",
-      "sha256": "89f497d8a6249d72216858a165c7cf6b9b5bd0d9010a03e6231236b758aee129"
+      "sha256": "8c3bc99db5712400d5499fc672795f3391be2b9b4878e27034cafd4f70d91444"
     },
     {
       "path": "AP/textures/player/hair/hair35.png",
-      "sha256": "49e2adb5993417dff5cbcc630be0ff32db404683b9714672086a30a08ec0c2c3"
+      "sha256": "a836c02b0f5cc77873a52cae48efd4d9e9af245a2465e6843ffe09f3c9609713"
     },
     {
       "path": "AP/textures/player/hair/hair36.png",
-      "sha256": "d12de2b17371fb127659ecee4816bb68b9ba1970d99dcc15606e376638c95ed0"
+      "sha256": "40dde20d2b8149d57e68f36ab44fbb4de06aa04cfd5936c4c5fa17ca9378cb51"
     },
     {
       "path": "AP/textures/player/hair/hair37.png",
-      "sha256": "53b8f129a0031914e135957e175130202ce9c26b1310251095a4bee4af1b501f"
+      "sha256": "78dc242ff0db6d236e0fcf644dbe3e47da28b91e465718bd52c7581b01cf3bf6"
     },
     {
       "path": "AP/textures/player/hair/hair37_back.png",
-      "sha256": "1a5d4a21504ca8c46241cf3427ec40cbf4deea7925a34c3eb4779874c4075d87"
+      "sha256": "d0a25a994a01551aa8d4fa25d9572b2a2cfd750a05b74b907051f1d7b5e345c4"
     },
     {
       "path": "AP/textures/player/hair/hair38.png",
-      "sha256": "09b17fbcfdf973dbbae3ea10d4dd807f6f7acd299a1aa8a4f4d6a35bf5eee99e"
+      "sha256": "12a5077e01381d9a4b8cb1d6fb47c51fa027eb1ae6152f2a4555f54ab40b3cd8"
     },
     {
       "path": "AP/textures/player/hair/hair38_back.png",
-      "sha256": "d8a9feb776860006495532d089d9274ebbb1b298fa89f70632116138e7bbbc5d"
+      "sha256": "ee8fde0fd6da3c86d2d2447205f353643b70f06121e93f836179c6c1f946ab6c"
     },
     {
       "path": "AP/textures/player/hair/hair3_back.png",
-      "sha256": "90e29914676cffa66f48e3ccf4bf563cb4b4518ecd5fc6cebd7a559c11760e6c"
+      "sha256": "edf2d891d2bffe89f38bea70fa57700b6382055ffbc4233aaa2eada3d7a6ebe9"
     },
     {
       "path": "AP/textures/player/hair/hair4.png",
-      "sha256": "17b116d6bb6d4d2daeff92e8184ea362970a44242a6c80c80ea0a31dd97f8149"
+      "sha256": "cbf4865ab52f9c82e87baeeb5f9ccaf623bb383dbc4ae8b380f726db16e081c8"
     },
     {
       "path": "AP/textures/player/hair/hair5.png",
-      "sha256": "3321c9c03e9553cb7b9319e63febfd75ed9ccbbed01e0dad9d4187f59dae699d"
+      "sha256": "9e759ccc63113ba0fe478a1cfc6619c3089c5286ce013b07ba4a98c723a817ea"
     },
     {
       "path": "AP/textures/player/hair/hair6.png",
-      "sha256": "d9232bcdfc414e18bbedd50442dcce70072d7093e211e595f978268cded0da19"
+      "sha256": "cef20175fce1f98368bc858e3ffdaba43fa3f6ad7a357dc28abfd5b3590320ab"
     },
     {
       "path": "AP/textures/player/hair/hair7.png",
-      "sha256": "d8577ffb85b83d8a5c554f1edd28432b44494a23818ce21c3c88a914e0127b8b"
+      "sha256": "83ca59e93f063e15fd2ee6e46f4dcd369e5c2ac74c248159719ab9369ecbd053"
     },
     {
       "path": "AP/textures/player/hair/hair7_back.png",
-      "sha256": "4c6d28d707de3eb2c912fb014eb1c806c1c354ed70fab1c6c02b72deafca0eb5"
+      "sha256": "4485cfb134236aaf9fadcf73fff62578eab5f96b70b07022ba0dd61507330499"
     },
     {
       "path": "AP/textures/player/hair/hair8.png",
-      "sha256": "63a847c46f8ffd17adc701d853c1f9f16dd2ac867da844a795f1c36820a8d21f"
+      "sha256": "3159836767acbba07d3542cb1e0fe86cf3c53ec4bd5b4551c42d696bfdb88335"
     },
     {
       "path": "AP/textures/player/hair/hair9.png",
-      "sha256": "ed72ccc9a29a76afc53c8115bec5895c2cbc1bc5bde9f90c354cb1f5a7811f7f"
+      "sha256": "1fd4cf0a1a9a607a9f435ff4b1b4d124b39a69c2a1ce6f486c1ab1957376bf2d"
     },
     {
       "path": "AP/textures/player/hair/hair9_back.png",
-      "sha256": "5cdb5d00f4bf257087c1e1bae2730cfa5d8c3614f36f62fd2a0918efcac8e6f3"
+      "sha256": "1fbbb8853258752f1eacd3fc7833fadbdeea58b7d2af159fc1c1b8815024b593"
+    },
+    {
+      "path": "AP/textures/player/hair/receding.png",
+      "sha256": "78370499ef3b0d0c838677af327e2fda6bf8bdd7e431a0eacd9c57aa8a042f31"
+    },
+    {
+      "path": "AP/textures/player/hat/ancestors.png",
+      "sha256": "23ef3d34d7928cc7f491181083ffef7f66dd11566bc90e129eaf6b6ee237f2f7"
+    },
+    {
+      "path": "AP/textures/player/hat/ancestors_back.png",
+      "sha256": "c8ef58398bd34ae483eb42129fd562514d9bdab91ee5254e3178b12c29dc11ce"
+    },
+    {
+      "path": "AP/textures/player/hat/battlechef.png",
+      "sha256": "358b067d90ef0ecac77aa6b89ed8dcfb4fc6d488d90068457a23d0ecda837e1f"
+    },
+    {
+      "path": "AP/textures/player/hat/beret.png",
+      "sha256": "4a56363fbe51dd8f1a609df45ab37a0f69825d0ec6e74e9e446e928ddc1e47b3"
+    },
+    {
+      "path": "AP/textures/player/hat/captain.png",
+      "sha256": "bd6cfb68ff865df2b18ecde9fb39c1a68436ba59e4d2926515d58402d7195100"
+    },
+    {
+      "path": "AP/textures/player/hat/cloth.png",
+      "sha256": "7ec6b1146cf7c398e0c451cf96b924b95cb9af6ffa184aaf77a6d086cbd753c0"
+    },
+    {
+      "path": "AP/textures/player/hat/cloth_back.png",
+      "sha256": "7ccad743c15c6c01aebc8ec9874a49111fe22518cb6b6667ba237206ad2d8a8f"
+    },
+    {
+      "path": "AP/textures/player/hat/crimson.png",
+      "sha256": "cf1077a36877566923de4a2fdbdc0a5bb7e4182fde16940ad8662ec065dc8ca9"
+    },
+    {
+      "path": "AP/textures/player/hat/cryowitch.png",
+      "sha256": "3cc9a7d2b55027d68d35ec8d4334907796176cc29216ea5afecb6f876bee2ca3"
+    },
+    {
+      "path": "AP/textures/player/hat/cryowitch_back.png",
+      "sha256": "def500782bd9e8d1856338c7b2334745b931efc672ef5dc8107f8c834c3b1a4c"
+    },
+    {
+      "path": "AP/textures/player/hat/farmer.png",
+      "sha256": "71b25a7859942bf3f8e63f7e8990a386f66ecd211f165c0c01e3a5543ed857a4"
+    },
+    {
+      "path": "AP/textures/player/hat/flat_cap.png",
+      "sha256": "d0cd19cfd1c2952c46f56386c9cf9e0e49b374e1bfc974481ec7fab10b90e7e7"
+    },
+    {
+      "path": "AP/textures/player/hat/jester.png",
+      "sha256": "9e8051195e26700bab258709274c2c56f521ac83140de683fc8e9946b4f039ec"
+    },
+    {
+      "path": "AP/textures/player/hat/knitted_cap.png",
+      "sha256": "b2fcfffc9c333fe1a41dba67d134342a5876e0b9a8fd2f27059d95cef87c9696"
+    },
+    {
+      "path": "AP/textures/player/hat/mage.png",
+      "sha256": "ebfcffd1c90e428db6b53e9a606163de4dd54570b3c84ba099c7ac94261cc2c0"
+    },
+    {
+      "path": "AP/textures/player/hat/miner.png",
+      "sha256": "cb63e425a4303ae895ffcfd4c0de97098bb832df3dac508e4549cdf9aa37226c"
+    },
+    {
+      "path": "AP/textures/player/hat/ninja.png",
+      "sha256": "ccfeeac6a85a1355c55dfc3a921e45d61b014050d474cffa832714fdb007c235"
+    },
+    {
+      "path": "AP/textures/player/hat/ninja_back.png",
+      "sha256": "dd0e5b507ba02b4d0ba84e03fed1c6d5a4b342d7bf5009cc8e256918a4ddfc89"
+    },
+    {
+      "path": "AP/textures/player/hat/party.png",
+      "sha256": "7d96435a0265f98e92547b8d7fedcaab1c6f8a69a20f1eba7c94f1d0c18793ef"
+    },
+    {
+      "path": "AP/textures/player/hat/party_back.png",
+      "sha256": "4d8992ffd27d70220235d66ea860128193d62b09000484cf75dce15afa2e7b99"
+    },
+    {
+      "path": "AP/textures/player/hat/pharaohs.png",
+      "sha256": "fe0e8cd94323378bf0e9ba3cfc426ae9a1af6463d71d417989d4be9a0b76190b"
+    },
+    {
+      "path": "AP/textures/player/hat/pharaohs_back.png",
+      "sha256": "b3f8532784210f7ab3c8dc3417f29d338ea6e74f30a8663cd14113faff2f750c"
+    },
+    {
+      "path": "AP/textures/player/hat/rain.png",
+      "sha256": "6d2c5274b3154273417ecfd916d0db28fe6e456a3c20aaf27f9e87ce8c4a6e01"
+    },
+    {
+      "path": "AP/textures/player/hat/rain_back.png",
+      "sha256": "4846f99f835e850ed887ace7ea87442ecdfa0b5905eea8e6e9dcde03acdbdd1f"
+    },
+    {
+      "path": "AP/textures/player/hat/ranger.png",
+      "sha256": "9341970667a748cced8f5866e4dc4fdb130abb63fe2c888f21dc3370d81eebd5"
+    },
+    {
+      "path": "AP/textures/player/hat/safari.png",
+      "sha256": "e677c224db2242ae211578e026628965ac393a2b62fdaa6e93c50995cc8d87a2"
+    },
+    {
+      "path": "AP/textures/player/hat/straw.png",
+      "sha256": "bd47297bd2d7b15be0b53c0e0926fd1368a17f7b143b313c8df3ec606a5345ab"
+    },
+    {
+      "path": "AP/textures/player/hat/top.png",
+      "sha256": "2bc83969d0c2f6e0257b597944cb31fff72b097b97ade48de5f08db5d3ac769a"
+    },
+    {
+      "path": "AP/textures/player/hat/trapper.png",
+      "sha256": "aba7b1e23558db0b8c7a2fae9a8992b6efb3a0f3786b75937ce2f0ca429dd116"
+    },
+    {
+      "path": "AP/textures/player/hat/void.png",
+      "sha256": "74408004a2e08e3044cbc32b347b548266b1a0b1ad2ef8a55db63c6b1df58c7f"
+    },
+    {
+      "path": "AP/textures/player/hat/witch.png",
+      "sha256": "d888996fd792cc82c048a6d70a2f62fb4290b6e0b2a9ee452b19f261eba2239c"
     },
     {
       "path": "AP/textures/player/head.png",
-      "sha256": "1ec7266f525d335ae4f7436bba8694aa6824c5948551efce8ff25b463d7b133f"
+      "sha256": "59ade84cc342f720649750bfa451af55c1e752be096e8a02e6827b4b1eca6953"
     },
     {
-      "path": "AP/textures/player/shirt/captain_left.png",
-      "sha256": "b5772e3e42af7af39fbbb40f6892a6336049b9d56688908894ed50fa84fef50b"
+      "path": "AP/textures/player/shirt/ancestors.png",
+      "sha256": "062274e109afac6e7f9ef6253faf03875b935ea0da0bbc42aa309625e2a1340b"
     },
     {
-      "path": "AP/textures/player/shirt/captain_right.png",
-      "sha256": "51cc127755f6a5ce40b1511840dcac4bc4a4675d035a5781d1ec3804618f3ec5"
+      "path": "AP/textures/player/shirt/captain.png",
+      "sha256": "516a1d0719f73a30878f5f9d16b945a8028175c431ec9dcbb13515457d1ec823"
     },
     {
-      "path": "AP/textures/player/shirt/captain_torso.png",
-      "sha256": "ecd3d66686684ae59e527ef7691f5e40a5ab0d1a1df45b34ea3aea23de8bc060"
+      "path": "AP/textures/player/shirt/cloth.png",
+      "sha256": "1906be5988308751cad89863e34797674247287a7a6207d81deb8255ee7dbbe9"
     },
     {
-      "path": "AP/textures/player/shirt/elder_left.png",
-      "sha256": "5ac214e842168b44e057f2bb7691974ec39a9fc8b32551791c24d485af7b3d4d"
+      "path": "AP/textures/player/shirt/crimson.png",
+      "sha256": "ffb4803a3fcc3ef8c8730b775ebb0244ab23131de8eeea7ea2d396e6679378d6"
     },
     {
-      "path": "AP/textures/player/shirt/elder_right.png",
-      "sha256": "95bb4f8fe718e11c6a6f985825ca4024457af5cf9f98ab2d517fe019f466fca4"
+      "path": "AP/textures/player/shirt/cryowitch.png",
+      "sha256": "def0990582a362b65414c39408303918d1ceb4898c03b6bc6f43b60f813ad9d7"
     },
     {
-      "path": "AP/textures/player/shirt/elder_torso.png",
-      "sha256": "5beec160bc86aaa72c31d1188a6f85216e4def197f7961c7c18f98c903ab8003"
+      "path": "AP/textures/player/shirt/elder.png",
+      "sha256": "7e9e7964f491d7c7e40fa7ce4e282ffc75d56f518a3811f1990761b9d8b6f34c"
     },
     {
-      "path": "AP/textures/player/shirt/exotic_left.png",
-      "sha256": "42d1664b671004949dfc7707b8f9fd5dc430d75a45e0ef74eaf1df07b9983a4f"
+      "path": "AP/textures/player/shirt/exotic.png",
+      "sha256": "a9007910d6aefc88112acf69b43d9b8ac6cdfde72c7d98300aed67ab2d2e7aae"
     },
     {
-      "path": "AP/textures/player/shirt/exotic_right.png",
-      "sha256": "f17e476b98837141612a2b7e7804bc9f9822439bd7343b406d40ecac41b340a5"
+      "path": "AP/textures/player/shirt/farmer.png",
+      "sha256": "e6091f1910b6413d13a10d68a23cdc88d0e22d6614bd1565d18aa18440ced890"
     },
     {
-      "path": "AP/textures/player/shirt/exotic_torso.png",
-      "sha256": "f5d8756e138480dcc942326ed1d58f40fc3126bd1b4dc1826c59ae8791b378fc"
+      "path": "AP/textures/player/shirt/fisher.png",
+      "sha256": "4256fdd3437ad7d4446a17c2707b12747be97c78b08f98b22126537ae8730f61"
     },
     {
-      "path": "AP/textures/player/shirt/farmer_left.png",
-      "sha256": "708fb5d51781a6a036737bcc5739bd2ff50a578697858a04230efa59e20524ca"
+      "path": "AP/textures/player/shirt/hunter.png",
+      "sha256": "21c7e2a6a0f3b2b0e945485e74a9c22f1b226041f1d835bdebeb9bec79fd3d89"
     },
     {
-      "path": "AP/textures/player/shirt/farmer_right.png",
-      "sha256": "dddab18515c515747a5150fb09870e09f7ca4d42e6302f54d084d6f141e4d70d"
+      "path": "AP/textures/player/shirt/jester.png",
+      "sha256": "aa21546f8bcec530a151906e20c6112bb711c5792079ed8feea4f9db2c2825ce"
     },
     {
-      "path": "AP/textures/player/shirt/farmer_torso.png",
-      "sha256": "98162ecbc5dbeff4e9dbbaeec244cf245c014ccb6bcdf24889a809431b824829"
+      "path": "AP/textures/player/shirt/keeper.png",
+      "sha256": "69b8a973ffca30d52936baa25bf615ca6cf21fabce5cac94afbd0cfc395c8436"
     },
     {
-      "path": "AP/textures/player/shirt/hunter_left.png",
-      "sha256": "ac669f02ea44dc1b67ed3062ed03456efe8f8e0f0e1fc50649c597118e68a71c"
+      "path": "AP/textures/player/shirt/labcoat.png",
+      "sha256": "15425c0e87c6a601567fcd8d60d21442208acd4df654e110cdf9cf0e82d63cdb"
     },
     {
-      "path": "AP/textures/player/shirt/hunter_right.png",
-      "sha256": "29f5baf458739183f3a2e6aa6808f485d5367f28f4aae91599bddb6fafd11027"
+      "path": "AP/textures/player/shirt/mage.png",
+      "sha256": "5e9787f27256ea5a15726578257d1192aa843c2117f14012910139847a3665b7"
     },
     {
-      "path": "AP/textures/player/shirt/hunter_torso.png",
-      "sha256": "389bddd6aa722f469c6cfbd83ea808073bb6b497851343235c11601778159f79"
+      "path": "AP/textures/player/shirt/mime.png",
+      "sha256": "7910879f5d39bbdef48480778f1343446956e9bdc0c02aa21bc7b5db78508547"
     },
     {
-      "path": "AP/textures/player/shirt/jester_left.png",
-      "sha256": "b35957b934b1b9533c5ca38f9f642bfe0d869602912a35e4f1f371e34642fa40"
+      "path": "AP/textures/player/shirt/miner.png",
+      "sha256": "5a617be0f5cfe50f994d1aaf49bf3879e7c0bd418ff84452494a48fe0f4f8078"
     },
     {
-      "path": "AP/textures/player/shirt/jester_right.png",
-      "sha256": "cac60d5986f78fa727dca3ced9b32716753acb64e37769478740d804db63a3f3"
+      "path": "AP/textures/player/shirt/ninja.png",
+      "sha256": "3609d4a3e9d8c787dc5c976e65414f70d75b4b77d903e406d5fd9836f4cc573a"
     },
     {
-      "path": "AP/textures/player/shirt/jester_torso.png",
-      "sha256": "b4da576fc04c7a85cfdd0ec0afd5632c06441f3f1ab599a321ea68be4ab6af93"
+      "path": "AP/textures/player/shirt/overalls.png",
+      "sha256": "20261c364d69a3beced93b4ec4928848b04362439c0fc536fbe6f92a9f2f7b70"
     },
     {
-      "path": "AP/textures/player/shirt/keeper_left.png",
-      "sha256": "8466d2fdf8ae7d9a8e03542099d27d69b98db7eeec027c55f1aad2bd9c7f1773"
+      "path": "AP/textures/player/shirt/patched_tunic.png",
+      "sha256": "c0b7e1b85def25691b7b5afacfdc820a8f3a45578706a99c387b82d44fe016ce"
     },
     {
-      "path": "AP/textures/player/shirt/keeper_right.png",
-      "sha256": "9c4eee48b662bbb38cdaa2943e88e15c397ae147efe6543c9c8741a554dbf31f"
+      "path": "AP/textures/player/shirt/plague.png",
+      "sha256": "82c07444f60544210862563d27b2dd595f3476478335c38b63a8386693cfd7e3"
     },
     {
-      "path": "AP/textures/player/shirt/keeper_torso.png",
-      "sha256": "f07ff43cc6d310cc595af65ca9b74a6e5abd07fc3ed29be56eea0b5dd272e784"
+      "path": "AP/textures/player/shirt/ranger.png",
+      "sha256": "56f99c8701d02af71b5578c07bdfaa206069c676429026ee65cffea62bb890d6"
     },
     {
-      "path": "AP/textures/player/shirt/labcoat_left.png",
-      "sha256": "b8f7a7a3b8d4cdde77d13cb6261bc807f9f45cd91ef3383aae4be439ec01be30"
+      "path": "AP/textures/player/shirt/safari.png",
+      "sha256": "79e6d093807299eefead3d67a10a4e08f1017e19e35296d10593dc68e680a158"
     },
     {
-      "path": "AP/textures/player/shirt/labcoat_right.png",
-      "sha256": "f5672330f588a717aa9b92760afb19dd82919e15630654e2e632d5e635e02d4f"
+      "path": "AP/textures/player/shirt/sailor.png",
+      "sha256": "45be06f3edd265107dd9f1055d7914f848a54bd8dda05d13a0143da0d487920a"
     },
     {
-      "path": "AP/textures/player/shirt/labcoat_torso.png",
-      "sha256": "3a6aabb0cece6a37054d63bdd40afcb1c629b72b6cf7954735ab5fd5190dae39"
+      "path": "AP/textures/player/shirt/tee.png",
+      "sha256": "d71649a38fa8e90f8e173c2a6ccdc2dc90ca57595b265e756925244b737f1d3e"
     },
     {
-      "path": "AP/textures/player/shirt/mime_left.png",
-      "sha256": "b5d6f3f42bb11f1779de185e43b0245c26a4add7b710fd6003e4971488160f0e"
+      "path": "AP/textures/player/shirt/thug.png",
+      "sha256": "caa3fd24024e45aabacc4abba64b421c8980157ce09f7e02b4575139984523b9"
     },
     {
-      "path": "AP/textures/player/shirt/mime_right.png",
-      "sha256": "89f497d8a6249d72216858a165c7cf6b9b5bd0d9010a03e6231236b758aee129"
+      "path": "AP/textures/player/shirt/void.png",
+      "sha256": "b7afeb1487e6e532e4a199d076f5a331cdb124dee654aebd3c210ac43c4bceb6"
     },
     {
-      "path": "AP/textures/player/shirt/mime_torso.png",
-      "sha256": "928f0714d73d48b36b2198bbaae2adfc967983167c244efcb9e07703babd4902"
+      "path": "AP/textures/player/shirt/waistcoat.png",
+      "sha256": "77f422544ae1098d89f6b6e06b42be04addb14d2ffa048adc95598ea65e8e21f"
     },
     {
-      "path": "AP/textures/player/shirt/miner_left.png",
-      "sha256": "57595651b373d143850647170d1b148a7db48aa1c968a95816c1ee84910af16c"
+      "path": "AP/textures/player/shirt/winter_coat.png",
+      "sha256": "99d10828801921a6726bfc97662f4df74469f1a04e80c474389c06502ae122a7"
     },
     {
-      "path": "AP/textures/player/shirt/miner_right.png",
-      "sha256": "5fd8c3fb70db154424143595ccf6db8cea2fced02e405e5e7dcb29702c488a25"
+      "path": "AP/textures/player/shirt/witch.png",
+      "sha256": "a19e4d2b4d12e198743e5a91a54760c9e75756a1cda79cc3d3643ad40b0712c4"
     },
     {
-      "path": "AP/textures/player/shirt/miner_torso.png",
-      "sha256": "532531a42081132c917157e6fbab4ad7ede676c035eabb1a6ef6ea9005d37d22"
-    },
-    {
-      "path": "AP/textures/player/shirt/safari_left.png",
-      "sha256": "fa22e7c91a9c7f9aff302dfd1d57d6d7cd4199b947949f954d6be1c811685bc6"
-    },
-    {
-      "path": "AP/textures/player/shirt/safari_right.png",
-      "sha256": "90190a1e89dbf9a85642db5e527ab2327fdfffc24f97d6d1fdd08029241bd8c5"
-    },
-    {
-      "path": "AP/textures/player/shirt/safari_torso.png",
-      "sha256": "7fdc3fbcc26ebec5178455e8144ce1c12d8dd52986c07a32fbce74fc136a0385"
-    },
-    {
-      "path": "AP/textures/player/shirt/sailor_left.png",
-      "sha256": "2c899ac4a9c4ebf9baf845e4fcfec67345f3fb0e325012cc5aee5b2a1d402d1e"
-    },
-    {
-      "path": "AP/textures/player/shirt/sailor_right.png",
-      "sha256": "26df4eb310a4011068c1b4f8a9027aa7e67a1973ca88b562d9ffceb3a0eb5d24"
-    },
-    {
-      "path": "AP/textures/player/shirt/sailor_torso.png",
-      "sha256": "65e02123c2c59910869df62fbd160fea5519483e71857a53046f151991345af6"
-    },
-    {
-      "path": "AP/textures/player/shirt/tee_left.png",
-      "sha256": "5d677bc412e1a912dd529db978b200a1a9f834abf64f64bcfc9754ebd6419f6b"
-    },
-    {
-      "path": "AP/textures/player/shirt/tee_right.png",
-      "sha256": "48e281472cf991c7c858f265335707e65ae895d93bf605f510bbc3c49f8c5990"
-    },
-    {
-      "path": "AP/textures/player/shirt/tee_torso.png",
-      "sha256": "01a8347401f38e96c1d760f0fbe4b206b3397a1c859c0debf7c1b9549d1f93ef"
-    },
-    {
-      "path": "AP/textures/player/shirt/thug_left.png",
-      "sha256": "677134b6035cea653d13e2602062acd204c75afc04a1bda52bccf97e7037740d"
-    },
-    {
-      "path": "AP/textures/player/shirt/thug_right.png",
-      "sha256": "4151739433af7faa7558c634d336d0ce81accd5f82c52e239708ed5aa653a352"
-    },
-    {
-      "path": "AP/textures/player/shirt/thug_torso.png",
-      "sha256": "a93d3b7dba1be1e98a83c5fde72643f531fee24894c14113cb58e0280370bdd0"
+      "path": "AP/textures/player/shoes/ancestorsboots.png",
+      "sha256": "78c8ef9b236f4644479ce6990bf04ee3c7fd2515219e314441b6683850f343e5"
     },
     {
       "path": "AP/textures/player/shoes/animalkeepshoes.png",
-      "sha256": "b27551f6b1727805da6c0d2873021d5286db5d9f7d9fa87d08b5d287b1580668"
+      "sha256": "1fcf47e4370a986ee6f96533ae88aa2f52657de8f7d5a32e7012388a5ce49ec7"
     },
     {
       "path": "AP/textures/player/shoes/captainsboots.png",
-      "sha256": "2cd3a8f21c2cbb0b6516e93770bde41579f9c7b70d78ebe978367aef19fd0db1"
+      "sha256": "f4797b53d87e04b7d80fea53c3697058acbf929e1d4b5a0b9334cd9574119d1c"
+    },
+    {
+      "path": "AP/textures/player/shoes/clothboots.png",
+      "sha256": "08c510c10cd809a3794b7905543d3ab83e8378678453375c7c81e21b9b1a47c3"
+    },
+    {
+      "path": "AP/textures/player/shoes/crimsonshoes.png",
+      "sha256": "79f1212c3a86d3aaba124f2024bd1392634ed9efbafd6a47c6e47c7eb9d50107"
+    },
+    {
+      "path": "AP/textures/player/shoes/cryowitchshoes.png",
+      "sha256": "4efbe9ffafb9f0760305a0f128d39c61bb8df246e0c1335e2bd971e5b1046fcc"
     },
     {
       "path": "AP/textures/player/shoes/dressshoes.png",
-      "sha256": "16b21ea632f3de141ac39c2551bcef938e2e651fc524a6a3167df6fd01244764"
+      "sha256": "05466329cee16f063a5d0bac906c4953a295d290fcfb324ad48496443433ab2c"
     },
     {
       "path": "AP/textures/player/shoes/eldershoes.png",
-      "sha256": "59a37162a0f6fc58fe6aa549fd5c7a8e9d9bf7a6f5f9bd5a795a7c766ea3cd33"
+      "sha256": "bb3f74968f18ef5352600317f882159ad983a7b63bfcab5ead43bc250fa4bcd0"
     },
     {
       "path": "AP/textures/player/shoes/exoticshoes.png",
-      "sha256": "f2af3001eafb196e194f02e8c442df46c59746151c4063de555c179d405d53d1"
+      "sha256": "d524240c6d499bd5b005d1e6d451dd7da248182406d26ef365e456c89b50acba"
     },
     {
       "path": "AP/textures/player/shoes/farmershoes.png",
-      "sha256": "58a3dc69c9d65b2421f507e3bb05b14102a6e1aa467406de8452abc15d35ca58"
+      "sha256": "66c6b9b87446d77528011091a86c04a8685b2752f21b7ec16d607a74263cded9"
     },
     {
       "path": "AP/textures/player/shoes/jesterboots.png",
-      "sha256": "024ec409c1f737f6957650dd19161df24a6496937043bf5fb1bb54029492254f"
+      "sha256": "4fc2520d73f4df910612f5a5d70ca9596e7522775a1d48481b1af70d38d10791"
+    },
+    {
+      "path": "AP/textures/player/shoes/leather_boots.png",
+      "sha256": "4fd58a52f1f9dac836fc8b6f6401c250006705ebc58b5975c315bc201e73aac2"
+    },
+    {
+      "path": "AP/textures/player/shoes/mageshoes.png",
+      "sha256": "8592eba201e1404cd243d930ab388aff7c4388f173f09aafe88bdf1552ab4041"
     },
     {
       "path": "AP/textures/player/shoes/mimeboots.png",
-      "sha256": "b1de0a1e8dacaa6e65568ac9ef8c4425a29de35b0fd18ac5422012796abe1821"
+      "sha256": "0f3f66524b6ff8a2779dd2350a5608b4a36b5f538f8083da5ae8b9d559bab3c1"
     },
     {
       "path": "AP/textures/player/shoes/minerboots.png",
-      "sha256": "e3dc51e805b07cfed5c92ba6624d1ff7c7c00cbaa30afa97cd31fa1cfa2af314"
+      "sha256": "cf3141dde3d7732f1d659c90bb6c40236213d50a9f597c109af522a2a081455a"
+    },
+    {
+      "path": "AP/textures/player/shoes/moss_boots.png",
+      "sha256": "5066f3839c22ab7ae43078716bf6ec554e6661c4377140147822f78d10da88a1"
+    },
+    {
+      "path": "AP/textures/player/shoes/ninjashoes.png",
+      "sha256": "8998c7fbcb499b169fa8668d0d2cf5ec78623f9fd478b6c7697ef084d7ec5dde"
+    },
+    {
+      "path": "AP/textures/player/shoes/plagueboots.png",
+      "sha256": "f69808f66e86d6d31f5c1ecc06bdff283eab8eaa657f302b780d9c6cbf6650be"
     },
     {
       "path": "AP/textures/player/shoes/safarishoes.png",
-      "sha256": "733c9949b21cb8fbf0a5d6179fb50332d0460ffd854848c6f0fa0326a097e18b"
+      "sha256": "d40d2a830e16c83c4d6e15917fc670ba6aea676eda42c7a2b1a80dc86fcc85c7"
     },
     {
       "path": "AP/textures/player/shoes/sailorshoes.png",
-      "sha256": "e14a55dd968afa06fd11ad4b6f428fb06d22e6fcaa3a7cd971379ecba350ef73"
+      "sha256": "c5bcfdb27bce7f8c567b50da0fbac0954da8b4ea6735b995fea1cefe8e619d43"
     },
     {
       "path": "AP/textures/player/shoes/snowboots.png",
-      "sha256": "c26c6ebd274d3b17b2add839d36c10a9b36294caedf36920bb263211e849c65a"
+      "sha256": "670851edbf0598abfa8ec5c6b634fd4f54947e3649bdeb38e6296f6e11e79fa0"
     },
     {
       "path": "AP/textures/player/shoes/thugboots.png",
-      "sha256": "b23f216bbdb2bfeb6cf6a70949af728d10a1bdd8f1e57243d71d831a8cd78629"
+      "sha256": "1264fbb09f36595f1d2bd1fd5b5769a23732dd1505695fce18266e2abf39945e"
+    },
+    {
+      "path": "AP/textures/player/shoes/voidboots.png",
+      "sha256": "a1e9237989bdb1bfa9fd373321e62c3c858fe84cc6688bd27b09fa64db383864"
+    },
+    {
+      "path": "AP/textures/player/shoes/winter_boots.png",
+      "sha256": "bd01995829d912dc7eba0e095ec7d5847d34068239085a75b47b15e52df26a19"
+    },
+    {
+      "path": "AP/textures/player/shoes/witchshoes.png",
+      "sha256": "cf43278395d5c0c68845ab6cbd99087e7eaf7f28a6c946da0ce85f0018d18601"
     },
     {
       "path": "LP/blocks/air.json",
       "sha256": "8722cf33a012794b29a127d8e461a561e2ca8c8db3f175f2d7eb982c92fc3207"
     },
     {
-      "path": "LP/blocks/bush.json",
-      "sha256": "f076a891af02ce493e699649d7340a04d0f0d708f659f5e6bd04025084a18de3"
+      "path": "LP/blocks/building/cave_ladder.json",
+      "sha256": "c124fbe96d057a616a200a1a5e3e1ab45db4a42d397e685a883292fe39bc84d5"
+    },
+    {
+      "path": "LP/blocks/building/hardwoodfloor.json",
+      "sha256": "77d65e1da7f878b808dac9e0ae00755168e745fe480c20554f59e0781867df66"
+    },
+    {
+      "path": "LP/blocks/building/stone_brick_floor.json",
+      "sha256": "9b119b85abd9e3a9c59b6d98e686b319b505a1b36a26abb4bd2bc85cd1560b95"
+    },
+    {
+      "path": "LP/blocks/building/stone_brick_wall.json",
+      "sha256": "0cea2cfe5273fab3e5776ca93aac3a5f36dc011bddc0fe4c742214939516d7e4"
+    },
+    {
+      "path": "LP/blocks/building/stonepath.json",
+      "sha256": "4ce6529c19bb1298aea813f34bd7c8a82d624a161d8185a7a56a18ad7b74f7c8"
+    },
+    {
+      "path": "LP/blocks/building/straw_floor.json",
+      "sha256": "42e57375587ad871b48f627e09d86d912ba9f32162cd902e58f3fc8cbb0b3eb3"
+    },
+    {
+      "path": "LP/blocks/building/woodfloor.json",
+      "sha256": "04f264a77fdbe7e0fd6735cffffb1401d00a71acf08b099a2535ba17baf713e9"
     },
     {
       "path": "LP/blocks/cactus.json",
       "sha256": "bf0f1b96621e51a97844e818f830d8b02e0d63acea63a4607caee312ebf6a6e2"
     },
     {
+      "path": "LP/blocks/cave_coal_floor.json",
+      "sha256": "6188cb0d04643d84b44df2f51e328a3403a0e30d17fb2e5d48c78ba83c8f0e9e"
+    },
+    {
+      "path": "LP/blocks/cave_coal_rock.json",
+      "sha256": "b8237b4ceb96d420292c6c80fd25611d9c2d0f7fc6d51228e9da082887ee7a15"
+    },
+    {
+      "path": "LP/blocks/cave_copper_floor.json",
+      "sha256": "67cdfd5bace8149a607732fc7975665273fb2ddb447d0c98584ecdad5f2d8c37"
+    },
+    {
+      "path": "LP/blocks/cave_copper_rock.json",
+      "sha256": "538e1140af22451ee05cbb7c157e3fca230264b615712ea159929e61f2d9eb60"
+    },
+    {
       "path": "LP/blocks/cave_entrance_stone.json",
       "sha256": "74f299204a6f23ad7e3c536ad3ae57987d9dd4a4ccd8a1549232f4686c8156e7"
     },
     {
-      "path": "LP/blocks/cave_floor.json",
-      "sha256": "3ac1546452b755b2207335f76b5122d327d6a865e2dc9078b6786fea7042a3c1"
+      "path": "LP/blocks/cave_iron_floor.json",
+      "sha256": "f3006e1cad411a1dfd7e762a189def493dc618ae2c3154a533ee9992ae647f5d"
     },
     {
-      "path": "LP/blocks/cave_ladder.json",
-      "sha256": "c124fbe96d057a616a200a1a5e3e1ab45db4a42d397e685a883292fe39bc84d5"
+      "path": "LP/blocks/cave_iron_rock.json",
+      "sha256": "66deb181a8041e26310ea1785682239198b31f741f6c3a9a0a7a246efc1f0f55"
     },
     {
       "path": "LP/blocks/cave_mouth.json",
       "sha256": "9a241390726773e6dae4f90121b195fb86615cb0a29cf73ed766214a1ddb150f"
     },
     {
-      "path": "LP/blocks/cave_rock.json",
-      "sha256": "0feb185ff32d70b9f081b384c9a9844b9392902d34c53bad5fc52ddea41b21e0"
+      "path": "LP/blocks/cave_substrate.json",
+      "sha256": "92fbe06a613057337a7f42b8303d746fb8469bee1eb529a9fe1d3fcbfe60152f"
     },
     {
       "path": "LP/blocks/chest.json",
       "sha256": "130a3e0e0cabd9a2010cfe3aaf79381db4adec15198a8833c3636436ca704acb"
     },
     {
-      "path": "LP/blocks/dirt.json",
-      "sha256": "5f55be94c33e558d98f3e3c2239761e73b75401aabc01ad9d9bdb896fe12dd29"
+      "path": "LP/blocks/decoration/torch.json",
+      "sha256": "4aa2bd796ffb80c20da881367fdaf62cbfbbfae4cc8d9b6aa76fd59728048cb1"
     },
     {
-      "path": "LP/blocks/door_crystal.json",
+      "path": "LP/blocks/decoration/workbench.json",
+      "sha256": "631657b2628abb46ea186a6402420e70c13d39976917e425bc38be0d68318440"
+    },
+    {
+      "path": "LP/blocks/doors/door_crystal.json",
       "sha256": "c9903d67cdca354d6479f30200e9cd8404e81c43d77295c63caac4571b45a838"
     },
     {
-      "path": "LP/blocks/door_hardwood.json",
+      "path": "LP/blocks/doors/door_hardwood.json",
       "sha256": "c3bab4444616deb3a8796ed8694a317f5b8cf87488d9cdb20f5219844de242c3"
     },
     {
-      "path": "LP/blocks/door_stone.json",
+      "path": "LP/blocks/doors/door_stone.json",
       "sha256": "24b1cf6996092619b8316a3ff2d31902c955ff2610c75c8d1d9df9f0964bbba3"
     },
     {
-      "path": "LP/blocks/door_wood.json",
+      "path": "LP/blocks/doors/door_wood.json",
       "sha256": "32d6e95ca24e7f4978a8dd501adbc22ac4b372b6a7a516629a248cfa1a7832e7"
     },
     {
-      "path": "LP/blocks/dry_grass.json",
-      "sha256": "e8acb2fea5854d04c09f4ebad6f7e5276f891b66705c43631e5f15b070e9be20"
-    },
-    {
-      "path": "LP/blocks/fence_hardwood.json",
+      "path": "LP/blocks/fences/fence_hardwood.json",
       "sha256": "c7446b0d586f5ed8b8867f00d3fd68bc9cca696071dde210cee5b3c6985bcd4f"
     },
     {
-      "path": "LP/blocks/fence_stone.json",
+      "path": "LP/blocks/fences/fence_stone.json",
       "sha256": "72f96d384d4301f53a5624144e1b0e8397c3e9661249fd7e9d23fcd3188fb934"
     },
     {
-      "path": "LP/blocks/fence_wood.json",
+      "path": "LP/blocks/fences/fence_wood.json",
       "sha256": "397cb6157faaca2190042731b7caaf1cdb8459c4a36f373fc4a66ab7a0581ced"
     },
     {
-      "path": "LP/blocks/gate_hardwood.json",
+      "path": "LP/blocks/gates/gate_hardwood.json",
       "sha256": "e567ffd7db3016348bca08ba2acd7e781f4562324d7c141a6536f4fb0ef84f11"
     },
     {
-      "path": "LP/blocks/gate_stone.json",
+      "path": "LP/blocks/gates/gate_stone.json",
       "sha256": "b67dd59abc6e79ed754ae34534fb8dd3f876757da9d54255b542411cf9295130"
     },
     {
-      "path": "LP/blocks/gate_wood.json",
+      "path": "LP/blocks/gates/gate_wood.json",
       "sha256": "d9fbb006a28c2da20f82f58a5c5360a2d3b132c5e722be56d400107cece24cdf"
     },
     {
-      "path": "LP/blocks/grass.json",
+      "path": "LP/blocks/natural/bush.json",
+      "sha256": "f076a891af02ce493e699649d7340a04d0f0d708f659f5e6bd04025084a18de3"
+    },
+    {
+      "path": "LP/blocks/natural/cave_floor.json",
+      "sha256": "3ac1546452b755b2207335f76b5122d327d6a865e2dc9078b6786fea7042a3c1"
+    },
+    {
+      "path": "LP/blocks/natural/cave_rock.json",
+      "sha256": "0feb185ff32d70b9f081b384c9a9844b9392902d34c53bad5fc52ddea41b21e0"
+    },
+    {
+      "path": "LP/blocks/natural/dirt.json",
+      "sha256": "5f55be94c33e558d98f3e3c2239761e73b75401aabc01ad9d9bdb896fe12dd29"
+    },
+    {
+      "path": "LP/blocks/natural/dry_grass.json",
+      "sha256": "e8acb2fea5854d04c09f4ebad6f7e5276f891b66705c43631e5f15b070e9be20"
+    },
+    {
+      "path": "LP/blocks/natural/grass.json",
       "sha256": "024427d6bbd31ec51d2409450fb18315f9ea72dcacd69c5a2054b53b3f1c3088"
     },
     {
-      "path": "LP/blocks/grass_tuft.json",
+      "path": "LP/blocks/natural/grass_tuft.json",
       "sha256": "50050688d48816e2cb79c48c07c3952fdd97d505d0cae5276e663062032cb3a2"
     },
     {
-      "path": "LP/blocks/hardwoodfloor.json",
-      "sha256": "77d65e1da7f878b808dac9e0ae00755168e745fe480c20554f59e0781867df66"
-    },
-    {
-      "path": "LP/blocks/natural_stone.json",
+      "path": "LP/blocks/natural/natural_stone.json",
       "sha256": "57ab7dd99327c4f123f830b212af8fc122185b7c5b722b87ebc26f123a32839a"
     },
     {
-      "path": "LP/blocks/natural_stone_face.json",
+      "path": "LP/blocks/natural/natural_stone_face.json",
       "sha256": "85e7b07be1267beb7f8f93694dffc85510c2463b070e491f1fb6b216bb0801be"
     },
     {
-      "path": "LP/blocks/pebble.json",
+      "path": "LP/blocks/natural/pebble.json",
       "sha256": "328ad4fbb9deefd8e0efc165b6455b2baf30c332ca00446e165449aae54e51ef"
     },
     {
-      "path": "LP/blocks/sand.json",
+      "path": "LP/blocks/natural/sand.json",
       "sha256": "2594ee55ef9678e75ddf8f1a28270019bddb58550b897cecd63ec98fc9931ed9"
     },
     {
-      "path": "LP/blocks/sandstone.json",
+      "path": "LP/blocks/natural/sandstone.json",
       "sha256": "949bef3dc1491bda405cecbfe602c7089e8bea6b235fba33aa4892541db0918f"
     },
     {
-      "path": "LP/blocks/sandstone_face.json",
+      "path": "LP/blocks/natural/sandstone_face.json",
       "sha256": "0604ba92ac0af79e962ecc51e0049e8c00eb0c26d71c8affd9066d54204c1150"
     },
     {
-      "path": "LP/blocks/shallow_water.json",
+      "path": "LP/blocks/natural/shallow_water.json",
       "sha256": "b92da7192794ebe5a24815972e4783161a4ca5958d5f84fd8c407d7cb0d4263a"
     },
     {
@@ -2497,252 +2761,396 @@
       "sha256": "6952f7a239a687566b544df5a55172f4731ed5bab421883ffa3ec7d5222589ab"
     },
     {
-      "path": "LP/blocks/stone_brick_floor.json",
-      "sha256": "9b119b85abd9e3a9c59b6d98e686b319b505a1b36a26abb4bd2bc85cd1560b95"
-    },
-    {
-      "path": "LP/blocks/stone_brick_wall.json",
-      "sha256": "0cea2cfe5273fab3e5776ca93aac3a5f36dc011bddc0fe4c742214939516d7e4"
-    },
-    {
       "path": "LP/blocks/stone_terrain_face.json",
       "sha256": "ea42e44f7ba5db9427da4fca5fd5d8084041514e68308e47086b56b08f5e24bf"
     },
     {
-      "path": "LP/blocks/stonepath.json",
-      "sha256": "4ce6529c19bb1298aea813f34bd7c8a82d624a161d8185a7a56a18ad7b74f7c8"
-    },
-    {
-      "path": "LP/blocks/straw_floor.json",
-      "sha256": "42e57375587ad871b48f627e09d86d912ba9f32162cd902e58f3fc8cbb0b3eb3"
-    },
-    {
-      "path": "LP/blocks/torch.json",
-      "sha256": "4aa2bd796ffb80c20da881367fdaf62cbfbbfae4cc8d9b6aa76fd59728048cb1"
-    },
-    {
-      "path": "LP/blocks/tree_cypress.json",
+      "path": "LP/blocks/trees/tree_cypress.json",
       "sha256": "d5eb71ee4e9e401df0db15548ecec8bf2568de149ca1f38f8c7c121c0983ac30"
     },
     {
-      "path": "LP/blocks/tree_oak.json",
+      "path": "LP/blocks/trees/tree_oak.json",
       "sha256": "4fa5d783cbe9cc5b0e9d2fc0bf202d2d59cb299c514b77b9244f3e9b62afa3fe"
     },
     {
-      "path": "LP/blocks/tree_palm.json",
+      "path": "LP/blocks/trees/tree_palm.json",
       "sha256": "200b84e3cad04fc2326c11b8d4a7220545a959fc59ba47ded105ea6ff28a47f7"
     },
     {
-      "path": "LP/blocks/wall_catacomb.json",
+      "path": "LP/blocks/walls/wall_catacomb.json",
       "sha256": "f463a7768c407f1c0cee9ba9abbb642610895ac95583515a889bbed46f9777fc"
     },
     {
-      "path": "LP/blocks/wall_crystal.json",
+      "path": "LP/blocks/walls/wall_crystal.json",
       "sha256": "60a9044518ad151696c8045b9ac8da8e7fd170964e6a1e3401dd53db11d95e57"
     },
     {
-      "path": "LP/blocks/wall_dirt.json",
+      "path": "LP/blocks/walls/wall_dirt.json",
       "sha256": "3f61721dd9c65b416c5361fa81a60a1bb003da303a76afe0122a0852ed588b74"
     },
     {
-      "path": "LP/blocks/wall_fault_circuit.json",
+      "path": "LP/blocks/walls/wall_fault_circuit.json",
       "sha256": "1869e849078086b0ec874089abc5c9be2a1d7f778dfadbf7c9162d846357ad9a"
     },
     {
-      "path": "LP/blocks/wall_granite.json",
+      "path": "LP/blocks/walls/wall_granite.json",
       "sha256": "615521b06c2b6dfd6bdee32fa28bc8e3de457099cb4500bf252f4aed7ecdc4c8"
     },
     {
-      "path": "LP/blocks/wall_hardwood.json",
+      "path": "LP/blocks/walls/wall_hardwood.json",
       "sha256": "9991b7b71a2ebde0726810bc622401a63fe4ee2262895a0e7bc9a85eddc4396a"
     },
     {
-      "path": "LP/blocks/wall_raw_crystal.json",
+      "path": "LP/blocks/walls/wall_raw_crystal.json",
       "sha256": "cb0113da72517e09d5149bccc9f1353a152c87a1c311c265f0776f13adff75dd"
     },
     {
-      "path": "LP/blocks/wall_rock.json",
+      "path": "LP/blocks/walls/wall_rock.json",
       "sha256": "fc0d1c7badd48b27e20f8c360f784b01e284c75bbedb93193250398659a0e316"
     },
     {
-      "path": "LP/blocks/wall_wood.json",
+      "path": "LP/blocks/walls/wall_wood.json",
       "sha256": "8d4dc0978855d415cdd6c2c9b5145c2cfed1dcff4abf3a16b5fa5e719df58c9d"
     },
     {
-      "path": "LP/blocks/wall_wool.json",
-      "sha256": "daf1291f003ecac4ff1c914bc7d974fe96372b88cff550f728ccddb0356164e5"
-    },
-    {
-      "path": "LP/blocks/wall_wool_black.json",
-      "sha256": "33566b65660732d5145abec1e6e2f6a036fc431dcafa1b30adb913de298995ca"
-    },
-    {
-      "path": "LP/blocks/wall_wool_blue.json",
-      "sha256": "cfb63e3454ec793c2598508cfd51614bda90321c215c036f5c910dd72c1a2028"
-    },
-    {
-      "path": "LP/blocks/wall_wool_brown.json",
-      "sha256": "b479219e451403fd753e2154d1dd44a4b529e825aac90185fb659577149d4d99"
-    },
-    {
-      "path": "LP/blocks/wall_wool_cyan.json",
-      "sha256": "bdcd485da9f6dfe9288555b07798e909f24acfa2488e547f6ceff5a47977d5d5"
-    },
-    {
-      "path": "LP/blocks/wall_wool_gray.json",
-      "sha256": "6cf432a94c93d11e3b2fe7e6e5f1d5fd09c65adc98402ae1fae219275b8c299a"
-    },
-    {
-      "path": "LP/blocks/wall_wool_green.json",
-      "sha256": "7131a9119db8d2301373a955aeab2ded8f1ecb855b854d71e755906e5dea0ea8"
-    },
-    {
-      "path": "LP/blocks/wall_wool_light_blue.json",
-      "sha256": "09ba9fd53c2ef09e297de50cfa2c2df8f11d5275f0046d55e07a22cbbd119c21"
-    },
-    {
-      "path": "LP/blocks/wall_wool_light_gray.json",
-      "sha256": "ce8f029d0422710db72f0c5333f0f1ca0b852b593a9578c34e4fd4b0e1506324"
-    },
-    {
-      "path": "LP/blocks/wall_wool_lime.json",
-      "sha256": "0bd5060ac94ed240fdafebd1d9ee6e2deec8d367b2389f2357831ef24e55f4f4"
-    },
-    {
-      "path": "LP/blocks/wall_wool_magenta.json",
-      "sha256": "42aea5bb1af03d27ca4ad1edf5c0c08b3845c9e307973fc304ebb326342b1cbf"
-    },
-    {
-      "path": "LP/blocks/wall_wool_orange.json",
-      "sha256": "4fd470a0c4db683a35e9798c2a01f80a8903ba418fff70b88e26653888ef92c1"
-    },
-    {
-      "path": "LP/blocks/wall_wool_pink.json",
-      "sha256": "4501f289e4f8b249fcfdb5e1c92fce1ab5d3924cd9c6d1e97b34f3baaf9ff8b8"
-    },
-    {
-      "path": "LP/blocks/wall_wool_purple.json",
-      "sha256": "bdd5bdc11c27be41ee42f102cc7ffb022edf86dfe2baf33b5caecc0464b35ea9"
-    },
-    {
-      "path": "LP/blocks/wall_wool_red.json",
-      "sha256": "bebde9996058b53e3220986723d4d4fbaf2f2b25ed8655238e443b65473977da"
-    },
-    {
-      "path": "LP/blocks/wall_wool_yellow.json",
-      "sha256": "05be946e7184a88f87eaf347dcaa5bb57c7cbd284552340dc89577e4d4f8d908"
-    },
-    {
-      "path": "LP/blocks/window_hardwood.json",
+      "path": "LP/blocks/windows/window_hardwood.json",
       "sha256": "4e7ab5edbfddc1fe948838f8977d5d5942681868ce3dd9338df3c350d0ae6747"
     },
     {
-      "path": "LP/blocks/window_stone.json",
+      "path": "LP/blocks/windows/window_stone.json",
       "sha256": "f9e6671d039cf54a31aaebe8c74db810d1e3e135384d911a16b34a1b5536ac1a"
     },
     {
-      "path": "LP/blocks/window_wood.json",
+      "path": "LP/blocks/windows/window_wood.json",
       "sha256": "903204974d16dc80bfd7f8cccbb58f988f3931178028e7fdb75d22ca848267ba"
     },
     {
-      "path": "LP/blocks/woodfloor.json",
-      "sha256": "04f264a77fdbe7e0fd6735cffffb1401d00a71acf08b099a2535ba17baf713e9"
+      "path": "LP/blocks/wool/wall_wool.json",
+      "sha256": "daf1291f003ecac4ff1c914bc7d974fe96372b88cff550f728ccddb0356164e5"
     },
     {
-      "path": "LP/blocks/wool.json",
+      "path": "LP/blocks/wool/wall_wool_black.json",
+      "sha256": "33566b65660732d5145abec1e6e2f6a036fc431dcafa1b30adb913de298995ca"
+    },
+    {
+      "path": "LP/blocks/wool/wall_wool_blue.json",
+      "sha256": "cfb63e3454ec793c2598508cfd51614bda90321c215c036f5c910dd72c1a2028"
+    },
+    {
+      "path": "LP/blocks/wool/wall_wool_brown.json",
+      "sha256": "b479219e451403fd753e2154d1dd44a4b529e825aac90185fb659577149d4d99"
+    },
+    {
+      "path": "LP/blocks/wool/wall_wool_cyan.json",
+      "sha256": "bdcd485da9f6dfe9288555b07798e909f24acfa2488e547f6ceff5a47977d5d5"
+    },
+    {
+      "path": "LP/blocks/wool/wall_wool_gray.json",
+      "sha256": "6cf432a94c93d11e3b2fe7e6e5f1d5fd09c65adc98402ae1fae219275b8c299a"
+    },
+    {
+      "path": "LP/blocks/wool/wall_wool_green.json",
+      "sha256": "7131a9119db8d2301373a955aeab2ded8f1ecb855b854d71e755906e5dea0ea8"
+    },
+    {
+      "path": "LP/blocks/wool/wall_wool_light_blue.json",
+      "sha256": "09ba9fd53c2ef09e297de50cfa2c2df8f11d5275f0046d55e07a22cbbd119c21"
+    },
+    {
+      "path": "LP/blocks/wool/wall_wool_light_gray.json",
+      "sha256": "ce8f029d0422710db72f0c5333f0f1ca0b852b593a9578c34e4fd4b0e1506324"
+    },
+    {
+      "path": "LP/blocks/wool/wall_wool_lime.json",
+      "sha256": "0bd5060ac94ed240fdafebd1d9ee6e2deec8d367b2389f2357831ef24e55f4f4"
+    },
+    {
+      "path": "LP/blocks/wool/wall_wool_magenta.json",
+      "sha256": "42aea5bb1af03d27ca4ad1edf5c0c08b3845c9e307973fc304ebb326342b1cbf"
+    },
+    {
+      "path": "LP/blocks/wool/wall_wool_orange.json",
+      "sha256": "4fd470a0c4db683a35e9798c2a01f80a8903ba418fff70b88e26653888ef92c1"
+    },
+    {
+      "path": "LP/blocks/wool/wall_wool_pink.json",
+      "sha256": "4501f289e4f8b249fcfdb5e1c92fce1ab5d3924cd9c6d1e97b34f3baaf9ff8b8"
+    },
+    {
+      "path": "LP/blocks/wool/wall_wool_purple.json",
+      "sha256": "bdd5bdc11c27be41ee42f102cc7ffb022edf86dfe2baf33b5caecc0464b35ea9"
+    },
+    {
+      "path": "LP/blocks/wool/wall_wool_red.json",
+      "sha256": "bebde9996058b53e3220986723d4d4fbaf2f2b25ed8655238e443b65473977da"
+    },
+    {
+      "path": "LP/blocks/wool/wall_wool_yellow.json",
+      "sha256": "05be946e7184a88f87eaf347dcaa5bb57c7cbd284552340dc89577e4d4f8d908"
+    },
+    {
+      "path": "LP/blocks/wool/wool.json",
       "sha256": "54f00eeec1091388bb72c1449c41e5883ac3cd0bd1c0efd09a513ba7a5b35aba"
     },
     {
-      "path": "LP/blocks/wool_black.json",
+      "path": "LP/blocks/wool/wool_black.json",
       "sha256": "f0279bb0f4da1b9b53e7564bde4e14464c2eabc44a370976007280fbd2c344a6"
     },
     {
-      "path": "LP/blocks/wool_blue.json",
+      "path": "LP/blocks/wool/wool_blue.json",
       "sha256": "4a5d1897065a886adfa5eba376c885fb0343168016ce8af489fdaedf9d14fd3e"
     },
     {
-      "path": "LP/blocks/wool_brown.json",
+      "path": "LP/blocks/wool/wool_brown.json",
       "sha256": "d05f44c2dd15baa38225daade39c3b24600d45a8e9ea5663ff15afec18a51add"
     },
     {
-      "path": "LP/blocks/wool_cyan.json",
+      "path": "LP/blocks/wool/wool_cyan.json",
       "sha256": "6a7f240abe1d0a19437f1f8b980505137a66995c34a9487ff764ee630ee2ad7b"
     },
     {
-      "path": "LP/blocks/wool_gray.json",
+      "path": "LP/blocks/wool/wool_gray.json",
       "sha256": "35b2a81e00da0aefaa267e44147b0e7cf6f40c11de2c56f4cbb41110be8e5725"
     },
     {
-      "path": "LP/blocks/wool_green.json",
+      "path": "LP/blocks/wool/wool_green.json",
       "sha256": "fb763e8932c04ef41d974172b1bb872d0fcd60364d06b6fdbac4bc09f1745cde"
     },
     {
-      "path": "LP/blocks/wool_light_blue.json",
+      "path": "LP/blocks/wool/wool_light_blue.json",
       "sha256": "dbcaacd7c4b56da54e406c970d9f9be1b4969dc01b2fb781eac4ab752a35caa8"
     },
     {
-      "path": "LP/blocks/wool_light_gray.json",
+      "path": "LP/blocks/wool/wool_light_gray.json",
       "sha256": "fd2d9b728cb2da958b1d15a98aef9ba45418c0d0674fc5cdb0317ca569b3491b"
     },
     {
-      "path": "LP/blocks/wool_lime.json",
+      "path": "LP/blocks/wool/wool_lime.json",
       "sha256": "d968f7092b0ea4d5761977d9c281eff72835086919056e92b2840d6caf5d2136"
     },
     {
-      "path": "LP/blocks/wool_magenta.json",
+      "path": "LP/blocks/wool/wool_magenta.json",
       "sha256": "26d2d4355231b4246c72d228612d2ac869be79431dec522fcfa887b77cda3fe7"
     },
     {
-      "path": "LP/blocks/wool_orange.json",
+      "path": "LP/blocks/wool/wool_orange.json",
       "sha256": "18c1a71c035f4dbfb8c80a83a270e9834b8aa2ca8f43c40a2902cb01ba409ae1"
     },
     {
-      "path": "LP/blocks/wool_pink.json",
+      "path": "LP/blocks/wool/wool_pink.json",
       "sha256": "b47994326c1029b91f397947460d67152939c202b503be13620b1110d2db818c"
     },
     {
-      "path": "LP/blocks/wool_purple.json",
+      "path": "LP/blocks/wool/wool_purple.json",
       "sha256": "24c6aaa260022dbf991d224e05eaee1ac7981e597287c45ed4d291fe62c4dcde"
     },
     {
-      "path": "LP/blocks/wool_red.json",
+      "path": "LP/blocks/wool/wool_red.json",
       "sha256": "9504db19c7a91e0429dc74ea9e19d6c88b8c2536856abd2ab1fa9c2cbda091e9"
     },
     {
-      "path": "LP/blocks/wool_yellow.json",
+      "path": "LP/blocks/wool/wool_yellow.json",
       "sha256": "665869410306102cfd3357c0babed883130fa5f6e9cc1775f6200d22cb0028f8"
     },
     {
-      "path": "LP/blocks/workbench.json",
-      "sha256": "631657b2628abb46ea186a6402420e70c13d39976917e425bc38be0d68318440"
-    },
-    {
-      "path": "LP/entities/duck.json",
-      "sha256": "eadcc87d5b798a3addcc87b8db1a9fb57bd2eaa19b26973ab6ef48ec76e05782"
-    },
-    {
-      "path": "LP/entities/pig.json",
-      "sha256": "93bb58b9655c1ae4a0f40024bd89f6ff2bcb9aed44bc462713b7f2b2f3c203a7"
-    },
-    {
-      "path": "LP/entities/sheep.json",
-      "sha256": "4dfe51c834c68b019c914295565c2d7425427e6f67f072041189af4234d1b110"
-    },
-    {
-      "path": "LP/entities/slime.json",
+      "path": "LP/entities/hostile/slime.json",
       "sha256": "42540f4aa2901b608c98d230acf2ab584d9236d0f52c1a82730ba012d6821b20"
     },
     {
-      "path": "LP/items/bush.json",
+      "path": "LP/entities/passive/duck.json",
+      "sha256": "eadcc87d5b798a3addcc87b8db1a9fb57bd2eaa19b26973ab6ef48ec76e05782"
+    },
+    {
+      "path": "LP/entities/passive/pig.json",
+      "sha256": "93bb58b9655c1ae4a0f40024bd89f6ff2bcb9aed44bc462713b7f2b2f3c203a7"
+    },
+    {
+      "path": "LP/entities/passive/sheep.json",
+      "sha256": "4dfe51c834c68b019c914295565c2d7425427e6f67f072041189af4234d1b110"
+    },
+    {
+      "path": "LP/entities/skeleton.json",
+      "sha256": "d2d8506bef1986f85a8f879ec89b8632eb13e6b167107e1abfbd9f53a6327ea5"
+    },
+    {
+      "path": "LP/entities/wizard.json",
+      "sha256": "42231ca04d2a32e5b28a7ab66f92787d6654376bc4c228c4526743bc03f86386"
+    },
+    {
+      "path": "LP/entities/zombie.json",
+      "sha256": "58149d23a6df76e58873d96b6993dc56c29fe8491f7d6460a6e4ccf53635a8ee"
+    },
+    {
+      "path": "LP/items/blocks/building/cave_ladder.json",
+      "sha256": "5aa745bef8d4e2596f0afcefd912c6d57febbc4a74d2b82f754fc46c7866a579"
+    },
+    {
+      "path": "LP/items/blocks/building/hardwoodfloor.json",
+      "sha256": "adfa455b55efaf48620ed29ddcb869f7f0250de5f12ced2e75e583b9f4e07b0d"
+    },
+    {
+      "path": "LP/items/blocks/building/stone_brick_floor.json",
+      "sha256": "d937d07ccb53994e1e16d3a4a94d1cfeaecf82457a19507ef4150aa8b6f99820"
+    },
+    {
+      "path": "LP/items/blocks/building/stone_brick_wall.json",
+      "sha256": "221bf482447be5346754afd4b204ae360d6166c0256a807359108879aa928725"
+    },
+    {
+      "path": "LP/items/blocks/building/stonepath.json",
+      "sha256": "db09fee0d9901151be11d15dbd7d694e6f5b52c9f3bec7942438806fd1ba01f9"
+    },
+    {
+      "path": "LP/items/blocks/building/straw_floor.json",
+      "sha256": "51adc2126a98c93d8233ca1fc4734f2331a5da449c252a5d559f38feafd7ca2d"
+    },
+    {
+      "path": "LP/items/blocks/building/woodfloor.json",
+      "sha256": "7481c847432bdf4b93e14a41d8bbf110eea7ec8ec92e0a9cb75126ebafb36cbb"
+    },
+    {
+      "path": "LP/items/blocks/decoration/torch.json",
+      "sha256": "8bea2737a4c085d1e18874a647452c716a5ea6c159c0cf0871392518ddce5fd4"
+    },
+    {
+      "path": "LP/items/blocks/decoration/workbench.json",
+      "sha256": "d032fb38182d13ab438aad5b0beb41c6386e68c7901be4d744709fa5ce3d2279"
+    },
+    {
+      "path": "LP/items/blocks/doors/door_crystal.json",
+      "sha256": "239bc2e95abe82ab9e100af2741f5fc210ea9eabbf9a8131742c57acc3665d5f"
+    },
+    {
+      "path": "LP/items/blocks/doors/door_hardwood.json",
+      "sha256": "3160bcfabc2ea38513c4d9e612e79992a138fbdda885a5c8ff996dda93ce2f39"
+    },
+    {
+      "path": "LP/items/blocks/doors/door_stone.json",
+      "sha256": "fdb2dab565110a6716c86a1b0687851d7c7c29ed350258ae98aaefbd48bdfe8f"
+    },
+    {
+      "path": "LP/items/blocks/doors/door_wood.json",
+      "sha256": "ee5c28016c80d67d0fa1ac009cc7fe0e8f4f176fd460ba99d3b3db831e81f9a0"
+    },
+    {
+      "path": "LP/items/blocks/fences/fence_hardwood.json",
+      "sha256": "bb8669b419e2cb800e5a517f1c90d379f8de079a4b4c5cf92d74066d3c8f16d3"
+    },
+    {
+      "path": "LP/items/blocks/fences/fence_stone.json",
+      "sha256": "a7807f3411337c6e3e66711880653260e767d83bff84cf008868db076161a7d7"
+    },
+    {
+      "path": "LP/items/blocks/fences/fence_wood.json",
+      "sha256": "dadec93feb66b035516597b5ddf3703a7979fd7a70e3400a8490ca4e958b4d74"
+    },
+    {
+      "path": "LP/items/blocks/gates/gate_hardwood.json",
+      "sha256": "86a11596330298549adfdf50785d36cf4544ba219b20079c44375ca68bef0187"
+    },
+    {
+      "path": "LP/items/blocks/gates/gate_stone.json",
+      "sha256": "20f6bef85f6a467e3a7f5db81de1378e2058b9acff584beaf85366a4c155afe1"
+    },
+    {
+      "path": "LP/items/blocks/gates/gate_wood.json",
+      "sha256": "9d5de87a7860c925c2e077986eadae24d47bb7c2266f002c6bb365e5d4671ff8"
+    },
+    {
+      "path": "LP/items/blocks/natural/bush.json",
       "sha256": "69f3f25702f58d95f995276c825280c9f1fc579009ccd5a23136f3f65cba70e6"
+    },
+    {
+      "path": "LP/items/blocks/natural/dirt.json",
+      "sha256": "0cfbe8ee39680b04ae745c3730cbecb085ce7578bf47a7356f98cf98ec1934dd"
+    },
+    {
+      "path": "LP/items/blocks/natural/dry_grass.json",
+      "sha256": "0edd3d558d5c372f0b2c9e8e5edfd5d80634acafb2196683e6d43ae3181c713c"
+    },
+    {
+      "path": "LP/items/blocks/natural/grass.json",
+      "sha256": "864768dac203122cbdde024589fa29e70e65a0b85ba85e1a2e3bc2bd74f3baab"
+    },
+    {
+      "path": "LP/items/blocks/natural/grass_tuft.json",
+      "sha256": "c8be5fa569acf35b68e044db915d5080e910d4bd073c5d4920636b1d9bde740c"
+    },
+    {
+      "path": "LP/items/blocks/natural/pebble.json",
+      "sha256": "d54eaf44dfc8745470889604e7f449bfbe72b822d5cd367ac9d63bb0584dbee1"
+    },
+    {
+      "path": "LP/items/blocks/natural/sand.json",
+      "sha256": "2a6f1f28d32cef3f784f5a9b6cf13c936aae35a0c8ae09bd7f06729bfcb3d47d"
+    },
+    {
+      "path": "LP/items/blocks/natural/sandstone.json",
+      "sha256": "ccd4188ce799cb9df1c7ea95279ac161695a34ef60765bbffa24428f07bd7449"
+    },
+    {
+      "path": "LP/items/blocks/natural/shallow_water.json",
+      "sha256": "24b32722e5ad973fc6216ef7f48b3cc622b3ad68a0ac202116b4ae20fb579639"
+    },
+    {
+      "path": "LP/items/blocks/trees/tree_cypress.json",
+      "sha256": "059468659e005eeb1e9cf793c502d9c9994e0458b6a77ab762098cb16f81938b"
+    },
+    {
+      "path": "LP/items/blocks/trees/tree_oak.json",
+      "sha256": "149ac6572e19f94603ca34952f253e23c05c02087ce8345f78ef435b36a2397e"
+    },
+    {
+      "path": "LP/items/blocks/trees/tree_palm.json",
+      "sha256": "f1aaa817c0c79ae5a6e70f277945c0ab346483c7b31d0e652c243eba136d5900"
+    },
+    {
+      "path": "LP/items/blocks/walls/wall_catacomb.json",
+      "sha256": "75ea9d379e968979ac4c20ae17d562d13a0e5fd5511287cd8c1e56f183d4bcb5"
+    },
+    {
+      "path": "LP/items/blocks/walls/wall_crystal.json",
+      "sha256": "caa2b7f99a540bf9b49acc7be7db373436b185b4791c4473d9e5a245b645c47b"
+    },
+    {
+      "path": "LP/items/blocks/walls/wall_dirt.json",
+      "sha256": "e0e3997197581a22d1095e87c8523275603547dc897d1bb86b661d86fcf73f65"
+    },
+    {
+      "path": "LP/items/blocks/walls/wall_fault_circuit.json",
+      "sha256": "9723916e3b0ca4ebdfdb2f7151d3e3989064aa6bc9515263709eb6315d13c86a"
+    },
+    {
+      "path": "LP/items/blocks/walls/wall_granite.json",
+      "sha256": "a5a4d69ad7abbd24e4d6b40797c9587f4886058be440c1435a2631bb7fb5026e"
+    },
+    {
+      "path": "LP/items/blocks/walls/wall_hardwood.json",
+      "sha256": "3550a8f4ad53af65beed5f244807dc72d10eabe6065f75f44bbb5e9f80dbbee9"
+    },
+    {
+      "path": "LP/items/blocks/walls/wall_raw_crystal.json",
+      "sha256": "a30ce9a3d77bed7c28f9dcba6d4e01db3de81fb1d519d488603bb22a96980c4e"
+    },
+    {
+      "path": "LP/items/blocks/walls/wall_rock.json",
+      "sha256": "399df69e6f83b359e3309aae9a87d4edcd6269e11b4aea3a466ec0e4cd42e6af"
+    },
+    {
+      "path": "LP/items/blocks/windows/window_hardwood.json",
+      "sha256": "9e6ad380d8e98fb3577609b57fd10ed85f8ff1e85d65bc7d91bde030e7e6bd4f"
+    },
+    {
+      "path": "LP/items/blocks/windows/window_stone.json",
+      "sha256": "017db34ee584112977644c7d692176c4706639bbf930d10922935be74a71fe54"
+    },
+    {
+      "path": "LP/items/blocks/windows/window_wood.json",
+      "sha256": "9124604ee446541446e6df2c6bbbf008f31bc60717934bfc6d2a35f877ae1df5"
     },
     {
       "path": "LP/items/cactus.json",
       "sha256": "5788d61a7173dec00f2f9bca52bc1a26d504dec814db930c8c062ad361ba5979"
-    },
-    {
-      "path": "LP/items/cave_ladder.json",
-      "sha256": "5aa745bef8d4e2596f0afcefd912c6d57febbc4a74d2b82f754fc46c7866a579"
     },
     {
       "path": "LP/items/cave_rock.json",
@@ -2753,472 +3161,324 @@
       "sha256": "9e93402be2f1248a6ba747796d2b36eeab3bcf80d4ff4776e9b2d8ba950ad325"
     },
     {
-      "path": "LP/items/dirt.json",
-      "sha256": "0cfbe8ee39680b04ae745c3730cbecb085ce7578bf47a7356f98cf98ec1934dd"
+      "path": "LP/items/coal.json",
+      "sha256": "9f1312c4d3d4bd15e7134b012e2068748a56dd090239ab74b6dd41b3ec6aecac"
     },
     {
-      "path": "LP/items/door_crystal.json",
-      "sha256": "239bc2e95abe82ab9e100af2741f5fc210ea9eabbf9a8131742c57acc3665d5f"
+      "path": "LP/items/food/raw_duck.json",
+      "sha256": "9c8f76c0e32cf0263d24e014a26b64ff345297aea5d403a5afefef1bf174ec0e"
     },
     {
-      "path": "LP/items/door_hardwood.json",
-      "sha256": "3160bcfabc2ea38513c4d9e612e79992a138fbdda885a5c8ff996dda93ce2f39"
+      "path": "LP/items/food/raw_mutton.json",
+      "sha256": "707bff7c5768b0ac95e78155cb298eb1f7cd791eaaf6168ab5270bb719fc0383"
     },
     {
-      "path": "LP/items/door_stone.json",
-      "sha256": "fdb2dab565110a6716c86a1b0687851d7c7c29ed350258ae98aaefbd48bdfe8f"
-    },
-    {
-      "path": "LP/items/door_wood.json",
-      "sha256": "ee5c28016c80d67d0fa1ac009cc7fe0e8f4f176fd460ba99d3b3db831e81f9a0"
-    },
-    {
-      "path": "LP/items/dry_grass.json",
-      "sha256": "0edd3d558d5c372f0b2c9e8e5edfd5d80634acafb2196683e6d43ae3181c713c"
-    },
-    {
-      "path": "LP/items/feather.json",
-      "sha256": "a0143ffef5b8cb65e79f7dd28a770c23e7d94e565ae4b31d9d77a1fa140e9d87"
-    },
-    {
-      "path": "LP/items/fence_hardwood.json",
-      "sha256": "bb8669b419e2cb800e5a517f1c90d379f8de079a4b4c5cf92d74066d3c8f16d3"
-    },
-    {
-      "path": "LP/items/fence_stone.json",
-      "sha256": "a7807f3411337c6e3e66711880653260e767d83bff84cf008868db076161a7d7"
-    },
-    {
-      "path": "LP/items/fence_wood.json",
-      "sha256": "dadec93feb66b035516597b5ddf3703a7979fd7a70e3400a8490ca4e958b4d74"
-    },
-    {
-      "path": "LP/items/gate_hardwood.json",
-      "sha256": "86a11596330298549adfdf50785d36cf4544ba219b20079c44375ca68bef0187"
-    },
-    {
-      "path": "LP/items/gate_stone.json",
-      "sha256": "20f6bef85f6a467e3a7f5db81de1378e2058b9acff584beaf85366a4c155afe1"
-    },
-    {
-      "path": "LP/items/gate_wood.json",
-      "sha256": "9d5de87a7860c925c2e077986eadae24d47bb7c2266f002c6bb365e5d4671ff8"
-    },
-    {
-      "path": "LP/items/grass.json",
-      "sha256": "864768dac203122cbdde024589fa29e70e65a0b85ba85e1a2e3bc2bd74f3baab"
-    },
-    {
-      "path": "LP/items/grass_tuft.json",
-      "sha256": "c8be5fa569acf35b68e044db915d5080e910d4bd073c5d4920636b1d9bde740c"
-    },
-    {
-      "path": "LP/items/hardwoodfloor.json",
-      "sha256": "adfa455b55efaf48620ed29ddcb869f7f0250de5f12ced2e75e583b9f4e07b0d"
+      "path": "LP/items/food/raw_pork.json",
+      "sha256": "76907453594f520f3938d5789bab586e966abbe0e38540347e54d59105534391"
     },
     {
       "path": "LP/items/log.json",
       "sha256": "89eb70427bb758dd25a5eee2fd5dbbb54d0722744383a397afae4f1bbe396081"
     },
     {
-      "path": "LP/items/pebble.json",
-      "sha256": "d54eaf44dfc8745470889604e7f449bfbe72b822d5cd367ac9d63bb0584dbee1"
+      "path": "LP/items/materials/feather.json",
+      "sha256": "a0143ffef5b8cb65e79f7dd28a770c23e7d94e565ae4b31d9d77a1fa140e9d87"
     },
     {
-      "path": "LP/items/raw_duck.json",
-      "sha256": "c418d707132fe6114190fbc39e1299a5b024d54722c7d1a1adeed256c7885865"
+      "path": "LP/items/materials/slime_gel.json",
+      "sha256": "99f7c19b45176c2789f8b7142fe43dfaf1c091cbf9f55796f0c21b3f73f417ff"
     },
     {
-      "path": "LP/items/raw_mutton.json",
-      "sha256": "d97e4fe65ab33ca417e99c5f45b1d6a319de3f1e02c3d967c0665a8ca69c6c41"
-    },
-    {
-      "path": "LP/items/raw_pork.json",
-      "sha256": "9b9aa37096eda2b88e6102e45ec4f18a9ff9c12b570d03d0ecf0cd3a316cb9e7"
-    },
-    {
-      "path": "LP/items/sand.json",
-      "sha256": "2a6f1f28d32cef3f784f5a9b6cf13c936aae35a0c8ae09bd7f06729bfcb3d47d"
-    },
-    {
-      "path": "LP/items/sandstone.json",
-      "sha256": "ccd4188ce799cb9df1c7ea95279ac161695a34ef60765bbffa24428f07bd7449"
-    },
-    {
-      "path": "LP/items/shallow_water.json",
-      "sha256": "24b32722e5ad973fc6216ef7f48b3cc622b3ad68a0ac202116b4ae20fb579639"
-    },
-    {
-      "path": "LP/items/slime_gel.json",
-      "sha256": "0f4844da15eb38199b20e171820b79f758302cc713352abe549a72fd3a861135"
-    },
-    {
-      "path": "LP/items/sticks.json",
+      "path": "LP/items/materials/sticks.json",
       "sha256": "3dcce6a6539bae98c095a15cfc64f97e5e6d24aacb2cbb0f9af2f5efc1d5cc26"
     },
     {
-      "path": "LP/items/stone.json",
+      "path": "LP/items/materials/stone.json",
       "sha256": "198a446907d6229f93840a539a5fc2a88b0e076c943e766a174b757c353671ad"
     },
     {
-      "path": "LP/items/stone_axe.json",
-      "sha256": "cbab03b462781d50ca7f08cb03bfc81b5de32bc3f2a814b78d1281163f8f2537"
-    },
-    {
-      "path": "LP/items/stone_brick_floor.json",
-      "sha256": "d937d07ccb53994e1e16d3a4a94d1cfeaecf82457a19507ef4150aa8b6f99820"
-    },
-    {
-      "path": "LP/items/stone_brick_wall.json",
-      "sha256": "221bf482447be5346754afd4b204ae360d6166c0256a807359108879aa928725"
-    },
-    {
-      "path": "LP/items/stone_pickaxe.json",
-      "sha256": "1a0a0faa1b187425338dc4cfcf78f6371739b83513e0de8e0573ce68cebf96f6"
-    },
-    {
-      "path": "LP/items/stone_shovel.json",
-      "sha256": "09d1d60b66839f100d0517847838c39ce827e4fc934b2ae0ffbd7a059e8e6108"
-    },
-    {
-      "path": "LP/items/stone_sword.json",
-      "sha256": "eb9f5f861f351242bb6d5287b8db64583a89f636db582cfed7eb3a6633add930"
-    },
-    {
-      "path": "LP/items/stonepath.json",
-      "sha256": "db09fee0d9901151be11d15dbd7d694e6f5b52c9f3bec7942438806fd1ba01f9"
-    },
-    {
-      "path": "LP/items/straw_floor.json",
-      "sha256": "51adc2126a98c93d8233ca1fc4734f2331a5da449c252a5d559f38feafd7ca2d"
-    },
-    {
-      "path": "LP/items/torch.json",
-      "sha256": "8bea2737a4c085d1e18874a647452c716a5ea6c159c0cf0871392518ddce5fd4"
-    },
-    {
-      "path": "LP/items/tree_cypress.json",
-      "sha256": "059468659e005eeb1e9cf793c502d9c9994e0458b6a77ab762098cb16f81938b"
-    },
-    {
-      "path": "LP/items/tree_oak.json",
-      "sha256": "149ac6572e19f94603ca34952f253e23c05c02087ce8345f78ef435b36a2397e"
-    },
-    {
-      "path": "LP/items/tree_palm.json",
-      "sha256": "f1aaa817c0c79ae5a6e70f277945c0ab346483c7b31d0e652c243eba136d5900"
-    },
-    {
-      "path": "LP/items/wall_catacomb.json",
-      "sha256": "75ea9d379e968979ac4c20ae17d562d13a0e5fd5511287cd8c1e56f183d4bcb5"
-    },
-    {
-      "path": "LP/items/wall_crystal.json",
-      "sha256": "caa2b7f99a540bf9b49acc7be7db373436b185b4791c4473d9e5a245b645c47b"
-    },
-    {
-      "path": "LP/items/wall_dirt.json",
-      "sha256": "e0e3997197581a22d1095e87c8523275603547dc897d1bb86b661d86fcf73f65"
-    },
-    {
-      "path": "LP/items/wall_fault_circuit.json",
-      "sha256": "9723916e3b0ca4ebdfdb2f7151d3e3989064aa6bc9515263709eb6315d13c86a"
-    },
-    {
-      "path": "LP/items/wall_granite.json",
-      "sha256": "a5a4d69ad7abbd24e4d6b40797c9587f4886058be440c1435a2631bb7fb5026e"
-    },
-    {
-      "path": "LP/items/wall_hardwood.json",
-      "sha256": "3550a8f4ad53af65beed5f244807dc72d10eabe6065f75f44bbb5e9f80dbbee9"
-    },
-    {
-      "path": "LP/items/wall_raw_crystal.json",
-      "sha256": "a30ce9a3d77bed7c28f9dcba6d4e01db3de81fb1d519d488603bb22a96980c4e"
-    },
-    {
-      "path": "LP/items/wall_rock.json",
-      "sha256": "399df69e6f83b359e3309aae9a87d4edcd6269e11b4aea3a466ec0e4cd42e6af"
-    },
-    {
-      "path": "LP/items/wheat_seeds.json",
+      "path": "LP/items/materials/wheat_seeds.json",
       "sha256": "51d0fd6a48bcdd4c319562eeb7a31dac39f7899958977193d7d09d90703f40b0"
     },
     {
-      "path": "LP/items/window_hardwood.json",
-      "sha256": "9e6ad380d8e98fb3577609b57fd10ed85f8ff1e85d65bc7d91bde030e7e6bd4f"
-    },
-    {
-      "path": "LP/items/window_stone.json",
-      "sha256": "017db34ee584112977644c7d692176c4706639bbf930d10922935be74a71fe54"
-    },
-    {
-      "path": "LP/items/window_wood.json",
-      "sha256": "9124604ee446541446e6df2c6bbbf008f31bc60717934bfc6d2a35f877ae1df5"
-    },
-    {
-      "path": "LP/items/wooden_axe.json",
-      "sha256": "0963d4301b046c2ac41e2dbcd970613a20554c519ea184577b254b5cd6cf12d0"
-    },
-    {
-      "path": "LP/items/wooden_pickaxe.json",
-      "sha256": "ceadf442c8c31b35a2263560bf60975a888881cef86e5a149bbdc332ec6c6073"
-    },
-    {
-      "path": "LP/items/wooden_shovel.json",
-      "sha256": "b2415502d67e79819a38a2b51aea0b37d97cabbb21a5cea2469a7ef613780149"
-    },
-    {
-      "path": "LP/items/wooden_sword.json",
-      "sha256": "410c9b554fccb35d6b37623a6ceeb29044aa4d885dc5b1d640a17571c49418ec"
-    },
-    {
-      "path": "LP/items/woodfloor.json",
-      "sha256": "7481c847432bdf4b93e14a41d8bbf110eea7ec8ec92e0a9cb75126ebafb36cbb"
-    },
-    {
-      "path": "LP/items/woodwall.json",
+      "path": "LP/items/materials/wood.json",
       "sha256": "104bf960c794b7b73d961b86c6e32947a0e3e7d80533e2f70f67d4732f9d6615"
     },
     {
-      "path": "LP/items/wool.json",
+      "path": "LP/items/materials/wool/wool.json",
       "sha256": "2a95e46963122b34f085d83817ad3c871d534cd8caecca0f5af81b8ac1ce5200"
     },
     {
-      "path": "LP/items/wool_black.json",
+      "path": "LP/items/materials/wool/wool_black.json",
       "sha256": "fc96af042801c961b3ce150e3f9792556c6be7d7b26fe775b455f8616df69f79"
     },
     {
-      "path": "LP/items/wool_blue.json",
+      "path": "LP/items/materials/wool/wool_blue.json",
       "sha256": "1d0049019440f093d55011adf862e0873180b238a8d265217cb46de1ae6f2a73"
     },
     {
-      "path": "LP/items/wool_brown.json",
+      "path": "LP/items/materials/wool/wool_brown.json",
       "sha256": "bde7027e65417c85f37e757ba2ac3397f61dede20f429b1760b03dc25327716b"
     },
     {
-      "path": "LP/items/wool_cyan.json",
+      "path": "LP/items/materials/wool/wool_cyan.json",
       "sha256": "a606591566ca801ac7b38bc5b93e72ab8bdd38247058d46235ffdfcc7fdd2144"
     },
     {
-      "path": "LP/items/wool_gray.json",
+      "path": "LP/items/materials/wool/wool_gray.json",
       "sha256": "f70689be264fe916df6f69a002498fbcb8160160087ed93b13a644a6e090e9c1"
     },
     {
-      "path": "LP/items/wool_green.json",
+      "path": "LP/items/materials/wool/wool_green.json",
       "sha256": "edfdf85b1865b290e2eb71c72a6cfc81112a1993568fe24b51947d3ac0881808"
     },
     {
-      "path": "LP/items/wool_light_blue.json",
+      "path": "LP/items/materials/wool/wool_light_blue.json",
       "sha256": "d6aed78be05282f13ad96abbf0d85caf09390f9e470d2b587e3b66c68a19880b"
     },
     {
-      "path": "LP/items/wool_light_gray.json",
+      "path": "LP/items/materials/wool/wool_light_gray.json",
       "sha256": "a72b28b1e45ff3da64721ff3d42a45f9d3b5bd4dfb969ff7d0fe23a0795a55c2"
     },
     {
-      "path": "LP/items/wool_lime.json",
+      "path": "LP/items/materials/wool/wool_lime.json",
       "sha256": "40925f289c784fe007fa31448c58c0c9ca559898b3b5d29071b48680bd1dd0da"
     },
     {
-      "path": "LP/items/wool_magenta.json",
+      "path": "LP/items/materials/wool/wool_magenta.json",
       "sha256": "e968e067005bd91e9601f8dd8c51af33e779d08a61ab4acc57ea6679c2c1508e"
     },
     {
-      "path": "LP/items/wool_orange.json",
+      "path": "LP/items/materials/wool/wool_orange.json",
       "sha256": "5254134d2381c2d7c4c6b07cf6c536bc3b945284ccf12dcab4e5f2d860340d96"
     },
     {
-      "path": "LP/items/wool_pink.json",
+      "path": "LP/items/materials/wool/wool_pink.json",
       "sha256": "9c0c193843331b104e2de79b1c0a122c5b6600a8df0af56834ac3c41bfafe197"
     },
     {
-      "path": "LP/items/wool_purple.json",
+      "path": "LP/items/materials/wool/wool_purple.json",
       "sha256": "5f80aa2838f7e4c5ed413ca733e3a477792b5cb6c3a974de6ffa89b4de41916f"
     },
     {
-      "path": "LP/items/wool_red.json",
+      "path": "LP/items/materials/wool/wool_red.json",
       "sha256": "68efb32b56a260b02626752d0e1fe0c22f615f00d67bafbd18d833ad096114b1"
     },
     {
-      "path": "LP/items/wool_yellow.json",
+      "path": "LP/items/materials/wool/wool_yellow.json",
       "sha256": "2b6a5e4589ce8c4b444633aaacc3fbd4a021cc40988cfb7920b1bcd2759e8670"
     },
     {
-      "path": "LP/items/workbench.json",
-      "sha256": "d032fb38182d13ab438aad5b0beb41c6386e68c7901be4d744709fa5ce3d2279"
+      "path": "LP/items/raw_copper.json",
+      "sha256": "3b8b52c8c73ae6a614336e05cb822007eb90f308951f0b4661e4004e36079184"
     },
     {
-      "path": "LP/loot_tables/duck.json",
-      "sha256": "912c937fc59668c3b16af70f9873586249bdc6591f1d3da68721f040816c1335"
+      "path": "LP/items/raw_iron.json",
+      "sha256": "e7fee46ce421742aca0c976d6c3ae65b9cfd487ff7996c21857c0e55e085d972"
     },
     {
-      "path": "LP/loot_tables/pebble.json",
+      "path": "LP/items/tools/stone_axe.json",
+      "sha256": "cbab03b462781d50ca7f08cb03bfc81b5de32bc3f2a814b78d1281163f8f2537"
+    },
+    {
+      "path": "LP/items/tools/stone_pickaxe.json",
+      "sha256": "1a0a0faa1b187425338dc4cfcf78f6371739b83513e0de8e0573ce68cebf96f6"
+    },
+    {
+      "path": "LP/items/tools/stone_shovel.json",
+      "sha256": "09d1d60b66839f100d0517847838c39ce827e4fc934b2ae0ffbd7a059e8e6108"
+    },
+    {
+      "path": "LP/items/tools/stone_sword.json",
+      "sha256": "eb9f5f861f351242bb6d5287b8db64583a89f636db582cfed7eb3a6633add930"
+    },
+    {
+      "path": "LP/items/tools/wooden_axe.json",
+      "sha256": "0963d4301b046c2ac41e2dbcd970613a20554c519ea184577b254b5cd6cf12d0"
+    },
+    {
+      "path": "LP/items/tools/wooden_pickaxe.json",
+      "sha256": "ceadf442c8c31b35a2263560bf60975a888881cef86e5a149bbdc332ec6c6073"
+    },
+    {
+      "path": "LP/items/tools/wooden_shovel.json",
+      "sha256": "b2415502d67e79819a38a2b51aea0b37d97cabbb21a5cea2469a7ef613780149"
+    },
+    {
+      "path": "LP/items/tools/wooden_sword.json",
+      "sha256": "410c9b554fccb35d6b37623a6ceeb29044aa4d885dc5b1d640a17571c49418ec"
+    },
+    {
+      "path": "LP/loot_tables/blocks/pebble.json",
       "sha256": "ec31e30fcb7c03fa90ea9a4e0f6c7d603a409e051dec5df96f19f230cd0f65fd"
     },
     {
-      "path": "LP/loot_tables/pig.json",
-      "sha256": "3df413821e132b339d6cf5914175159eca22e1f2fcf9f459b427e5e811ad4499"
-    },
-    {
-      "path": "LP/loot_tables/sheep.json",
-      "sha256": "1555c90b4ad15fe8a63ae2bab5e99a856793e43873d66e324c7de98f1b918a3e"
-    },
-    {
-      "path": "LP/loot_tables/sheep_black.json",
-      "sha256": "dc1a5fb08c7733600de5b6ac444506b55bf879146870954e8c55825e4dc749eb"
-    },
-    {
-      "path": "LP/loot_tables/sheep_blue.json",
-      "sha256": "62b6746b5420d93f6d9edc33710dd4d14efa709ebdf51fe5cad337667bfa5a78"
-    },
-    {
-      "path": "LP/loot_tables/sheep_brown.json",
-      "sha256": "45048287e14f2850546c15d9a476fe38a232ab384584343de3967fe45a6eb741"
-    },
-    {
-      "path": "LP/loot_tables/sheep_cyan.json",
-      "sha256": "9a77269a27eddc7709646977c823230fcc1005a6ed8ccb3443a55cf5aa01de75"
-    },
-    {
-      "path": "LP/loot_tables/sheep_gray.json",
-      "sha256": "e89b111438c54698052379fc10ced4206e13e8b4574903f25ec34ddfb78d7740"
-    },
-    {
-      "path": "LP/loot_tables/sheep_green.json",
-      "sha256": "11e34ceacf98200ce71e31734fcacafa8145205803fa2066ff590dfe603c1df5"
-    },
-    {
-      "path": "LP/loot_tables/sheep_light_blue.json",
-      "sha256": "e33cd5eefc5805128c1644f71cabb332f42c78b8d60de828debdd8e134f1310d"
-    },
-    {
-      "path": "LP/loot_tables/sheep_light_gray.json",
-      "sha256": "8a3aaec07bbdb6f562a6b86980d2d408d71d93a68c97c8fa54632f76e825587e"
-    },
-    {
-      "path": "LP/loot_tables/sheep_lime.json",
-      "sha256": "054a4a3f6abd2033f34acbfda4caeba77749e0b1d899b0f89cbddca90a760a16"
-    },
-    {
-      "path": "LP/loot_tables/sheep_magenta.json",
-      "sha256": "665ce618e8a85c8f905578f17092caeef9be1bf47310d4673cd964ed11e2a7fa"
-    },
-    {
-      "path": "LP/loot_tables/sheep_orange.json",
-      "sha256": "b038a1e4a4b4986de723efe86a7924381fbbd44164cd684cfae7fba541653bfb"
-    },
-    {
-      "path": "LP/loot_tables/sheep_pink.json",
-      "sha256": "7204247f26c627b9d10341b2284d345d6dd151ed0f5609cf40a8a559b3f12693"
-    },
-    {
-      "path": "LP/loot_tables/sheep_purple.json",
-      "sha256": "e3d2cf497dd4f93d7ce518b93defdca5af53fb2016aa34fa1a9ba05988da2948"
-    },
-    {
-      "path": "LP/loot_tables/sheep_red.json",
-      "sha256": "20679d38254f7355767477f8bd1cf2555746267aa8decb0c18d2c696058a9d83"
-    },
-    {
-      "path": "LP/loot_tables/sheep_yellow.json",
-      "sha256": "c5c74d9d3f95d08939d6212b51863bbb728142552fb3c52c7db759c56cdf0b52"
-    },
-    {
-      "path": "LP/loot_tables/slime.json",
-      "sha256": "32236f8b73995b642837455931a2e3b1356434ea7d353b3fae5229c382a7bc7a"
-    },
-    {
-      "path": "LP/loot_tables/tree_cypress.json",
+      "path": "LP/loot_tables/blocks/tree_cypress.json",
       "sha256": "2b8ee7a81facbb0f050fa704b72de8b488d775717d46eb9f1c82c737a461a953"
     },
     {
-      "path": "LP/loot_tables/tree_oak.json",
+      "path": "LP/loot_tables/blocks/tree_oak.json",
       "sha256": "f39770cfbe7aef830e21457c76399bebefe428446db2187cda8f8d5b8daa057c"
     },
     {
-      "path": "LP/loot_tables/tree_palm.json",
+      "path": "LP/loot_tables/blocks/tree_palm.json",
       "sha256": "ad6f6c6f176c668a075028681f0a48cad03a810f7f24a14f9d62eca375c7f26a"
     },
     {
+      "path": "LP/loot_tables/mobs/duck.json",
+      "sha256": "912c937fc59668c3b16af70f9873586249bdc6591f1d3da68721f040816c1335"
+    },
+    {
+      "path": "LP/loot_tables/mobs/pig.json",
+      "sha256": "3df413821e132b339d6cf5914175159eca22e1f2fcf9f459b427e5e811ad4499"
+    },
+    {
+      "path": "LP/loot_tables/mobs/sheep.json",
+      "sha256": "1555c90b4ad15fe8a63ae2bab5e99a856793e43873d66e324c7de98f1b918a3e"
+    },
+    {
+      "path": "LP/loot_tables/mobs/sheep_black.json",
+      "sha256": "dc1a5fb08c7733600de5b6ac444506b55bf879146870954e8c55825e4dc749eb"
+    },
+    {
+      "path": "LP/loot_tables/mobs/sheep_blue.json",
+      "sha256": "62b6746b5420d93f6d9edc33710dd4d14efa709ebdf51fe5cad337667bfa5a78"
+    },
+    {
+      "path": "LP/loot_tables/mobs/sheep_brown.json",
+      "sha256": "45048287e14f2850546c15d9a476fe38a232ab384584343de3967fe45a6eb741"
+    },
+    {
+      "path": "LP/loot_tables/mobs/sheep_cyan.json",
+      "sha256": "9a77269a27eddc7709646977c823230fcc1005a6ed8ccb3443a55cf5aa01de75"
+    },
+    {
+      "path": "LP/loot_tables/mobs/sheep_gray.json",
+      "sha256": "e89b111438c54698052379fc10ced4206e13e8b4574903f25ec34ddfb78d7740"
+    },
+    {
+      "path": "LP/loot_tables/mobs/sheep_green.json",
+      "sha256": "11e34ceacf98200ce71e31734fcacafa8145205803fa2066ff590dfe603c1df5"
+    },
+    {
+      "path": "LP/loot_tables/mobs/sheep_light_blue.json",
+      "sha256": "e33cd5eefc5805128c1644f71cabb332f42c78b8d60de828debdd8e134f1310d"
+    },
+    {
+      "path": "LP/loot_tables/mobs/sheep_light_gray.json",
+      "sha256": "8a3aaec07bbdb6f562a6b86980d2d408d71d93a68c97c8fa54632f76e825587e"
+    },
+    {
+      "path": "LP/loot_tables/mobs/sheep_lime.json",
+      "sha256": "054a4a3f6abd2033f34acbfda4caeba77749e0b1d899b0f89cbddca90a760a16"
+    },
+    {
+      "path": "LP/loot_tables/mobs/sheep_magenta.json",
+      "sha256": "665ce618e8a85c8f905578f17092caeef9be1bf47310d4673cd964ed11e2a7fa"
+    },
+    {
+      "path": "LP/loot_tables/mobs/sheep_orange.json",
+      "sha256": "b038a1e4a4b4986de723efe86a7924381fbbd44164cd684cfae7fba541653bfb"
+    },
+    {
+      "path": "LP/loot_tables/mobs/sheep_pink.json",
+      "sha256": "7204247f26c627b9d10341b2284d345d6dd151ed0f5609cf40a8a559b3f12693"
+    },
+    {
+      "path": "LP/loot_tables/mobs/sheep_purple.json",
+      "sha256": "e3d2cf497dd4f93d7ce518b93defdca5af53fb2016aa34fa1a9ba05988da2948"
+    },
+    {
+      "path": "LP/loot_tables/mobs/sheep_red.json",
+      "sha256": "20679d38254f7355767477f8bd1cf2555746267aa8decb0c18d2c696058a9d83"
+    },
+    {
+      "path": "LP/loot_tables/mobs/sheep_yellow.json",
+      "sha256": "c5c74d9d3f95d08939d6212b51863bbb728142552fb3c52c7db759c56cdf0b52"
+    },
+    {
+      "path": "LP/loot_tables/mobs/slime.json",
+      "sha256": "32236f8b73995b642837455931a2e3b1356434ea7d353b3fae5229c382a7bc7a"
+    },
+    {
       "path": "LP/manifest.json",
-      "sha256": "2690bb3ba1a20852607a9b7b80a48d25b1b37b2ee95da030cd66e74f4af53ff8"
+      "sha256": "d70a8acb773b4b29792d31e1ffece238f86bd48f0cc8358605e3e9f4f2e37db0"
     },
     {
       "path": "LP/player.json",
-      "sha256": "c67a3c225c9924ecec9d13a6f680458c043416032f18ccaec46e6e6e5f3b1766"
+      "sha256": "659c97855c4044c266922305fbaf5442dfa3c03157250593424f6e07724d18af"
     },
     {
-      "path": "LP/recipes/cave_ladder.json",
+      "path": "LP/recipes/building/cave_ladder.json",
       "sha256": "91d308d1882f3856b49e887176b5b47504e508a9fd618c7b28ea00cfccdd2331"
     },
     {
-      "path": "LP/recipes/chest.json",
-      "sha256": "e800f43db2dc528ae00d66cba72394e1c697a8bed6997b56861ab91096e0e1ed"
-    },
-    {
-      "path": "LP/recipes/door_wood.json",
+      "path": "LP/recipes/building/door_wood.json",
       "sha256": "e7f0047309e3ce9cfe3a62f21fb4461ae255d6759b6df55cf2f52e8292a02dd4"
     },
     {
-      "path": "LP/recipes/fence_wood.json",
+      "path": "LP/recipes/building/fence_wood.json",
       "sha256": "0988f21812f04ba9dc0a3643d714251b6789dc2d65ac521cb316ebfe091b65ae"
     },
     {
-      "path": "LP/recipes/gate_wood.json",
+      "path": "LP/recipes/building/gate_wood.json",
       "sha256": "dff889b7652fffda3ca642b3c1162f0c8a15e48c49f73bcb9c57e94fb1ee089e"
     },
     {
-      "path": "LP/recipes/sticks.json",
-      "sha256": "6c1010cbde885ce485bff65b6f2ed23b155adcc4533c08cd7aafb08ac3e78fdd"
-    },
-    {
-      "path": "LP/recipes/stone_axe.json",
-      "sha256": "fc0478d15f64e59fb0dcdb85b4bb2b57159603fe3a12d994eb2c636ba0aff06b"
-    },
-    {
-      "path": "LP/recipes/stone_pickaxe.json",
-      "sha256": "9ab5bc7f1813c075ab152b0c73b96c6443f0ea4a33e5f2740726d6b043329828"
-    },
-    {
-      "path": "LP/recipes/stone_shovel.json",
-      "sha256": "14796c562e4b3c6f0211a6248009f0708854edef858cd7e0b770208486bf305b"
-    },
-    {
-      "path": "LP/recipes/stone_sword.json",
-      "sha256": "047dd213df9826c64572ca31e4d16724c8ceeb9544aefe66d74e418d7258f530"
-    },
-    {
-      "path": "LP/recipes/torch.json",
-      "sha256": "5b810ffc5248b0d5813ba5983efe97dfc0548fdee70e3ffd0492d3153106b441"
-    },
-    {
-      "path": "LP/recipes/wooden_axe.json",
-      "sha256": "19f0afa9e405cfddd4e537c50f2cdd60cadf6dfcc790ad5b933d95f15ae7b2d0"
-    },
-    {
-      "path": "LP/recipes/wooden_pickaxe.json",
-      "sha256": "0843e9ea1128d950f4fdf3f957267cf7631035e38f89bb5740b9cdaccea8539c"
-    },
-    {
-      "path": "LP/recipes/wooden_shovel.json",
-      "sha256": "5578deb2b6a3e01fe1169fd75a57f8a97812f9f5a4021bb11063a141784281f2"
-    },
-    {
-      "path": "LP/recipes/wooden_sword.json",
-      "sha256": "569aa96485ff32a1ed7d431c4d99cb99a78027b0bb69fff0c8c0ce726a6a66f8"
-    },
-    {
-      "path": "LP/recipes/woodfloor.json",
+      "path": "LP/recipes/building/woodfloor.json",
       "sha256": "281c121d4a1eaf6be8ebe713b1700963f69dddd27ab8844703780cd1f76e3b1a"
     },
     {
-      "path": "LP/recipes/woodwall.json",
+      "path": "LP/recipes/building/woodwall.json",
       "sha256": "0842f927cd8832e0d9d3c1c4c58731b8adf65e66a253ff639b94a50a1f20e8b5"
     },
     {
-      "path": "LP/recipes/workbench.json",
+      "path": "LP/recipes/decoration/torch.json",
+      "sha256": "5b810ffc5248b0d5813ba5983efe97dfc0548fdee70e3ffd0492d3153106b441"
+    },
+    {
+      "path": "LP/recipes/materials/sticks.json",
+      "sha256": "6c1010cbde885ce485bff65b6f2ed23b155adcc4533c08cd7aafb08ac3e78fdd"
+    },
+    {
+      "path": "LP/recipes/stations/chest.json",
+      "sha256": "e800f43db2dc528ae00d66cba72394e1c697a8bed6997b56861ab91096e0e1ed"
+    },
+    {
+      "path": "LP/recipes/stations/workbench.json",
       "sha256": "557fcef2397cacb865f7f54270e809772ec8094f473e915d8e2edc932177eca9"
+    },
+    {
+      "path": "LP/recipes/tools/stone_axe.json",
+      "sha256": "fc0478d15f64e59fb0dcdb85b4bb2b57159603fe3a12d994eb2c636ba0aff06b"
+    },
+    {
+      "path": "LP/recipes/tools/stone_pickaxe.json",
+      "sha256": "9ab5bc7f1813c075ab152b0c73b96c6443f0ea4a33e5f2740726d6b043329828"
+    },
+    {
+      "path": "LP/recipes/tools/stone_shovel.json",
+      "sha256": "14796c562e4b3c6f0211a6248009f0708854edef858cd7e0b770208486bf305b"
+    },
+    {
+      "path": "LP/recipes/tools/stone_sword.json",
+      "sha256": "047dd213df9826c64572ca31e4d16724c8ceeb9544aefe66d74e418d7258f530"
+    },
+    {
+      "path": "LP/recipes/tools/wooden_axe.json",
+      "sha256": "19f0afa9e405cfddd4e537c50f2cdd60cadf6dfcc790ad5b933d95f15ae7b2d0"
+    },
+    {
+      "path": "LP/recipes/tools/wooden_pickaxe.json",
+      "sha256": "0843e9ea1128d950f4fdf3f957267cf7631035e38f89bb5740b9cdaccea8539c"
+    },
+    {
+      "path": "LP/recipes/tools/wooden_shovel.json",
+      "sha256": "5578deb2b6a3e01fe1169fd75a57f8a97812f9f5a4021bb11063a141784281f2"
+    },
+    {
+      "path": "LP/recipes/tools/wooden_sword.json",
+      "sha256": "569aa96485ff32a1ed7d431c4d99cb99a78027b0bb69fff0c8c0ce726a6a66f8"
     },
     {
       "path": "LP/worldgen/biomes/deepwood.json",
@@ -3242,12 +3502,12 @@
     },
     {
       "path": "LP/worldgen/settings.json",
-      "sha256": "7b56806dd793838cea29eba0ca4b53cdbc8b71ab7d7cb0fb003bead9cb6f920d"
+      "sha256": "d9c9c8c2f8738b0e3455b7abb125ecf1fad245cfb8554dfb6243aa3afd883dcb"
     }
   ],
   "archive": {
-    "path": "kurblanc-pack-0.4.0-410bb241.kbpack",
-    "bytes": 5515081,
-    "sha256": "19ad17a18e37e04e1638ccb13a1460642e5f4e1e2e3be86ac64cff1654ec396a"
+    "path": "kurblanc-pack-0.5.0-d8d8593d.kbpack",
+    "bytes": 5582109,
+    "sha256": "30fa6d54d3e23e8560179d6e52c07a88cc9fdf4fc3094c5630567c7c52546765"
   }
 }

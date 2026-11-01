@@ -33,3 +33,14 @@ lid-front and base-front crops stacked into one tile with a one-pixel transparen
 margin and nearest-neighbor pixels. Forager is by CanineGray, licensed
 CC BY-NC 4.0; see `LICENSE.txt`. The item icon `../items/chest.png` uses the same
 closed silhouette.
+
+## Cave ores and substrate — 2026-10-31
+
+`blocks/cave_coal_floor.png`, `cave_copper_floor.png` and `cave_iron_floor.png`
+are the unchanged 16×16 `coal_ore`, `copper_ore` and `iron_ore` block textures
+from `forager/Forager/assets/minecraft/textures/block/`. The matching
+`cave_*_wall_front.png` strips are 64×19: each ore texture is resampled without
+smoothing to 16×19 and repeated into the four wall-face cells, so the ore shows
+on the exposed front of a cave wall. `blocks/cave_substrate.png` is the unchanged
+Forager `bedrock.png`. Forager is by CanineGray, licensed CC BY-NC 4.0; see
+`LICENSE.txt`.

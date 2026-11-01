@@ -24,6 +24,27 @@
     "level": 1,
     "wall": "kurblanc:cave_rock",
     "floor": "kurblanc:stone",
+    "substrate": "kurblanc:cave_substrate",
+    "ores": [
+      {
+        "wall": "kurblanc:cave_coal_rock",
+        "floor": "kurblanc:cave_coal_floor",
+        "wallRarity": 12,
+        "floorRarity": 60
+      },
+      {
+        "wall": "kurblanc:cave_copper_rock",
+        "floor": "kurblanc:cave_copper_floor",
+        "wallRarity": 30,
+        "floorRarity": 150
+      },
+      {
+        "wall": "kurblanc:cave_iron_rock",
+        "floor": "kurblanc:cave_iron_floor",
+        "wallRarity": 60,
+        "floorRarity": 300
+      }
+    ],
     "scale": 40,
     "warp": 30,
     "tunnelWidth": 0.024,

@@ -3,7 +3,7 @@
     "pixelScale": 1,
     "cell": [
       56,
-      56
+      58
     ],
     "actions": {
       "idle": {
@@ -172,78 +172,125 @@
         {
           "front": "textures/player/hair/hair38.png",
           "back": "textures/player/hair/hair38_back.png"
+        },
+        {
+          "front": "textures/player/hair/elder.png",
+          "back": "textures/player/hair/elder_back.png"
+        },
+        {
+          "front": "textures/player/hair/receding.png"
         }
       ],
       "shirts": [
+        "textures/player/shirt/tee.png",
+        "textures/player/shirt/farmer.png",
+        "textures/player/shirt/miner.png",
+        "textures/player/shirt/hunter.png",
+        "textures/player/shirt/safari.png",
+        "textures/player/shirt/exotic.png",
+        "textures/player/shirt/elder.png",
+        "textures/player/shirt/mime.png",
+        "textures/player/shirt/keeper.png",
+        "textures/player/shirt/thug.png",
+        "textures/player/shirt/captain.png",
+        "textures/player/shirt/jester.png",
+        "textures/player/shirt/sailor.png",
+        "textures/player/shirt/labcoat.png",
+        "textures/player/shirt/mage.png",
+        "textures/player/shirt/witch.png",
+        "textures/player/shirt/cryowitch.png",
+        "textures/player/shirt/crimson.png",
+        "textures/player/shirt/void.png",
+        "textures/player/shirt/plague.png",
+        "textures/player/shirt/cloth.png",
+        "textures/player/shirt/ninja.png",
+        "textures/player/shirt/ancestors.png",
+        "textures/player/shirt/patched_tunic.png",
+        "textures/player/shirt/waistcoat.png",
+        "textures/player/shirt/overalls.png",
+        "textures/player/shirt/winter_coat.png",
+        "textures/player/shirt/ranger.png",
+        "textures/player/shirt/fisher.png"
+      ],
+      "hats": [
         {
-          "torso": "textures/player/shirt/tee_torso.png",
-          "left": "textures/player/shirt/tee_left.png",
-          "right": "textures/player/shirt/tee_right.png"
+          "front": "textures/player/hat/mage.png"
         },
         {
-          "torso": "textures/player/shirt/farmer_torso.png",
-          "left": "textures/player/shirt/farmer_left.png",
-          "right": "textures/player/shirt/farmer_right.png"
+          "front": "textures/player/hat/witch.png"
         },
         {
-          "torso": "textures/player/shirt/miner_torso.png",
-          "left": "textures/player/shirt/miner_left.png",
-          "right": "textures/player/shirt/miner_right.png"
+          "front": "textures/player/hat/cryowitch.png",
+          "back": "textures/player/hat/cryowitch_back.png"
         },
         {
-          "torso": "textures/player/shirt/hunter_torso.png",
-          "left": "textures/player/shirt/hunter_left.png",
-          "right": "textures/player/shirt/hunter_right.png"
+          "front": "textures/player/hat/crimson.png"
         },
         {
-          "torso": "textures/player/shirt/safari_torso.png",
-          "left": "textures/player/shirt/safari_left.png",
-          "right": "textures/player/shirt/safari_right.png"
+          "front": "textures/player/hat/void.png"
         },
         {
-          "torso": "textures/player/shirt/exotic_torso.png",
-          "left": "textures/player/shirt/exotic_left.png",
-          "right": "textures/player/shirt/exotic_right.png"
+          "front": "textures/player/hat/cloth.png",
+          "back": "textures/player/hat/cloth_back.png"
         },
         {
-          "torso": "textures/player/shirt/elder_torso.png",
-          "left": "textures/player/shirt/elder_left.png",
-          "right": "textures/player/shirt/elder_right.png"
+          "front": "textures/player/hat/top.png"
         },
         {
-          "torso": "textures/player/shirt/mime_torso.png",
-          "left": "textures/player/shirt/mime_left.png",
-          "right": "textures/player/shirt/mime_right.png"
+          "front": "textures/player/hat/ninja.png",
+          "back": "textures/player/hat/ninja_back.png"
         },
         {
-          "torso": "textures/player/shirt/keeper_torso.png",
-          "left": "textures/player/shirt/keeper_left.png",
-          "right": "textures/player/shirt/keeper_right.png"
+          "front": "textures/player/hat/ancestors.png",
+          "back": "textures/player/hat/ancestors_back.png"
         },
         {
-          "torso": "textures/player/shirt/thug_torso.png",
-          "left": "textures/player/shirt/thug_left.png",
-          "right": "textures/player/shirt/thug_right.png"
+          "front": "textures/player/hat/pharaohs.png",
+          "back": "textures/player/hat/pharaohs_back.png"
         },
         {
-          "torso": "textures/player/shirt/captain_torso.png",
-          "left": "textures/player/shirt/captain_left.png",
-          "right": "textures/player/shirt/captain_right.png"
+          "front": "textures/player/hat/party.png",
+          "back": "textures/player/hat/party_back.png"
         },
         {
-          "torso": "textures/player/shirt/jester_torso.png",
-          "left": "textures/player/shirt/jester_left.png",
-          "right": "textures/player/shirt/jester_right.png"
+          "front": "textures/player/hat/rain.png",
+          "back": "textures/player/hat/rain_back.png"
         },
         {
-          "torso": "textures/player/shirt/sailor_torso.png",
-          "left": "textures/player/shirt/sailor_left.png",
-          "right": "textures/player/shirt/sailor_right.png"
+          "front": "textures/player/hat/miner.png"
         },
         {
-          "torso": "textures/player/shirt/labcoat_torso.png",
-          "left": "textures/player/shirt/labcoat_left.png",
-          "right": "textures/player/shirt/labcoat_right.png"
+          "front": "textures/player/hat/farmer.png"
+        },
+        {
+          "front": "textures/player/hat/safari.png"
+        },
+        {
+          "front": "textures/player/hat/captain.png"
+        },
+        {
+          "front": "textures/player/hat/jester.png"
+        },
+        {
+          "front": "textures/player/hat/battlechef.png"
+        },
+        {
+          "front": "textures/player/hat/knitted_cap.png"
+        },
+        {
+          "front": "textures/player/hat/beret.png"
+        },
+        {
+          "front": "textures/player/hat/ranger.png"
+        },
+        {
+          "front": "textures/player/hat/straw.png"
+        },
+        {
+          "front": "textures/player/hat/flat_cap.png"
+        },
+        {
+          "front": "textures/player/hat/trapper.png"
         }
       ],
       "shoes": [
@@ -259,7 +306,19 @@
         "textures/player/shoes/mimeboots.png",
         "textures/player/shoes/minerboots.png",
         "textures/player/shoes/snowboots.png",
-        "textures/player/shoes/thugboots.png"
+        "textures/player/shoes/thugboots.png",
+        "textures/player/shoes/mageshoes.png",
+        "textures/player/shoes/witchshoes.png",
+        "textures/player/shoes/cryowitchshoes.png",
+        "textures/player/shoes/crimsonshoes.png",
+        "textures/player/shoes/voidboots.png",
+        "textures/player/shoes/plagueboots.png",
+        "textures/player/shoes/clothboots.png",
+        "textures/player/shoes/ninjashoes.png",
+        "textures/player/shoes/ancestorsboots.png",
+        "textures/player/shoes/leather_boots.png",
+        "textures/player/shoes/moss_boots.png",
+        "textures/player/shoes/winter_boots.png"
       ],
       "pants": [
         "#3f5f8f",

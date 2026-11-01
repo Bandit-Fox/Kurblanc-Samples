@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:coal",
+  "label": "Coal",
+  "maxStack": 512,
+  "icon": {
+    "texture": "textures/items/coal.png"
+  },
+  "categories": [
+    "items",
+    "natural"
+  ]
+}

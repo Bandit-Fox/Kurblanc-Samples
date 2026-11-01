@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:raw_iron",
+  "label": "Raw iron",
+  "maxStack": 512,
+  "icon": {
+    "texture": "textures/items/raw_iron.png"
+  },
+  "categories": [
+    "items",
+    "natural"
+  ]
+}

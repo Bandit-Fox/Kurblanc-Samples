@@ -1,0 +1,12 @@
+{
+  "id": "kurblanc:raw_copper",
+  "label": "Raw copper",
+  "maxStack": 512,
+  "icon": {
+    "texture": "textures/items/raw_copper.png"
+  },
+  "categories": [
+    "items",
+    "natural"
+  ]
+}
