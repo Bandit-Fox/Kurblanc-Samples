@@ -37,10 +37,11 @@ closed silhouette.
 ## Cave ores and substrate — 2026-10-31
 
 `blocks/cave_coal_floor.png`, `cave_copper_floor.png` and `cave_iron_floor.png`
-are the unchanged 16×16 `coal_ore`, `copper_ore` and `iron_ore` block textures
-from `forager/Forager/assets/minecraft/textures/block/`. The matching
-`cave_*_wall_front.png` strips are 64×19: each ore texture is resampled without
-smoothing to 16×19 and repeated into the four wall-face cells, so the ore shows
-on the exposed front of a cave wall. `blocks/cave_substrate.png` is the unchanged
-Forager `bedrock.png`. Forager is by CanineGray, licensed CC BY-NC 4.0; see
-`LICENSE.txt`.
+use the native 16×16 Forager ore pixels with the Stone floor's 1.08 brightness
+factor. `scripts/build_cave_ore_floors.py` rebuilds them without resampling.
+Copper fleck highlights and shadows use copper colors instead of gray.
+The stone background keeps its palette.
+The bundled pack generates only floor patches as of 2026-11-01.
+Legacy wall strips remain for saved chunks. `blocks/cave_substrate.png` keeps
+the original Forager bedrock pixels. Forager is by CanineGray, licensed
+CC BY-NC 4.0. See `LICENSE.txt`.

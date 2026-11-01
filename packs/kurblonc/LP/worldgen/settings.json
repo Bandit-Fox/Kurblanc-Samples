@@ -27,22 +27,16 @@
     "substrate": "kurblanc:cave_substrate",
     "ores": [
       {
-        "wall": "kurblanc:cave_coal_rock",
         "floor": "kurblanc:cave_coal_floor",
-        "wallRarity": 12,
-        "floorRarity": 60
+        "floorRarity": 120
       },
       {
-        "wall": "kurblanc:cave_copper_rock",
         "floor": "kurblanc:cave_copper_floor",
-        "wallRarity": 30,
-        "floorRarity": 150
+        "floorRarity": 300
       },
       {
-        "wall": "kurblanc:cave_iron_rock",
         "floor": "kurblanc:cave_iron_floor",
-        "wallRarity": 60,
-        "floorRarity": 300
+        "floorRarity": 600
       }
     ],
     "scale": 40,

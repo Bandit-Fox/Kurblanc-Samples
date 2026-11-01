@@ -1054,7 +1054,7 @@
     },
     {
       "path": "AP/textures/TERRAIN-SOURCES.md",
-      "sha256": "6befca84dcf41052f635717f852e27c451c4ae677f0fd94bd6640a47c366d43e"
+      "sha256": "c2b28e5beb9a604c56878ae7925f0623ae1caf7dc872c1c7f6a39d2e3a863586"
     },
     {
       "path": "AP/textures/blocks/bald_cypress_tree.png",
@@ -1078,7 +1078,7 @@
     },
     {
       "path": "AP/textures/blocks/cave_coal_floor.png",
-      "sha256": "bf95e6c5d4bfa804ca162ab18e318e319239d801d0a914eadf985ed53dfecbf0"
+      "sha256": "2a1a587a7ff7492fc4a6127c9817f898ac3de5f67e798511d3466a7c863afe60"
     },
     {
       "path": "AP/textures/blocks/cave_coal_wall_front.png",
@@ -1086,7 +1086,7 @@
     },
     {
       "path": "AP/textures/blocks/cave_copper_floor.png",
-      "sha256": "bc5c7cbd3f1cb40fb2cf1b20870d3b9a77b57804975129902184d50040aefb3f"
+      "sha256": "a9204be7d857ca646752af1ead7f3ea1c9603538dabf26a6f5184ea39f0dc928"
     },
     {
       "path": "AP/textures/blocks/cave_copper_wall_front.png",
@@ -1098,7 +1098,7 @@
     },
     {
       "path": "AP/textures/blocks/cave_iron_floor.png",
-      "sha256": "f14576bbd2b79cf2ef81bb3ff0039ea0a41f1abfd370ab4a16b05d137dccdb9b"
+      "sha256": "4b119efde9ed16116cfc88f261f96577777e7484b2f9ef76281b05939a5cd24d"
     },
     {
       "path": "AP/textures/blocks/cave_iron_wall_front.png",
@@ -2614,7 +2614,7 @@
     },
     {
       "path": "LP/blocks/cave_coal_floor.json",
-      "sha256": "6188cb0d04643d84b44df2f51e328a3403a0e30d17fb2e5d48c78ba83c8f0e9e"
+      "sha256": "cdcbdfa2e1c2857e409eec80f065ca6b72691635857063711d3fca85be0c8cb0"
     },
     {
       "path": "LP/blocks/cave_coal_rock.json",
@@ -2622,7 +2622,7 @@
     },
     {
       "path": "LP/blocks/cave_copper_floor.json",
-      "sha256": "67cdfd5bace8149a607732fc7975665273fb2ddb447d0c98584ecdad5f2d8c37"
+      "sha256": "5a25efbd7f3283916c7621f3d0aa849eff33d8bce34d6b30eced5dc549c53302"
     },
     {
       "path": "LP/blocks/cave_copper_rock.json",
@@ -2634,7 +2634,7 @@
     },
     {
       "path": "LP/blocks/cave_iron_floor.json",
-      "sha256": "f3006e1cad411a1dfd7e762a189def493dc618ae2c3154a533ee9992ae647f5d"
+      "sha256": "2366bdafc9af6ff10940de4eab5c1796d5207de3d9348086b50b7762e7aaa6e4"
     },
     {
       "path": "LP/blocks/cave_iron_rock.json",
@@ -3502,12 +3502,12 @@
     },
     {
       "path": "LP/worldgen/settings.json",
-      "sha256": "d9c9c8c2f8738b0e3455b7abb125ecf1fad245cfb8554dfb6243aa3afd883dcb"
+      "sha256": "8a19e6974be0b8891466febd91fab1f95641552a50e8196078da87e2e23786b5"
     }
   ],
   "archive": {
-    "path": "kurblanc-pack-0.5.0-d8d8593d.kbpack",
-    "bytes": 5582109,
-    "sha256": "30fa6d54d3e23e8560179d6e52c07a88cc9fdf4fc3094c5630567c7c52546765"
+    "path": "kurblanc-pack-0.5.0-d81fe047.kbpack",
+    "bytes": 5582292,
+    "sha256": "d1bbd3f7d32c71be0c1f0b904b6041a38f123ac14b64dc44ae919c046f5f3821"
   }
 }

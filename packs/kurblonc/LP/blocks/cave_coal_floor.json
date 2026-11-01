@@ -23,7 +23,10 @@
           "count": 1
         }
       ],
-      "kurblanc:sound": "stone"
+      "kurblanc:sound": "stone",
+      "kurblanc:surface": {
+        "group": "natural_stone"
+      }
     }
   }
 }
